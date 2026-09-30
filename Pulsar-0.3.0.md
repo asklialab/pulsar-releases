@@ -1,15 +1,4 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-    <channel>
-        <title>Pulsar</title>
-        <item>
-            <title>0.3.0</title>
-            <pubDate>Tue, 29 Sep 2026 20:41:59 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Ajustes dentro de Pulsar
+## Ajustes dentro de Pulsar
 
 - Un sitio para toda la configuración: ⌘, o el botón ⚙ de la barra lateral abren **Ajustes** en la propia ventana, sin cerrar tus agentes. Esc vuelve a tus paneles.
 - Secciones: **Dictado**, **Avisos y sonidos**, **Cuenta y equipo**, **Rendimiento**, **Agentes** y **Actualizaciones**.
@@ -43,8 +32,3 @@
 ## Instalación
 
 Esta versión va firmada con el certificado de desarrollo de Asklia y aún no está notarizada por Apple. Si la instalas desde el .dmg, la primera vez ábrela con clic derecho → **Abrir** (o en Ajustes del Sistema › Privacidad y seguridad › **Abrir igualmente**). Las próximas versiones llegarán solas, firmadas y notarizadas por Apple.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.3.0/Pulsar-0.3.0.dmg" length="57300040" type="application/octet-stream" sparkle:edSignature="ogyVk273cBltBc9tp9PANj7kK9PUEyC5XHAVY5AWDBmmwUms6M74/JUsijlnME44NX8S3WAglMIWj5kAqslMAg=="/>
-        </item>
-    </channel>
-</rss>
