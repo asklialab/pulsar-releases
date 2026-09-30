@@ -3,6 +3,32 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Wed, 30 Sep 2026 05:00:23 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Vuelve a dar los permisos (una sola vez)
+
+- Pulsar cambió su identificador interno para poder usar passkeys en el navegador. Tus espacios, agentes, ajustes y sesiones de las webs pasan solos.
+- macOS guarda los permisos por identificador: al abrir esta versión, Pulsar te enseña una lista para darlos de nuevo con un clic (notificaciones, carpetas, Accesibilidad y Grabación de pantalla si tus agentes manejan la Mac, acceso total al disco si lo usabas). Tu sesión de Pulsar Cloud pedirá «Permitir siempre» en el llavero una vez.
+- En Ajustes del Sistema › Privacidad, quita con «–» las entradas antiguas «Pulsar.app» y «Pulsar»: ya no sirven.
+- El dictado (Pulsar Voice) conserva sus permisos.
+
+## Navegador
+
+- Pulsar ya puede ser tu **navegador predeterminado** (Ajustes › Navegador): los enlaces que abras en otras apps se abren en un panel. Los pagos y «Abrir en el navegador del sistema» siguen yendo a tu otro navegador.
+- Todo está listo para iniciar sesión con **passkeys** (llavero de iCloud, tu gestor de contraseñas, llaves de seguridad y tu teléfono). Se activan en cuanto Apple apruebe el permiso para navegadores que ya pedimos.
+
+## Paneles
+
+- Los paneles nuevos se colocan en cuadrícula, repartiendo el espacio de forma pareja, y **«Ordenar»** (⌘⇧G) en la barra superior los reacomoda cuando la distribución se desordena.
+- Mover el divisor entre paneles apilados ya no arrastra el panel de abajo por error.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.5.0/Pulsar-0.5.0.dmg" length="58974857" type="application/octet-stream" sparkle:edSignature="H4zFGa/F5BUfTnb087OB09uBO5T5ge7RcJuVMvn5dxKnQM2y9/qZS/M6ij5E7WIUma7eVUzI1k+J2oLlvKbmAA=="/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Wed, 30 Sep 2026 03:49:18 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -47,50 +73,6 @@
 - Pulsar Voice comprueba que el Pulsar al que manda lo que dictas, el glosario del proyecto y el acceso a la nube es el suyo, firmado por Asklia. Si otro proceso ocupa su lugar, no le manda nada y el dictado sigue funcionando por su cuenta.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.3.1/Pulsar-0.3.1.dmg" length="57334094" type="application/octet-stream" sparkle:edSignature="BXEnsyjyl9iUKpiSXxO31E6y6gZR3OKlma/iqby7INgVL1kv85Cv+IRBe7C/+6gWXVMHNDQ5gxK7vi9axe7QCw=="/>
-        </item>
-        <item>
-            <title>0.3.0</title>
-            <pubDate>Tue, 29 Sep 2026 20:41:59 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Ajustes dentro de Pulsar
-
-- Un sitio para toda la configuración: ⌘, o el botón ⚙ de la barra lateral abren **Ajustes** en la propia ventana, sin cerrar tus agentes. Esc vuelve a tus paneles.
-- Secciones: **Dictado**, **Avisos y sonidos**, **Cuenta y equipo**, **Rendimiento**, **Agentes** y **Actualizaciones**.
-
-## Dictado con Pulsar Voice
-
-- Mantén **Fn** y habla; suéltala y el texto se escribe donde está el cursor, en la terminal de Pulsar o en cualquier app. Pulsa Fn dos veces para dictar sin manos.
-- Todo se configura desde Ajustes › Dictado: tecla, permisos, estilos (también por app), idiomas, motor y micrófono, diccionario, privacidad e historial.
-- Los permisos de micrófono y teclado son de Pulsar Voice, no de Pulsar: los agentes de tus terminales no los heredan.
-
-## Rendimiento
-
-- Perfiles de uso con un límite de agentes abiertos a la vez según tu Mac. Al llegar al límite decides tú qué cerrar o hibernar.
-- «Limpiar» cierra o hiberna las terminales paradas; las tareas que delega un agente se hibernan solas y se reanudan donde lo dejaron.
-
-## Trabaja con tu equipo
-
-- Inicia sesión con Google o GitHub, crea un equipo y envía archivos, capturas y prompts a tus compañeros.
-
-## Actualizaciones automáticas
-
-- Pulsar busca versiones nuevas cada pocas horas y las descarga en segundo plano.
-- Cuando una está lista, la barra lateral ofrece **Reiniciar**. Si no lo pulsas, se instala sola al salir: nunca corta a un agente sin preguntar.
-- «Buscar actualizaciones…» en el menú Pulsar o en Ajustes › Actualizaciones.
-
-## Visor y avisos
-
-- Markdown con formato, y texto y código con números de línea y resaltado.
-- Un sonido distinto cuando un agente termina o te necesita, y una notificación por workspace.
-
-## Instalación
-
-Esta versión va firmada con el certificado de desarrollo de Asklia y aún no está notarizada por Apple. Si la instalas desde el .dmg, la primera vez ábrela con clic derecho → **Abrir** (o en Ajustes del Sistema › Privacidad y seguridad › **Abrir igualmente**). Las próximas versiones llegarán solas, firmadas y notarizadas por Apple.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.3.0/Pulsar-0.3.0.dmg" length="57300040" type="application/octet-stream" sparkle:edSignature="ogyVk273cBltBc9tp9PANj7kK9PUEyC5XHAVY5AWDBmmwUms6M74/JUsijlnME44NX8S3WAglMIWj5kAqslMAg=="/>
         </item>
     </channel>
 </rss>
