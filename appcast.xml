@@ -3,6 +3,35 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.7.0</title>
+            <pubDate>Thu, 01 Oct 2026 11:05:32 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Chat del equipo
+
+- Las notas pasan a ser **mensajes**: ahora puedes **responder** a todo lo que te envían, y las conversaciones (con una persona, un grupo o todo el equipo) viven en una **columna a la derecha** de los agentes, sin taparlos. Ábrela con **⌘⇧M**, el botón «Chat» o 💬 en la zona del equipo. Su ancho se recuerda y puedes **abrirla en otra ventana** para tenerla en la segunda pantalla.
+- En cada conversación ves los mensajes, los artefactos con sus acciones (Ver, Pasar a un agente, Nuevo agente, Responder…) y si ya se recibieron o se vieron.
+- **Eliminar para todos** retira algo que enviaste mientras siga en la nube.
+- **Arrastra un artefacto a un agente** para pasárselo.
+- «Recibido», en la barra lateral, muestra solo los artefactos que aún no has visto. Las caras del equipo llevan los no leídos y abren su chat.
+
+## Agentes
+
+- Con muchos agentes y la barra lateral y el chat abiertos, la cuadrícula **ya no adelgaza a los agentes**: conserva su tamaño y **se desliza en horizontal** (trackpad o Mayúsculas + rueda). Unas píldoras en los bordes y un minimapa te dicen cuántos quedan fuera y si alguno necesita tu respuesta.
+
+## Dictado
+
+- Nuevo en Ajustes › Dictado › General › Sonido: **Silenciar el audio al dictar**. Mientras dictas se silencia lo que suena en tu Mac (música, vídeos, llamadas) y vuelve en cuanto dejas de hablar. El micrófono no se toca: en una llamada te siguen oyendo.
+
+## Idioma
+
+- Pulsar ya habla **inglés**: sigue el idioma de tu Mac, o el que elijas para Pulsar en Ajustes del Sistema › General › Idioma y región.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.7.0/Pulsar-0.7.0.dmg" length="62732667" type="application/octet-stream" sparkle:edSignature="SeazFpcvli2ysHtWRE6MOmZOFW3iUcQJzSmBVC9zrfwn5PjP44ZP4v5R5Qkfw+W5o8jGOxXencp21mwsMmvoBQ=="/>
+        </item>
+        <item>
             <title>0.6.3</title>
             <pubDate>Thu, 01 Oct 2026 00:22:10 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -30,19 +59,6 @@
 - Mientras dictas, la cápsula es algo más grande (73 × 30, o 102 × 30 en manos libres) y la onda se ve mejor.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.6.2/Pulsar-0.6.2.dmg" length="59433748" type="application/octet-stream" sparkle:edSignature="DsdjUVPIEkdmu4Q/M59trT62Nwqc7c4r9SBIeegJp7D60PxEXXo9CW1KBrl3UMOL0XwvWmtWDUhorKztltAMBA=="/>
-        </item>
-        <item>
-            <title>0.6.1</title>
-            <pubDate>Wed, 30 Sep 2026 23:42:37 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Dictado
-
-- Vuelve a verse el **indicador del dictado**. En la 0.6.0 no aparecía en ningún sitio, ni en reposo ni al dictar, aunque el dictado funcionaba. Ahora se ve la línea fina en el borde que elijas, crece con la onda mientras hablas y cambiar su posición en Ajustes › Dictado › General la mueve al momento.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.6.1/Pulsar-0.6.1.dmg" length="59430220" type="application/octet-stream" sparkle:edSignature="0gIWMcY9+rFgxTLtGcXhltYvIeVx3q9W5c/mbkT3TXDiG5Zk135O2g5tOR9bN6Gq2KveRdLN3aT6ZAKli1wTBg=="/>
         </item>
     </channel>
 </rss>
