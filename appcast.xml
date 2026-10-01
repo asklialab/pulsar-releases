@@ -3,6 +3,21 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.6.2</title>
+            <pubDate>Thu, 01 Oct 2026 00:13:00 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Dictado
+
+- El indicador del dictado es **más fácil de ver** sin estorbar: la línea en reposo es más larga y gruesa (40 × 8) y se separa un poco más del borde de la pantalla.
+- Al pasar el ratón por encima crece a una cápsula pequeña con la onda en calma: un clic empieza a dictar sin manos.
+- Mientras dictas, la cápsula es algo más grande (73 × 30, o 102 × 30 en manos libres) y la onda se ve mejor.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.6.2/Pulsar-0.6.2.dmg" length="59433748" type="application/octet-stream" sparkle:edSignature="DsdjUVPIEkdmu4Q/M59trT62Nwqc7c4r9SBIeegJp7D60PxEXXo9CW1KBrl3UMOL0XwvWmtWDUhorKztltAMBA=="/>
+        </item>
+        <item>
             <title>0.6.1</title>
             <pubDate>Wed, 30 Sep 2026 23:42:37 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -40,22 +55,6 @@
 - **⌃⌘V** pega otra vez tu último dictado.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.6.0/Pulsar-0.6.0.dmg" length="59429562" type="application/octet-stream" sparkle:edSignature="eS8j/lt8tBObOT7Ori6QVzu2i/LtchvfnFYNamoBfbxUi+g4TD/m6KfdqeW7hsD5PXydNeNFF/kBkAFl/jWfDw=="/>
-        </item>
-        <item>
-            <title>0.5.1</title>
-            <pubDate>Wed, 30 Sep 2026 05:23:09 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Permisos con un interruptor
-
-- En la hoja de permisos y en Ajustes › Permisos de macOS, **«Activar»** abre directamente la lista correcta de Ajustes del Sistema (Accesibilidad, Grabación de pantalla o Acceso total al disco) y, a su lado, una pequeña guía con el icono de Pulsar.
-- Si Pulsar ya está en la lista, solo tienes que activar su interruptor. Si macOS no lo añadió, arrastra el icono de la guía a la lista: ya no hace falta buscar la app con «+».
-- La guía se cierra sola en cuanto el permiso queda activo.
-- Si ves «Pulsar.app» con un icono genérico en esas listas, es de una versión anterior y puedes quitarla con «–». La buena es «Pulsar» con su icono.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.5.1/Pulsar-0.5.1.dmg" length="58853802" type="application/octet-stream" sparkle:edSignature="qtsjB8Pn7k45nyMomXLD5qVZ+k1XrfEcU9v+qtYjUH8nCtWwnRyzMyCjCqyPxkwIm2FySkfeRYGssKnC9FcsCA=="/>
         </item>
     </channel>
 </rss>
