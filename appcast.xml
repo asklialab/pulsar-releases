@@ -3,6 +3,32 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.6.0</title>
+            <pubDate>Wed, 30 Sep 2026 22:54:25 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Pulsar Empresa
+
+- Si alguien te ofrece un asiento de **Pulsar Empresa**, Pulsar te enseña quién te lo ofrece, con **Aceptar** y **Rechazar**. Al aceptarlo tienes Pulsar al momento, sin pagar nada; si estás en tu prueba, un aviso en la barra lateral te lo recuerda.
+- En Ajustes › Cuenta ves tus invitaciones y quién paga tu asiento, y puedes dejarlo cuando quieras.
+- Si pagas los asientos de tu equipo, Ajustes › Cuenta te enseña cuántos tienes y te lleva a la web para repartirlos. Pagar no ocupa un asiento: si también usas Pulsar, asígnate uno.
+
+## Agentes
+
+- Nuevo en Ajustes › Agentes › **Permisos**: elige cómo se lanzan Claude y Codex. **Automático** es el de siempre. **Sin permisos** no les pide confirmación para nada y solo se activa cuando marcas que entiendes el riesgo.
+
+## Dictado
+
+- El indicador del dictado es ahora una **línea fina** que no estorba (abajo, a la izquierda o a la derecha: Ajustes › Dictado › General). Al dictar crece y muestra la onda; un clic empieza a dictar sin manos. Si prefieres verlo solo mientras dictas, elige «Solo al dictar».
+- Si dictas sin un campo de texto delante, el texto se queda en el portapapeles y en una tarjeta para copiarlo.
+- Tú decides cuánto tiempo se guarda el historial: no guardarlo, 1, 7, 30 o 90 días, o siempre.
+- **⌃⌘V** pega otra vez tu último dictado.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.6.0/Pulsar-0.6.0.dmg" length="59429562" type="application/octet-stream" sparkle:edSignature="eS8j/lt8tBObOT7Ori6QVzu2i/LtchvfnFYNamoBfbxUi+g4TD/m6KfdqeW7hsD5PXydNeNFF/kBkAFl/jWfDw=="/>
+        </item>
+        <item>
             <title>0.5.1</title>
             <pubDate>Wed, 30 Sep 2026 05:23:09 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -43,34 +69,6 @@
 - Mover el divisor entre paneles apilados ya no arrastra el panel de abajo por error.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.5.0/Pulsar-0.5.0.dmg" length="58974857" type="application/octet-stream" sparkle:edSignature="H4zFGa/F5BUfTnb087OB09uBO5T5ge7RcJuVMvn5dxKnQM2y9/qZS/M6ij5E7WIUma7eVUzI1k+J2oLlvKbmAA=="/>
-        </item>
-        <item>
-            <title>0.4.0</title>
-            <pubDate>Wed, 30 Sep 2026 03:49:18 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Pulsar Pro y tu prueba de 30 días
-
-- Pulsar pasa a ser de pago, con **30 días de prueba con todo Pro, sin tarjeta**. Entra con GitHub o Google y tu prueba empieza sola; si ya tenías cuenta, tus 30 días empiezan con esta versión.
-- Al terminar la prueba, Pulsar te pide suscribirte a **Pro** (15 USD al mes o 120 USD al año) para seguir lanzando agentes. No se pierde nada: tus workspaces, agentes y ajustes siguen ahí, tal cual los dejaste.
-- Te avisamos a 7 y a 3 días del final. Suscribirte durante la prueba no cobra nada hasta que termina.
-- **Ajustes › Suscripción**: tu plan, tus Macs (hasta 3 registradas y 2 abiertas a la vez) y «Gestionar suscripción» para cambiar de tarjeta, pasar a anual, ver facturas o cancelar. El pago lo procesa Stripe en tu navegador.
-- Si un cobro falla, tienes 7 días para actualizar la tarjeta sin perder el acceso.
-- Pulsar funciona sin conexión hasta 7 días desde la última comprobación.
-
-## Barra lateral y equipo
-
-- Tu equipo queda anclado abajo en la barra lateral, y los avisos se reúnen en la tarjeta de pulso.
-- Lo que te envían se guarda en tu Mac al recibirlo. En la nube, un envío se borra 24 h después de que lo descarguen todos.
-
-## Arreglos
-
-- La sesión de Pulsar Cloud ya no pide la contraseña del llavero en bucle.
-- Pulsar Voice: el micrófono ya no corta los AirPods, y los permisos quedan a la vista.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.4.0/Pulsar-0.4.0.dmg" length="58686902" type="application/octet-stream" sparkle:edSignature="zvPyY23TmPs6qvIqDLfPC7lLLnKk7VYVKX9yIbRVM1Q4mlm0Szpza1kqzAqBPcTKwjawCWRSKvFHOxCFgOciDA=="/>
         </item>
     </channel>
 </rss>
