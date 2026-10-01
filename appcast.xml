@@ -3,6 +3,20 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.6.3</title>
+            <pubDate>Thu, 01 Oct 2026 00:22:10 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.6.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Barra lateral
+
+- La barra lateral ya **no se recorta por la izquierda**. Con el zoom de la interfaz aumentado, un envío recibido de alguien con el nombre largo (por ejemplo, cuando en el equipo hay dos personas con el mismo nombre de pila) ensanchaba la barra y la desplazaba fuera de la ventana.
+- En «Recibido», si el nombre de quien lo envió no cabe junto a lo que trae, pasa a su propia línea. Al pasar el ratón por encima se ve el nombre completo.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.6.3/Pulsar-0.6.3.dmg" length="59446768" type="application/octet-stream" sparkle:edSignature="bSsjFe5aMU+3gmkwR+R4pUifTFgPq7V55gcLkHCWIZhmGGxOu29TekyH8JEUGbAmDQAHEVqhT99RUGVnpWBiDA=="/>
+        </item>
+        <item>
             <title>0.6.2</title>
             <pubDate>Thu, 01 Oct 2026 00:13:00 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -29,32 +43,6 @@
 - Vuelve a verse el **indicador del dictado**. En la 0.6.0 no aparecía en ningún sitio, ni en reposo ni al dictar, aunque el dictado funcionaba. Ahora se ve la línea fina en el borde que elijas, crece con la onda mientras hablas y cambiar su posición en Ajustes › Dictado › General la mueve al momento.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.6.1/Pulsar-0.6.1.dmg" length="59430220" type="application/octet-stream" sparkle:edSignature="0gIWMcY9+rFgxTLtGcXhltYvIeVx3q9W5c/mbkT3TXDiG5Zk135O2g5tOR9bN6Gq2KveRdLN3aT6ZAKli1wTBg=="/>
-        </item>
-        <item>
-            <title>0.6.0</title>
-            <pubDate>Wed, 30 Sep 2026 22:54:25 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Pulsar Empresa
-
-- Si alguien te ofrece un asiento de **Pulsar Empresa**, Pulsar te enseña quién te lo ofrece, con **Aceptar** y **Rechazar**. Al aceptarlo tienes Pulsar al momento, sin pagar nada; si estás en tu prueba, un aviso en la barra lateral te lo recuerda.
-- En Ajustes › Cuenta ves tus invitaciones y quién paga tu asiento, y puedes dejarlo cuando quieras.
-- Si pagas los asientos de tu equipo, Ajustes › Cuenta te enseña cuántos tienes y te lleva a la web para repartirlos. Pagar no ocupa un asiento: si también usas Pulsar, asígnate uno.
-
-## Agentes
-
-- Nuevo en Ajustes › Agentes › **Permisos**: elige cómo se lanzan Claude y Codex. **Automático** es el de siempre. **Sin permisos** no les pide confirmación para nada y solo se activa cuando marcas que entiendes el riesgo.
-
-## Dictado
-
-- El indicador del dictado es ahora una **línea fina** que no estorba (abajo, a la izquierda o a la derecha: Ajustes › Dictado › General). Al dictar crece y muestra la onda; un clic empieza a dictar sin manos. Si prefieres verlo solo mientras dictas, elige «Solo al dictar».
-- Si dictas sin un campo de texto delante, el texto se queda en el portapapeles y en una tarjeta para copiarlo.
-- Tú decides cuánto tiempo se guarda el historial: no guardarlo, 1, 7, 30 o 90 días, o siempre.
-- **⌃⌘V** pega otra vez tu último dictado.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.6.0/Pulsar-0.6.0.dmg" length="59429562" type="application/octet-stream" sparkle:edSignature="eS8j/lt8tBObOT7Ori6QVzu2i/LtchvfnFYNamoBfbxUi+g4TD/m6KfdqeW7hsD5PXydNeNFF/kBkAFl/jWfDw=="/>
         </item>
     </channel>
 </rss>
