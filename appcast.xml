@@ -3,6 +3,19 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.6.1</title>
+            <pubDate>Wed, 30 Sep 2026 23:42:37 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Dictado
+
+- Vuelve a verse el **indicador del dictado**. En la 0.6.0 no aparecía en ningún sitio, ni en reposo ni al dictar, aunque el dictado funcionaba. Ahora se ve la línea fina en el borde que elijas, crece con la onda mientras hablas y cambiar su posición en Ajustes › Dictado › General la mueve al momento.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.6.1/Pulsar-0.6.1.dmg" length="59430220" type="application/octet-stream" sparkle:edSignature="0gIWMcY9+rFgxTLtGcXhltYvIeVx3q9W5c/mbkT3TXDiG5Zk135O2g5tOR9bN6Gq2KveRdLN3aT6ZAKli1wTBg=="/>
+        </item>
+        <item>
             <title>0.6.0</title>
             <pubDate>Wed, 30 Sep 2026 22:54:25 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -43,32 +56,6 @@
 - Si ves «Pulsar.app» con un icono genérico en esas listas, es de una versión anterior y puedes quitarla con «–». La buena es «Pulsar» con su icono.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.5.1/Pulsar-0.5.1.dmg" length="58853802" type="application/octet-stream" sparkle:edSignature="qtsjB8Pn7k45nyMomXLD5qVZ+k1XrfEcU9v+qtYjUH8nCtWwnRyzMyCjCqyPxkwIm2FySkfeRYGssKnC9FcsCA=="/>
-        </item>
-        <item>
-            <title>0.5.0</title>
-            <pubDate>Wed, 30 Sep 2026 05:00:23 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Vuelve a dar los permisos (una sola vez)
-
-- Pulsar cambió su identificador interno para poder usar passkeys en el navegador. Tus espacios, agentes, ajustes y sesiones de las webs pasan solos.
-- macOS guarda los permisos por identificador: al abrir esta versión, Pulsar te enseña una lista para darlos de nuevo con un clic (notificaciones, carpetas, Accesibilidad y Grabación de pantalla si tus agentes manejan la Mac, acceso total al disco si lo usabas). Tu sesión de Pulsar Cloud pedirá «Permitir siempre» en el llavero una vez.
-- En Ajustes del Sistema › Privacidad, quita con «–» las entradas antiguas «Pulsar.app» y «Pulsar»: ya no sirven.
-- El dictado (Pulsar Voice) conserva sus permisos.
-
-## Navegador
-
-- Pulsar ya puede ser tu **navegador predeterminado** (Ajustes › Navegador): los enlaces que abras en otras apps se abren en un panel. Los pagos y «Abrir en el navegador del sistema» siguen yendo a tu otro navegador.
-- Todo está listo para iniciar sesión con **passkeys** (llavero de iCloud, tu gestor de contraseñas, llaves de seguridad y tu teléfono). Se activan en cuanto Apple apruebe el permiso para navegadores que ya pedimos.
-
-## Paneles
-
-- Los paneles nuevos se colocan en cuadrícula, repartiendo el espacio de forma pareja, y **«Ordenar»** (⌘⇧G) en la barra superior los reacomoda cuando la distribución se desordena.
-- Mover el divisor entre paneles apilados ya no arrastra el panel de abajo por error.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.5.0/Pulsar-0.5.0.dmg" length="58974857" type="application/octet-stream" sparkle:edSignature="H4zFGa/F5BUfTnb087OB09uBO5T5ge7RcJuVMvn5dxKnQM2y9/qZS/M6ij5E7WIUma7eVUzI1k+J2oLlvKbmAA=="/>
         </item>
     </channel>
 </rss>
