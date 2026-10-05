@@ -3,6 +3,57 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.10.0</title>
+            <pubDate>Mon, 05 Oct 2026 05:47:51 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Lo que te enseñan tus agentes, también en el iPhone.** Las capturas, diseños, PDF y vídeos que un agente abre con `pulsar media open` llegan a la pestaña **Assets** de Pulsar en tu iPhone, agrupados por tandas. Se abren a pantalla completa y puedes comentarlos al agente con la voz. Viajan **cifrados de punta a punta**, nunca por la nube, y solo llega lo que el agente te enseña: ni claves ni `.env`.
+- **Elige entre lo que te propone un agente.** Con `pulsar media ask` un agente te enseña varias opciones, por ejemplo tres diseños, y **espera a que elijas**. Puedes elegir en la barra del visor de la Mac o en el iPhone sin entrar al agente: desde la isla o desde la ficha de su estrella. Un toque marca, otro amplía, y puedes añadir algo dictado: «la B, pero con el botón verde».
+
+## Nuevo
+
+- _Navegador_ · Las **páginas HTML** que enseña un agente (con `pulsar media open` o `pulsar browser open file://…`) se ven en el iPhone como captura y, si son suyas, se pueden **probar en vivo** en una vista aislada de tus datos y de la app. Lo que te mandó otra persona o bajaste de internet se ve solo como captura.
+- _Agentes_ · Cuando le escribes a Claude desde el iPhone, **sabe que lo sigues desde allí** y te enseña lo que hace con `pulsar media open`. En el iPhone, «📸 Enséñame cómo va» le pide pruebas de su trabajo.
+- _Navegador_ · `pulsar browser screenshot --show` hace la captura y te la enseña en un paso, en el visor y en el iPhone.
+- _Agentes_ · Desde el iPhone puedes **crear un workspace** en una carpeta de tu Mac con sus agentes, y **cerrar** agentes y sus tareas con la opción de deshacer.
+
+## Mejoras
+
+- _Seguridad_ · Lo que bajas con el navegador de Pulsar queda marcado como descargado, como en Safari, y los envíos de páginas al equipo tienen topes de memoria y de tiempo: una página hecha para colgarlo ya no puede.
+
+## Arreglos
+
+- _Ajustes_ · Los iPhones emparejados ya no se pierden si el Llavero de la Mac tarda en responder al arrancar.
+
+---
+
+## Highlights
+
+- **What your agents show you, on your iPhone too.** The screenshots, designs, PDFs and videos an agent opens with `pulsar media open` reach the **Assets** tab of Pulsar on your iPhone, grouped by batch. They open full screen and you can comment on them to the agent by voice. They travel **end-to-end encrypted**, never through the cloud, and only what the agent shows you gets there: no keys or `.env` files.
+- **Choose between what an agent proposes.** With `pulsar media ask` an agent shows you several options, for example three designs, and **waits for you to choose**. You can pick in the Mac viewer’s bar or on the iPhone without opening the agent: from the island or from its star’s card. One tap marks, another zooms in, and you can add something by voice: “B, but with the green button”.
+
+## New
+
+- _Browser_ · The **HTML pages** an agent shows (with `pulsar media open` or `pulsar browser open file://…`) appear on the iPhone as a capture and, if they’re its own, can be **tried live** in a view isolated from your data and the app. What someone else sent you or you downloaded is shown only as a capture.
+- _Agents_ · When you write to Claude from your iPhone, **it knows you’re following from there** and shows you what it does with `pulsar media open`. On the iPhone, “📸 Show me how it’s going” asks it for proof of its work.
+- _Browser_ · `pulsar browser screenshot --show` takes the screenshot and shows it to you in one step, in the viewer and on the iPhone.
+- _Agents_ · From the iPhone you can **create a workspace** in a folder on your Mac with its agents, and **close** agents and their tasks with an undo option.
+
+## Improvements
+
+- _Security_ · What you download with Pulsar’s browser is marked as downloaded, as in Safari, and sending pages to your team has memory and time limits: a page built to hang it no longer can.
+
+## Fixes
+
+- _Settings_ · Paired iPhones are no longer lost if the Mac’s Keychain is slow to respond at launch.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.10.0/Pulsar-0.10.0.dmg" length="70292262" type="application/octet-stream" sparkle:edSignature="Y285V7eNdf3XBAS5EdQpum7tDOZHO5Qai5MKaQ7BIkxRxuXDg0Dxk+iIZod43Xr6c6Y25vgLQWlVrcPMDeKZCw=="/>
+        </item>
+        <item>
             <title>0.9.2</title>
             <pubDate>Sun, 04 Oct 2026 21:45:07 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -97,63 +148,6 @@
 - _Panes_ · With a narrow pane, its toolbar no longer **spills over the panes next to it**: the browser, viewer, player, console and pane header move what doesn’t fit to the **⋯** menu (close is always visible).
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.9.1/Pulsar-0.9.1.dmg" length="68795605" type="application/octet-stream" sparkle:edSignature="F0kSCFuWeGWGlMhGguQte0cHPaQFxCtyYij5M2coVD3aaAeL3gVXbE+LxbvoNH9NeE/iPvs9Y/ft5SK4ZQ6WCg=="/>
-        </item>
-        <item>
-            <title>0.9.0</title>
-            <pubDate>Sun, 04 Oct 2026 17:55:45 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Tú decides cuánto guarda esta Mac.** Lo que recibes y envías se queda en esta Mac **30 días** desde la fecha del envío, o lo que elijas: 7 días, 90 días, 1 año o nunca. Lo que ya tenías **no se borra hasta dentro de 7 días**, para que te dé tiempo a cambiarlo. Nunca toca lo que pasaste a un agente ni los archivos que aún no has visto.
-- **Tus mensajes, en todos tus dispositivos.** Pulsar Cloud **espera a cada uno de tus dispositivos** antes de vaciar su buzón: lo que te llega lo guardan tu Mac y tu iPhone aunque uno estuviera apagado, y lo que envías desde uno aparece en los demás. Lo leído en uno se marca leído en todos.
-
-## A tener en cuenta
-
-- _Equipo_ · Esta Mac empieza a borrar su copia de los envíos con más de **30 días** **7 días después de actualizar**. Cámbialo en **Ajustes › Cuenta y equipo › Copia en esta Mac**; con «Nunca» no se borra nada.
-
-## Nuevo
-
-- _Equipo_ · **Copia en esta Mac** (Ajustes › Cuenta y equipo): cuánto tiempo se guarda lo recibido y lo enviado (7 días, 30, 90, 1 año o nunca), lo que ocupa y dónde está.
-- _Chat del equipo_ · Lo que te envían llega a **todos tus dispositivos activos** (los usados en los últimos 14 días) mientras siga en Pulsar Cloud, hasta 30 días: antes, el primero que lo guardaba dejaba solo 24 h a los demás. **Tus dispositivos** (Ajustes › Cuenta y equipo) lista cada uno y deja quitar el que ya no uses.
-
-## Mejoras
-
-- _Chat del equipo_ · Lo que **envías desde el iPhone u otra Mac** aparece en esta, y lo que eliminas para todos desde otro dispositivo deja aquí su lápida. Lo que lees en otro dispositivo se marca leído al momento.
-
-## Arreglos
-
-- _Chat del equipo_ · Al **despertar la Mac** o volver a Pulsar se recargan la bandeja y lo enviado: los avisos que se perdían con la conexión caída ya no dejan mensajes sin ver. Y ya no se queda fuera lo que pasaba de los primeros 50 envíos.
-- _Rendimiento_ · Pulsar **ya no se congela al ampliar la ventana** o al cambiar de pantalla: cuando macOS reinicia el refresco de las pantallas, las terminales siguen dibujando en vez de quedarse esperando.
-
----
-
-## Highlights
-
-- **You decide how long this Mac keeps things.** What you receive and send stays on this Mac for **30 days** from the date it was sent, or whatever you choose: 7 days, 90 days, 1 year or never. What you already had **isn’t deleted for another 7 days**, so you have time to change it. It never touches what you handed to an agent or files you haven’t seen yet.
-- **Your messages on all your devices.** Pulsar Cloud **waits for each of your devices** before emptying its mailbox: what you receive is saved on your Mac and your iPhone even if one was off, and what you send from one shows up on the others. Read on one, read on all.
-
-## Good to know
-
-- _Team_ · This Mac starts deleting its copy of shares older than **30 days** **7 days after you update**. Change it in **Settings › Account and team › Copy on this Mac**; with “Never” nothing is deleted.
-
-## New
-
-- _Team_ · **Copy on this Mac** (Settings › Account and team): how long received and sent items are kept (7 days, 30, 90, 1 year or never), how much space they take and where they are.
-- _Team chat_ · What you’re sent reaches **all your active devices** (used in the last 14 days) while it’s still in Pulsar Cloud, up to 30 days: before, the first one to save it left the others just 24 hours. **Your devices** (Settings › Account and team) lists each one and lets you remove one you no longer use.
-
-## Improvements
-
-- _Team chat_ · What you **send from your iPhone or another Mac** shows up on this one, and what you delete for everyone from another device leaves its placeholder here. What you read on another device is marked read right away.
-
-## Fixes
-
-- _Team chat_ · When your **Mac wakes** or you come back to Pulsar, the inbox and sent items reload: alerts lost while the connection was down no longer leave messages unseen. And items beyond the first 50 shares are no longer left out.
-- _Performance_ · Pulsar **no longer freezes when you enlarge the window** or switch displays: when macOS restarts the display refresh, terminals keep drawing instead of waiting forever.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.9.0/Pulsar-0.9.0.dmg" length="68246551" type="application/octet-stream" sparkle:edSignature="Z70BmRj02dEIRAMEydUSCrwsVOFjHO/67DxKq/XI82YrxOyGRVGeNhN7rWzxiSBTPrGmWVId7p+CXiOZzTpKCA=="/>
         </item>
     </channel>
 </rss>
