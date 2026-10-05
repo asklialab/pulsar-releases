@@ -3,6 +3,57 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.9.1</title>
+            <pubDate>Sun, 04 Oct 2026 18:27:27 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **El visor, a lo grande.** **Espacio** abre lo que estás viendo sobre toda la ventana sin mover tus paneles, y **Esc** vuelve. **⌘ + rueda** o el pellizco acercan **hacia el cursor**, y los vídeos tienen su propia barra con velocidad, bucle y fotograma a fotograma.
+- **La tecla 🌐 dicta sin tocar tus ajustes.** Con **Fn** como tecla de dictado, Pulsar Voice ya no te pide cambiar «Pulsar la tecla 🌐 para» en Ajustes del Sistema: la toma mientras está activo y **te devuelve tu ajuste** (emoji, fuente de entrada o Dictado de Apple) al pausarlo, cambiar de tecla o cerrarlo.
+- **Nada se sale de un panel estrecho.** Las barras del navegador, el visor y los paneles se adaptan a su ancho: lo que no cabe pasa al menú **⋯**, empezando por lo que menos usas.
+
+## Nuevo
+
+- _Visor_ · **Escenario**: Espacio, el botón ▭ o «Ver en grande» en una miniatura enseñan el archivo sobre toda la ventana; Esc vuelve. El zoom y el punto del vídeo se conservan.
+- _Visor_ · Los vídeos se ven en el mismo lienzo que las imágenes (con zoom) y llevan **su propia barra** debajo: línea de tiempo, velocidad, bucle y silencio. Un clic reproduce o pausa, y **,** y **.** avanzan fotograma a fotograma.
+- _Dictado_ · Con Fn como tecla, Pulsar Voice toma la tecla 🌐 mientras está activo y te devuelve tu ajuste al pausarlo, cambiar de tecla o cerrarlo; si se cierra de golpe, te lo devuelve al volver a abrirse. Si cambias el ajuste mientras la tiene, ese pasa a ser el tuyo. El paso de la bienvenida que pedía cambiarlo ya no aparece.
+
+## Mejoras
+
+- _Visor_ · **⌘ + rueda** o el pellizco acercan hacia el cursor, arrastrar mueve y el doble clic acerca justo ahí. «Ajustar al panel» amplía las imágenes pequeñas hasta 4×, lo transparente se ve sobre un damero y la barra dice el tamaño en píxeles.
+
+## Arreglos
+
+- _Paneles_ · Con un panel estrecho, su barra ya no **sobresale por encima de los paneles de al lado**: el navegador, el visor, el reproductor, la consola y la cabecera del panel pasan lo que no cabe al menú **⋯** (cerrar siempre se ve).
+
+---
+
+## Highlights
+
+- **The viewer, up close.** **Space** opens what you’re looking at over the whole window without moving your panes, and **Esc** takes you back. **⌘ + scroll** or pinch zooms **toward the pointer**, and videos have their own bar with speed, loop and frame by frame.
+- **The 🌐 key dictates without touching your settings.** With **Fn** as your dictation key, Pulsar Voice no longer asks you to change “Press 🌐 key to” in System Settings: it takes the key while it’s on and **gives your setting back** (emoji, input source or Apple Dictation) when you pause it, switch keys or quit.
+- **Nothing spills out of a narrow pane.** The browser, viewer and pane toolbars fit their width: whatever doesn’t fit moves to the **⋯** menu, starting with what you use least.
+
+## New
+
+- _Viewer_ · **Stage**: Space, the ▭ button or “View large” on a thumbnail shows the file over the whole window; Esc goes back. Zoom and the video position are kept.
+- _Viewer_ · Videos play on the same canvas as images (with zoom) and get **their own bar** below: timeline, speed, loop and mute. A click plays or pauses, and **,** and **.** step frame by frame.
+- _Dictation_ · With Fn as your key, Pulsar Voice takes the 🌐 key while it’s on and gives your setting back when you pause it, switch keys or quit; if it quits unexpectedly, it gives it back when it opens again. If you change the setting while it has the key, that becomes yours. The welcome step that asked you to change it is gone.
+
+## Improvements
+
+- _Viewer_ · **⌘ + scroll** or pinch zooms toward the pointer, dragging pans and double-clicking zooms right there. “Fit to pane” enlarges small images up to 4×, transparency shows over a checkerboard and the toolbar shows the size in pixels.
+
+## Fixes
+
+- _Panes_ · With a narrow pane, its toolbar no longer **spills over the panes next to it**: the browser, viewer, player, console and pane header move what doesn’t fit to the **⋯** menu (close is always visible).
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.9.1/Pulsar-0.9.1.dmg" length="68795605" type="application/octet-stream" sparkle:edSignature="F0kSCFuWeGWGlMhGguQte0cHPaQFxCtyYij5M2coVD3aaAeL3gVXbE+LxbvoNH9NeE/iPvs9Y/ft5SK4ZQ6WCg=="/>
+        </item>
+        <item>
             <title>0.9.0</title>
             <pubDate>Sun, 04 Oct 2026 17:55:45 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -123,35 +174,6 @@
 - _Panes_ · **⌘+**, **⌘−** and **⌘0** change the text in **every terminal at once**: on Latin American keyboards, ⌘− only shrank the focused terminal. On US keyboards **⌘=** works too.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.8.0/Pulsar-0.8.0.dmg" length="63908996" type="application/octet-stream" sparkle:edSignature="8UhR+sx/dV0muUshvqJalXV87EJNaUxHUwBQcPPp111JTLe6ZutATZ9ZYvPTDSDdPDyTR4T3JZVHsz25oAmOBg=="/>
-        </item>
-        <item>
-            <title>0.7.0</title>
-            <pubDate>Thu, 01 Oct 2026 11:05:32 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Chat del equipo
-
-- Las notas pasan a ser **mensajes**: ahora puedes **responder** a todo lo que te envían, y las conversaciones (con una persona, un grupo o todo el equipo) viven en una **columna a la derecha** de los agentes, sin taparlos. Ábrela con **⌘⇧M**, el botón «Chat» o 💬 en la zona del equipo. Su ancho se recuerda y puedes **abrirla en otra ventana** para tenerla en la segunda pantalla.
-- En cada conversación ves los mensajes, los artefactos con sus acciones (Ver, Pasar a un agente, Nuevo agente, Responder…) y si ya se recibieron o se vieron.
-- **Eliminar para todos** retira algo que enviaste mientras siga en la nube.
-- **Arrastra un artefacto a un agente** para pasárselo.
-- «Recibido», en la barra lateral, muestra solo los artefactos que aún no has visto. Las caras del equipo llevan los no leídos y abren su chat.
-
-## Agentes
-
-- Con muchos agentes y la barra lateral y el chat abiertos, la cuadrícula **ya no adelgaza a los agentes**: conserva su tamaño y **se desliza en horizontal** (trackpad o Mayúsculas + rueda). Unas píldoras en los bordes y un minimapa te dicen cuántos quedan fuera y si alguno necesita tu respuesta.
-
-## Dictado
-
-- Nuevo en Ajustes › Dictado › General › Sonido: **Silenciar el audio al dictar**. Mientras dictas se silencia lo que suena en tu Mac (música, vídeos, llamadas) y vuelve en cuanto dejas de hablar. El micrófono no se toca: en una llamada te siguen oyendo.
-
-## Idioma
-
-- Pulsar ya habla **inglés**: sigue el idioma de tu Mac, o el que elijas para Pulsar en Ajustes del Sistema › General › Idioma y región.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.7.0/Pulsar-0.7.0.dmg" length="62732667" type="application/octet-stream" sparkle:edSignature="SeazFpcvli2ysHtWRE6MOmZOFW3iUcQJzSmBVC9zrfwn5PjP44ZP4v5R5Qkfw+W5o8jGOxXencp21mwsMmvoBQ=="/>
         </item>
     </channel>
 </rss>
