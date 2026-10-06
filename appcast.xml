@@ -3,6 +3,45 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.10.1</title>
+            <pubDate>Mon, 05 Oct 2026 23:10:13 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Las preguntas de Codex, también en el iPhone.** Cuando Codex te pregunta con opciones mientras sigue trabajando, la pregunta llega al iPhone con sus botones: en la **isla**, en el aviso y en la vista del agente. Puedes elegir una opción o escribir o dictar otra respuesta. Antes de pulsar nada en su terminal, Pulsar comprueba que se ve esa pregunta con esas opciones; si algo no cuadra, no envía nada.
+
+## Mejoras
+
+- _Agentes_ · `pulsar agent` solo actúa en nombre de un panel si quien lo ejecuta es de verdad un proceso de ese panel: nadie más puede dejar un reporte falso en nombre de una tarea.
+
+## Arreglos
+
+- _Agentes_ · Al cerrar un agente con una pregunta pendiente, la pregunta desaparece también de la **isla del iPhone**, en vez de quedarse hasta abrir la app.
+- _Agentes_ · Tras responder desde la isla, el agente vuelve a «trabajando» al momento y la isla se pone al día en un segundo, sin pasar por «Alguien te espera».
+- _Agentes_ · Un Codex lanzado con `pulsar agent spawn --agent codex` ya puede usar `pulsar agent report`, `pulsar browser` y `pulsar share` aunque tu `~/.codex/config.toml` le limite el entorno (`shell_environment_policy`).
+
+---
+
+## Highlights
+
+- **Codex’s questions, on your iPhone too.** When Codex asks you a question with options while it keeps working, the question reaches your iPhone with its buttons: in the **island**, in the notification and in the agent view. You can pick an option or type or dictate another answer. Before pressing anything in its terminal, Pulsar checks that this question and these options are on screen; if something doesn’t match, it sends nothing.
+
+## Improvements
+
+- _Agents_ · `pulsar agent` only acts on behalf of a pane if whoever runs it really is a process of that pane: nobody else can leave a fake report on behalf of a task.
+
+## Fixes
+
+- _Agents_ · Closing an agent with a pending question also removes it from the **iPhone island**, instead of leaving it there until you open the app.
+- _Agents_ · After you answer from the island, the agent goes back to “working” right away and the island catches up within a second, without showing “Someone is waiting for you”.
+- _Agents_ · A Codex launched with `pulsar agent spawn --agent codex` can now use `pulsar agent report`, `pulsar browser` and `pulsar share` even if your `~/.codex/config.toml` limits its environment (`shell_environment_policy`).
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.10.1/Pulsar-0.10.1.dmg" length="70539910" type="application/octet-stream" sparkle:edSignature="msQcNAUL7ANHeMC/t0oLtfY4xKwx0pqdfNfam8pwRj5cMyL9GfjtbvD3wibo3mSmVUrFzUQwfy3LnhmTQ6/hBw=="/>
+        </item>
+        <item>
             <title>0.10.0</title>
             <pubDate>Mon, 05 Oct 2026 05:47:51 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -97,57 +136,6 @@
 - _Agents_ · Your agents’ questions show up in the **iPhone Live Activity** as soon as they arrive, instead of getting stuck on “Open Pulsar to reply”.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.9.2/Pulsar-0.9.2.dmg" length="69147996" type="application/octet-stream" sparkle:edSignature="P/CtAvNxpeROMJbSW/75vbU1wfO8GzrpuMIc1so4XwsjgJa1ci7HVekPmP+KKsVekl2gFBK19PvBb+OMAVrgCg=="/>
-        </item>
-        <item>
-            <title>0.9.1</title>
-            <pubDate>Sun, 04 Oct 2026 18:27:27 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **El visor, a lo grande.** **Espacio** abre lo que estás viendo sobre toda la ventana sin mover tus paneles, y **Esc** vuelve. **⌘ + rueda** o el pellizco acercan **hacia el cursor**, y los vídeos tienen su propia barra con velocidad, bucle y fotograma a fotograma.
-- **La tecla 🌐 dicta sin tocar tus ajustes.** Con **Fn** como tecla de dictado, Pulsar Voice ya no te pide cambiar «Pulsar la tecla 🌐 para» en Ajustes del Sistema: la toma mientras está activo y **te devuelve tu ajuste** (emoji, fuente de entrada o Dictado de Apple) al pausarlo, cambiar de tecla o cerrarlo.
-- **Nada se sale de un panel estrecho.** Las barras del navegador, el visor y los paneles se adaptan a su ancho: lo que no cabe pasa al menú **⋯**, empezando por lo que menos usas.
-
-## Nuevo
-
-- _Visor_ · **Escenario**: Espacio, el botón ▭ o «Ver en grande» en una miniatura enseñan el archivo sobre toda la ventana; Esc vuelve. El zoom y el punto del vídeo se conservan.
-- _Visor_ · Los vídeos se ven en el mismo lienzo que las imágenes (con zoom) y llevan **su propia barra** debajo: línea de tiempo, velocidad, bucle y silencio. Un clic reproduce o pausa, y **,** y **.** avanzan fotograma a fotograma.
-- _Dictado_ · Con Fn como tecla, Pulsar Voice toma la tecla 🌐 mientras está activo y te devuelve tu ajuste al pausarlo, cambiar de tecla o cerrarlo; si se cierra de golpe, te lo devuelve al volver a abrirse. Si cambias el ajuste mientras la tiene, ese pasa a ser el tuyo. El paso de la bienvenida que pedía cambiarlo ya no aparece.
-
-## Mejoras
-
-- _Visor_ · **⌘ + rueda** o el pellizco acercan hacia el cursor, arrastrar mueve y el doble clic acerca justo ahí. «Ajustar al panel» amplía las imágenes pequeñas hasta 4×, lo transparente se ve sobre un damero y la barra dice el tamaño en píxeles.
-
-## Arreglos
-
-- _Paneles_ · Con un panel estrecho, su barra ya no **sobresale por encima de los paneles de al lado**: el navegador, el visor, el reproductor, la consola y la cabecera del panel pasan lo que no cabe al menú **⋯** (cerrar siempre se ve).
-
----
-
-## Highlights
-
-- **The viewer, up close.** **Space** opens what you’re looking at over the whole window without moving your panes, and **Esc** takes you back. **⌘ + scroll** or pinch zooms **toward the pointer**, and videos have their own bar with speed, loop and frame by frame.
-- **The 🌐 key dictates without touching your settings.** With **Fn** as your dictation key, Pulsar Voice no longer asks you to change “Press 🌐 key to” in System Settings: it takes the key while it’s on and **gives your setting back** (emoji, input source or Apple Dictation) when you pause it, switch keys or quit.
-- **Nothing spills out of a narrow pane.** The browser, viewer and pane toolbars fit their width: whatever doesn’t fit moves to the **⋯** menu, starting with what you use least.
-
-## New
-
-- _Viewer_ · **Stage**: Space, the ▭ button or “View large” on a thumbnail shows the file over the whole window; Esc goes back. Zoom and the video position are kept.
-- _Viewer_ · Videos play on the same canvas as images (with zoom) and get **their own bar** below: timeline, speed, loop and mute. A click plays or pauses, and **,** and **.** step frame by frame.
-- _Dictation_ · With Fn as your key, Pulsar Voice takes the 🌐 key while it’s on and gives your setting back when you pause it, switch keys or quit; if it quits unexpectedly, it gives it back when it opens again. If you change the setting while it has the key, that becomes yours. The welcome step that asked you to change it is gone.
-
-## Improvements
-
-- _Viewer_ · **⌘ + scroll** or pinch zooms toward the pointer, dragging pans and double-clicking zooms right there. “Fit to pane” enlarges small images up to 4×, transparency shows over a checkerboard and the toolbar shows the size in pixels.
-
-## Fixes
-
-- _Panes_ · With a narrow pane, its toolbar no longer **spills over the panes next to it**: the browser, viewer, player, console and pane header move what doesn’t fit to the **⋯** menu (close is always visible).
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.9.1/Pulsar-0.9.1.dmg" length="68795605" type="application/octet-stream" sparkle:edSignature="F0kSCFuWeGWGlMhGguQte0cHPaQFxCtyYij5M2coVD3aaAeL3gVXbE+LxbvoNH9NeE/iPvs9Y/ft5SK4ZQ6WCg=="/>
         </item>
     </channel>
 </rss>
