@@ -3,6 +3,55 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.10.2</title>
+            <pubDate>Tue, 06 Oct 2026 01:22:05 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>0.10.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Arrastra archivos e imágenes a tus agentes.** Suelta sobre la terminal de un agente archivos de Finder, fotos de Fotos o imágenes de Safari, PDF o cualquier documento: le llegan sus rutas, y **Claude Code** y **Codex** convierten cada imagen en `[Image #1]`. Al arrastrar, el panel te dice a quién se lo pasas, y al soltar confirma cuántos archivos llegaron.
+
+## Nuevo
+
+- _Navegador_ · `pulsar browser animations list|pause|play|seek <ms>` y `perf [--duration s] [--scroll]`; `screenshot --hide-fixed` / `--hide <css>` y `wait --scroll-idle`; `emulate --reduced-motion` también en el navegador integrado.
+
+## Mejoras
+
+- _Navegador_ · `pulsar browser open` con `127.0.0.1` o `[::1]`: si el servidor solo escucha en la otra familia (Vite o Astro en `::1`), abre `localhost` y lo avisa. Y avisa una vez si el viewport `desktop` mide menos de 1024 px (para escritorio real, `viewport 1440x900`).
+- _Navegador_ · Localizadores `name*=`, `^=`, `$=` y `/regex/i`; si nada coincide, el navegador sugiere nombres parecidos con su `@N`.
+- _Navegador_ · Con `--backend chrome`, una ventana por agente; `focus` y `screenshot` esperan a que la página se vea, y las capturas y el pie de `run` dicen qué navegador se usó.
+
+## Arreglos
+
+- _Agentes_ · Pegar con ⌘V varios archivos copiados en Finder: **Codex** recibe cada imagen como imagen (antes, con más de una, las dejaba como rutas de texto).
+- _Agentes_ · Pegar una imagen grande con ⌘V ya no frena Pulsar: la imagen se guarda en segundo plano, y la terminal se vuelve a pintar mientras el agente la procesa.
+
+---
+
+## Highlights
+
+- **Drag files and images onto your agents.** Drop files from Finder, photos from Photos or images from Safari, PDFs or any document onto an agent’s terminal: it gets their paths, and **Claude Code** and **Codex** turn each image into `[Image #1]`. While you drag, the pane shows who you’re passing it to, and when you drop it confirms how many files arrived.
+
+## New
+
+- _Browser_ · `pulsar browser animations list|pause|play|seek <ms>` and `perf [--duration s] [--scroll]`; `screenshot --hide-fixed` / `--hide <css>` and `wait --scroll-idle`; `emulate --reduced-motion` in the built-in browser too.
+
+## Improvements
+
+- _Browser_ · `pulsar browser open` with `127.0.0.1` or `[::1]`: if the server only listens on the other family (Vite or Astro on `::1`), it opens `localhost` and says so. It also warns once if the `desktop` viewport is narrower than 1024 px (for a real desktop, `viewport 1440x900`).
+- _Browser_ · `name*=`, `^=`, `$=` and `/regex/i` locators; if nothing matches, the browser suggests similar names with their `@N`.
+- _Browser_ · With `--backend chrome`, one window per agent; `focus` and `screenshot` wait until the page is visible, and screenshots and the `run` footer say which browser was used.
+
+## Fixes
+
+- _Agents_ · Pasting several files copied in Finder with ⌘V: **Codex** gets each image as an image (with more than one, it used to leave them as text paths).
+- _Agents_ · Pasting a large image with ⌘V no longer slows Pulsar down: the image is saved in the background, and the terminal repaints while the agent processes it.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.10.2/Pulsar-0.10.2.dmg" length="70792689" type="application/octet-stream" sparkle:edSignature="MSgVCfjLljNpgt4X/2aYbc6N/1g/rDQTkbhiTvJGJ6S2t7k/B8ZWmVwGXMVIwcbpfQ3U5BDz/fuIksWgN1DCDQ=="/>
+        </item>
+        <item>
             <title>0.10.1</title>
             <pubDate>Mon, 05 Oct 2026 23:10:13 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -91,51 +140,6 @@
 - _Settings_ · Paired iPhones are no longer lost if the Mac’s Keychain is slow to respond at launch.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.10.0/Pulsar-0.10.0.dmg" length="70292262" type="application/octet-stream" sparkle:edSignature="Y285V7eNdf3XBAS5EdQpum7tDOZHO5Qai5MKaQ7BIkxRxuXDg0Dxk+iIZod43Xr6c6Y25vgLQWlVrcPMDeKZCw=="/>
-        </item>
-        <item>
-            <title>0.9.2</title>
-            <pubDate>Sun, 04 Oct 2026 21:45:07 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Envía las páginas que hacen tus agentes.** Cuando un agente te enseña una página HTML en el navegador, **Enviar a…** la manda a tu equipo **con sus estilos, imágenes y scripts dentro**. Quien la recibe puede verla sin ejecutar nada o abrirla en un **panel aislado**, sin acceso a sus cuentas ni a sus archivos.
-
-## Nuevo
-
-- _Navegador_ · **Enviar a…** en la barra del navegador para las páginas `.html` de tu Mac: antes de confirmar ves todo lo que va dentro, y solo se incluye lo de la carpeta de la página.
-- _Equipo_ · Las páginas recibidas tienen **Abrir en el navegador**: se abren, tras confirmarlo, en un panel privado y aislado sin descargas, ventanas emergentes ni enlaces a otras apps.
-
-## Mejoras
-
-- _Agentes_ · Un agente sin título que recibe su primera tarea al lanzarlo, desde el iPhone o con `pulsar agent send` toma un título **resumido de esa tarea** (con Apple Intelligence si está disponible; si no, sus primeras palabras).
-
-## Arreglos
-
-- _Agentes_ · Las preguntas de tus agentes aparecen en la **Live Activity del iPhone** en cuanto llegan, en vez de quedarse en «Abre Pulsar para responder».
-
----
-
-## Highlights
-
-- **Send the pages your agents make.** When an agent shows you an HTML page in the browser, **Send to…** sends it to your team **with its styles, images and scripts inside**. Whoever receives it can view it without running anything or open it in an **isolated pane**, with no access to their accounts or files.
-
-## New
-
-- _Browser_ · **Send to…** in the browser toolbar for `.html` pages on your Mac: before confirming you see everything that goes inside, and only files from the page’s folder are included.
-- _Team_ · Received pages have **Open in browser**: after you confirm, they open in a private, isolated pane with no downloads, pop-ups or links to other apps.
-
-## Improvements
-
-- _Agents_ · An untitled agent that gets its first task at launch, from the iPhone or with `pulsar agent send` takes a title **summarized from that task** (with Apple Intelligence when available; otherwise, its first words).
-
-## Fixes
-
-- _Agents_ · Your agents’ questions show up in the **iPhone Live Activity** as soon as they arrive, instead of getting stuck on “Open Pulsar to reply”.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.9.2/Pulsar-0.9.2.dmg" length="69147996" type="application/octet-stream" sparkle:edSignature="P/CtAvNxpeROMJbSW/75vbU1wfO8GzrpuMIc1so4XwsjgJa1ci7HVekPmP+KKsVekl2gFBK19PvBb+OMAVrgCg=="/>
         </item>
     </channel>
 </rss>
