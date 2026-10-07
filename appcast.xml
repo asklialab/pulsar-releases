@@ -3,6 +3,27 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.10.4</title>
+            <pubDate>Wed, 07 Oct 2026 10:17:29 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.10.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Arreglos
+
+- _Agentes_ · Lo que escribes desde el iPhone llega a **Claude Code** aunque su caja muestre en gris una sugerencia del siguiente mensaje. Antes, Pulsar leía esa sugerencia como un borrador y respondía que el agente estaba ocupado.
+- _Agentes_ · Escribir desde el iPhone a un **Claude Code** recién lanzado ya no falla a veces con «El panel ya no es un agente vivo»: los procesos que deja terminados sin recoger al arrancar ya no cuentan como otro programa en su terminal.
+
+---
+
+## Fixes
+
+- _Agents_ · What you type on the iPhone reaches **Claude Code** even when its input box shows a greyed-out suggestion for the next message. Before, Pulsar read that suggestion as a draft and replied that the agent was busy.
+- _Agents_ · Writing from the iPhone to a freshly launched **Claude Code** no longer sometimes fails with “That pane is no longer a running agent”: the finished processes it leaves unreaped while starting up no longer count as another program in its terminal.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.10.4/Pulsar-0.10.4.dmg" length="70695638" type="application/octet-stream" sparkle:edSignature="OQRVTjIyvlA7z7xwAAK8E9CVcoGzCMyF7IeNQdzJfKpR07XQqv1aX1JD+8YsyDNrODdLCDSeUkUrLjzTjmEiCQ=="/>
+        </item>
+        <item>
             <title>0.10.3</title>
             <pubDate>Tue, 06 Oct 2026 17:22:11 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -69,45 +90,6 @@
 - _Agents_ · Pasting a large image with ⌘V no longer slows Pulsar down: the image is saved in the background, and the terminal repaints while the agent processes it.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.10.2/Pulsar-0.10.2.dmg" length="70792689" type="application/octet-stream" sparkle:edSignature="MSgVCfjLljNpgt4X/2aYbc6N/1g/rDQTkbhiTvJGJ6S2t7k/B8ZWmVwGXMVIwcbpfQ3U5BDz/fuIksWgN1DCDQ=="/>
-        </item>
-        <item>
-            <title>0.10.1</title>
-            <pubDate>Mon, 05 Oct 2026 23:10:13 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Las preguntas de Codex, también en el iPhone.** Cuando Codex te pregunta con opciones mientras sigue trabajando, la pregunta llega al iPhone con sus botones: en la **isla**, en el aviso y en la vista del agente. Puedes elegir una opción o escribir o dictar otra respuesta. Antes de pulsar nada en su terminal, Pulsar comprueba que se ve esa pregunta con esas opciones; si algo no cuadra, no envía nada.
-
-## Mejoras
-
-- _Agentes_ · `pulsar agent` solo actúa en nombre de un panel si quien lo ejecuta es de verdad un proceso de ese panel: nadie más puede dejar un reporte falso en nombre de una tarea.
-
-## Arreglos
-
-- _Agentes_ · Al cerrar un agente con una pregunta pendiente, la pregunta desaparece también de la **isla del iPhone**, en vez de quedarse hasta abrir la app.
-- _Agentes_ · Tras responder desde la isla, el agente vuelve a «trabajando» al momento y la isla se pone al día en un segundo, sin pasar por «Alguien te espera».
-- _Agentes_ · Un Codex lanzado con `pulsar agent spawn --agent codex` ya puede usar `pulsar agent report`, `pulsar browser` y `pulsar share` aunque tu `~/.codex/config.toml` le limite el entorno (`shell_environment_policy`).
-
----
-
-## Highlights
-
-- **Codex’s questions, on your iPhone too.** When Codex asks you a question with options while it keeps working, the question reaches your iPhone with its buttons: in the **island**, in the notification and in the agent view. You can pick an option or type or dictate another answer. Before pressing anything in its terminal, Pulsar checks that this question and these options are on screen; if something doesn’t match, it sends nothing.
-
-## Improvements
-
-- _Agents_ · `pulsar agent` only acts on behalf of a pane if whoever runs it really is a process of that pane: nobody else can leave a fake report on behalf of a task.
-
-## Fixes
-
-- _Agents_ · Closing an agent with a pending question also removes it from the **iPhone island**, instead of leaving it there until you open the app.
-- _Agents_ · After you answer from the island, the agent goes back to “working” right away and the island catches up within a second, without showing “Someone is waiting for you”.
-- _Agents_ · A Codex launched with `pulsar agent spawn --agent codex` can now use `pulsar agent report`, `pulsar browser` and `pulsar share` even if your `~/.codex/config.toml` limits its environment (`shell_environment_policy`).
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.10.1/Pulsar-0.10.1.dmg" length="70539910" type="application/octet-stream" sparkle:edSignature="msQcNAUL7ANHeMC/t0oLtfY4xKwx0pqdfNfam8pwRj5cMyL9GfjtbvD3wibo3mSmVUrFzUQwfy3LnhmTQ6/hBw=="/>
         </item>
     </channel>
 </rss>
