@@ -3,6 +3,45 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.11.1</title>
+            <pubDate>Fri, 09 Oct 2026 13:09:09 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Nuevo
+
+- _Equipo_ · Cuando le pasas a un agente algo que te envió alguien del equipo, su panel recuerda **de quién viene** (su cara en la cabecera y en la barra lateral) y, al terminar, **↩ Devolver** prepara la respuesta en su conversación para que la revises antes de enviarla.
+
+## Mejoras
+
+- _Agentes_ · Los agentes que abres se quedan **a la vista** hasta darles la tarea, con el teclado ya en ellos; si no los atiendes, bajan solos a la repisa a los 2 minutos.
+- _Agentes_ · Cuando un agente termina y baja a la repisa, los demás ocupan su sitio en unos segundos, sin pulsar **Ordenar**.
+- _Actualizaciones_ · Las **novedades** estrenan el diseño de Ramas: cada destacado en su escena sobre el cielo, una constelación para saltar entre pasos y los cambios filtrables por tipo.
+
+## Arreglos
+
+- _Agentes_ · Responder desde la barra de cada terminal vuelve a funcionar: un clic en la opción responde a Claude sin ir a la terminal.
+
+---
+
+## New
+
+- _Team_ · When you hand an agent something a teammate sent you, its pane remembers **who it came from** (their face in the header and the sidebar), and when it’s done, **↩ Send back** drafts the reply in your conversation with them so you can review it before sending.
+
+## Improvements
+
+- _Agents_ · Agents you open stay **in view** until you give them their task, with the keyboard already on them; if you don’t get to them, they move down to the shelf on their own after 2 minutes.
+- _Agents_ · When an agent finishes and moves down to the shelf, the others take its place within a few seconds, without pressing **Arrange**.
+- _Updates_ · **What’s New** gets the Ramas look: each highlight in its own scene under the sky, a constellation to jump between steps, and changes you can filter by kind.
+
+## Fixes
+
+- _Agents_ · Answering from each terminal’s prompt bar works again: one click on an option answers Claude without switching to the terminal.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.11.1/Pulsar-0.11.1.dmg" length="91695499" type="application/octet-stream" sparkle:edSignature="w000BoFDKRZFPlDfxdOkTafRPT7cfBPnlxhaltBufFr/0/zZhYp7Q4BIu8N9dQmp3lMTi2Xg1lZyBAX0kJiJBg=="/>
+        </item>
+        <item>
             <title>0.11.0</title>
             <pubDate>Fri, 09 Oct 2026 06:31:29 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -81,33 +120,6 @@
 - _Viewer_ · Pulsar no longer quits on launch when the **viewer** had an image with transparency open: the checkerboard behind it failed if it was drawn before it had a size.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.10.6/Pulsar-0.10.6.dmg" length="71511618" type="application/octet-stream" sparkle:edSignature="E0oRNzIeHZp6Pqu9WviFDLbvfiIRYA8SW1ZwD18Qt1+4843RFWnTp8SuEgJFt8wqlBsCpsNQSl2eVJ2JI528Cw=="/>
-        </item>
-        <item>
-            <title>0.10.5</title>
-            <pubDate>Wed, 07 Oct 2026 14:50:12 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>0.10.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Adjuntos desde el iPhone.** Manda a un agente de esta Mac **fotos, capturas, grabaciones de pantalla y archivos** desde Pulsar en tu iPhone, junto con lo que escribes o dictas: imágenes, PDF, texto y código, documentos de Office, audio y vídeo. También desde otras apps con **Compartir → Pulsar**. Viajan **cifrados de punta a punta**, nunca por la nube, y llegan a `.pulsar/recibido/` del workspace para que el agente los lea.
-
-## Arreglos
-
-- _Seguridad_ · **Pasar a un agente** ya no sigue enlaces simbólicos al copiar lo recibido a la carpeta del workspace: copia solo el archivo que te enviaron.
-
----
-
-## Highlights
-
-- **Attachments from your iPhone.** Send **photos, screenshots, screen recordings and files** to an agent on this Mac from Pulsar on your iPhone, along with what you type or dictate: images, PDFs, text and code, Office documents, audio and video. From other apps too, with **Share → Pulsar**. They travel **end-to-end encrypted**, never through the cloud, and land in the workspace’s `.pulsar/recibido/` folder for the agent to read.
-
-## Fixes
-
-- _Security_ · **Pass to an agent** no longer follows symbolic links when copying what you received into the workspace folder: it copies only the file you were sent.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.10.5/Pulsar-0.10.5.dmg" length="71196343" type="application/octet-stream" sparkle:edSignature="F9qGIpihyF9MEK/EnbKIIf9JcBz6djsqQKHDExvUrSvR2AA1PUoaRHP23Lz7dosn2R52wM3mlHtRcn1nemkHAg=="/>
         </item>
     </channel>
 </rss>
