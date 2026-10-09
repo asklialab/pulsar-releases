@@ -3,6 +3,25 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.10.6</title>
+            <pubDate>Fri, 09 Oct 2026 01:25:04 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>0.10.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Arreglos
+
+- _Visor_ · Pulsar ya no se cierra al abrir cuando el **visor** tenía abierta una imagen con transparencia: el damero de fondo fallaba si se pintaba antes de tener tamaño.
+
+---
+
+## Fixes
+
+- _Viewer_ · Pulsar no longer quits on launch when the **viewer** had an image with transparency open: the checkerboard behind it failed if it was drawn before it had a size.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.10.6/Pulsar-0.10.6.dmg" length="71511618" type="application/octet-stream" sparkle:edSignature="E0oRNzIeHZp6Pqu9WviFDLbvfiIRYA8SW1ZwD18Qt1+4843RFWnTp8SuEgJFt8wqlBsCpsNQSl2eVJ2JI528Cw=="/>
+        </item>
+        <item>
             <title>0.10.5</title>
             <pubDate>Wed, 07 Oct 2026 14:50:12 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -49,25 +68,6 @@
 - _Agents_ · Writing from the iPhone to a freshly launched **Claude Code** no longer sometimes fails with “That pane is no longer a running agent”: the finished processes it leaves unreaped while starting up no longer count as another program in its terminal.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.10.4/Pulsar-0.10.4.dmg" length="70695638" type="application/octet-stream" sparkle:edSignature="OQRVTjIyvlA7z7xwAAK8E9CVcoGzCMyF7IeNQdzJfKpR07XQqv1aX1JD+8YsyDNrODdLCDSeUkUrLjzTjmEiCQ=="/>
-        </item>
-        <item>
-            <title>0.10.3</title>
-            <pubDate>Tue, 06 Oct 2026 17:22:11 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>20</sparkle:version>
-            <sparkle:shortVersionString>0.10.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Arreglos
-
-- _Agentes_ · El **Chat** de un agente en el iPhone ya no se queda vacío en las conversaciones largas: la Mac manda los últimos mensajes que caben y el resto llega con «Cargar mensajes anteriores». Antes, una conversación con salidas de herramientas grandes no cabía en un mensaje y había que mirar la pestaña Terminal.
-
----
-
-## Fixes
-
-- _Agents_ · An agent’s **Chat** on the iPhone no longer stays empty in long conversations: the Mac sends the latest messages that fit and the rest arrives with “Load earlier messages”. Before, a conversation with large tool outputs didn’t fit in one message and you had to look at the Terminal tab.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.10.3/Pulsar-0.10.3.dmg" length="70813411" type="application/octet-stream" sparkle:edSignature="Jgsdr0z2rkLieIHyja+z3enBZHcPD+RsOM1dfbFXGkHL+7D8i5HYFa1iO+qA+ClqGbmeF5oCbm3iGcAxly6cCg=="/>
         </item>
     </channel>
 </rss>
