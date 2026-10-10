@@ -3,6 +3,71 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.12.0</title>
+            <pubDate>Sat, 10 Oct 2026 02:28:55 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Su navegador, en la otra cara de su tarjeta.** El navegador de cada agente va **detrás de su terminal** y la tarjeta **se da la vuelta sola** para que lo veas trabajar; vuelve a la terminal cuando el agente regresa al código. Si estás escribiendo en su terminal, espera a que termines (escribir en otra no la frena). El conmutador de su cabecera fija una cara y mantener **⌥** enseña todas las webs a la vez.
+- **Míralo trabajar y frénalo a tiempo.** En su página ves **en vivo** lo que hace: su cursor va a lo que toca, lo que escribe aparece letra a letra y un subtítulo cuenta cada paso. Ahí mismo, **Pausar** retiene sus siguientes pasos, **Detener** lo para y **Corregir** le dice qué hacer distinto; con **Señalar** le marcas el elemento.
+- **Responde sin ir a la terminal.** **✎ Responder…** en la barra de una pregunta te deja contestar con tus palabras sin salir de la tarjeta. Y cuando el agente te pregunta por su página («¿cuál de estas portadas?»), cada opción se marca **en la propia página**: un clic o su número la elige.
+- **Todos los navegadores, en un visor.** Los navegadores se pliegan en una **cápsula** al final de la **repisa**, que ya nunca pasa de una fila: cada uno con el logo de su agente y su **letra** (A, B, C…), y pasar por ella ilumina a su dueño. Un clic abre el **visor de navegadores**, que sube desde la repisa con una pestaña por navegador: filtra **los de agentes o los tuyos** y **arrastra una pestaña a un lado** para ver dos a la vez.
+
+## A tener en cuenta
+
+- _Navegador_ · Las pestañas de la **mesa** dejan paso a las dos caras: el navegador de un agente vive detrás de su tarjeta o en el visor, y el **+** para abrir otro tuyo está en la columna del visor. Que un agente use su navegador ya no cambia lo que estás viendo.
+
+## Nuevo
+
+- _Paneles_ · En una tarjeta ancha ves **su terminal y su web lado a lado**, con la pregunta a lo ancho debajo. Ampliada con la web delante (**⌘⇧↩** o doble clic en su cabecera), su web en grande.
+- _Navegador_ · Un navegador de un agente abierto en el visor deja en su tarjeta «Lo ves en el visor» y **Traer aquí** lo devuelve sin recargar la página. Al pasar por su logo en la cápsula ves su página en vivo antes de abrirla.
+- _Navegador_ · Cuando la página de un agente abre una **ventana emergente** (por ejemplo «Entrar con Google»), va como pestaña de su navegador y su barra te ofrece **Ver su navegador** o **No puedo ahora**, que la cierra y se lo dice al agente.
+- _Agentes_ · Los agentes pueden preguntarte entre elementos de su página con `pulsar browser choose` y esperar tu elección; mientras, **te esperan** en la barra lateral y en el recuento, y **⌥⌘↵** los encuentra, como con cualquier otra pregunta.
+
+## Mejoras
+
+- _Agentes_ · La **barra de lanzar** se ve más: se abre **al centro** de la ventana y todo lo de detrás se apaga, menos los huecos donde caerán tus agentes, que llevan una etiqueta en una esquina libre. Al lanzar, cada panel nuevo se marca con un anillo donde aterriza.
+- _Paneles_ · Lo que no cabe en la repisa se pliega en **logos cuadrados** con el color de su estado (azul trabaja, ámbar te espera, rojo se detuvo, verde listo); al pasar ves su tarea y un clic lo sube.
+
+## Arreglos
+
+- _Agentes_ · Mientras un agente espera tu elección en `pulsar media ask`, sale como **te espera** en la barra lateral y en el recuento, como con cualquier otra pregunta.
+
+---
+
+## Highlights
+
+- **Its browser, on the other side of its card.** Each agent’s browser sits **behind its terminal**, and the card **flips on its own** so you can watch it work; it flips back when the agent returns to the code. If you’re typing in its terminal, it waits until you’re done (typing in another one doesn’t hold it back). The switch in its header pins a side, and holding **⌥** shows every page at once.
+- **Watch it work, and step in.** On its page you see what it does **live**: its cursor moves to what it touches, what it types appears letter by letter, and a caption describes each step. Right there, **Pause** holds its next steps, **Stop** halts it and **Correct** tells it what to do instead; with **Point** you mark the element.
+- **Answer without going to the terminal.** **✎ Answer…** on a question’s bar lets you reply in your own words without leaving the card. And when the agent asks about its page (“which of these covers?”), each option is marked **on the page itself**: a click or its number picks it.
+- **All your browsers in one viewer.** Browsers fold into a **capsule** at the end of the **shelf**, which now never takes more than one row: each one with its agent’s logo and its **letter** (A, B, C…), and hovering it lights up its owner. One click opens the **browser viewer**, which rises from the shelf with a tab per browser: filter **agents’ or yours**, and **drag a tab to one side** to see two at once.
+
+## Good to know
+
+- _Browser_ · The **desk**’s tabs give way to the two sides: an agent’s browser lives behind its card or in the viewer, and the **+** to open another one of yours is in the viewer’s column. An agent using its browser no longer changes what you’re looking at.
+
+## New
+
+- _Panes_ · On a wide card you see **its terminal and its page side by side**, with the question across the bottom. Maximized with the page in front (**⌘⇧↩** or double-clicking its header), you get its page full size.
+- _Browser_ · An agent’s browser open in the viewer leaves “It’s open in the viewer” on its card, and **Bring it here** sends it back without reloading the page. Hovering its logo in the capsule shows its page live before you open it.
+- _Browser_ · When an agent’s page opens a **pop-up window** (for example “Sign in with Google”), it shows up as a tab of its browser and its bar offers **See its browser** or **Can’t right now**, which closes it and lets the agent know.
+- _Agents_ · Agents can ask you to choose between elements of their page with `pulsar browser choose` and wait for your pick; meanwhile they show as **waiting on you** in the sidebar and in the count, and **⌥⌘↵** finds them, like any other question.
+
+## Improvements
+
+- _Agents_ · The **launch bar** stands out more: it opens **in the middle** of the window and everything behind it dims, except the slots where your agents will land, which get a label in a free corner. When you launch, each new pane is marked with a ring where it lands.
+- _Panes_ · What doesn’t fit on the shelf folds into **square logos** in the color of their state (blue working, amber waiting on you, red stopped, green done); hover to see its task and click to bring it up.
+
+## Fixes
+
+- _Agents_ · While an agent waits for your pick in `pulsar media ask`, it now shows as **waiting on you** in the sidebar and in the count, like any other question.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.12.0/Pulsar-0.12.0.dmg" length="104122168" type="application/octet-stream" sparkle:edSignature="lb9OD5zizYA7UzRahyc5wJ6CDc9kum8UqVTqhwGbxPbwRmg9MkMOvE6l3G+jqAp5WhtY2xgxI5znMc4zpWxdBQ=="/>
+        </item>
+        <item>
             <title>0.11.2</title>
             <pubDate>Fri, 09 Oct 2026 16:29:56 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -101,67 +166,6 @@
 - _Agents_ · Answering from each terminal’s prompt bar works again: one click on an option answers Claude without switching to the terminal.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.11.1/Pulsar-0.11.1.dmg" length="91695499" type="application/octet-stream" sparkle:edSignature="w000BoFDKRZFPlDfxdOkTafRPT7cfBPnlxhaltBufFr/0/zZhYp7Q4BIu8N9dQmp3lMTi2Xg1lZyBAX0kJiJBg=="/>
-        </item>
-        <item>
-            <title>0.11.0</title>
-            <pubDate>Fri, 09 Oct 2026 06:31:29 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>24</sparkle:version>
-            <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Una ventana nueva: quién lanzó a quién, de un vistazo.** Cada agente y las tareas que lanzó forman una **familia** con su tono, unida por **ramas** que corren por los huecos entre paneles, sin gastar espacio. Caben **hasta 9 terminales** con el navegador y el visor. Si prefieres la de antes, está en **Ajustes › Ventana**.
-- **Arriba, solo quien trabaja o te espera.** Quien termina enseña su ✓ un momento y baja a la **repisa**; quien vuelve a trabajar sube solo. Con **Fijo** nadie se mueve salvo quien te pregunta. Arrastra una familia por su orquestador para cambiar el orden.
-- **Responde sin buscar la pregunta.** El panel que te espera se marca en ámbar y lleva la pregunta y sus opciones **al pie**: un clic responde. **⌥⌘↵** salta a la siguiente, también en otros espacios.
-- **El chat, un panel más.** El chat se abre a la derecha como un panel más y su hilo va **en ramas**: cada respuesta **brota de su mensaje**. Lo que pasas a un agente **cuelga del mensaje** con su estado en vivo y una rama lo une a su panel.
-- **Tu equipo, arriba junto al chat.** Una **cápsula** con quien te escribió y quien está sustituye al botón del chat. Lo que te envían **cae de ella** y se lo pasas a un agente con un clic; todo lo de hoy queda en la **galería**: clic para verlo en grande, **arrástralo** a un agente para pasárselo.
-
-## A tener en cuenta
-
-- _Ajustes_ · La ventana de siempre sigue en **Ajustes › Ventana** durante un tiempo.
-
-## Nuevo
-
-- _Agentes_ · Barra superior con el estado de todos tus agentes: un medidor, cuántos trabajan, esperan o terminaron, y un clic lleva al siguiente.
-- _Paneles_ · El navegador y el visor van juntos en la «mesa», con una pestaña por cada uno; con 9 terminales se pliegan en miniaturas vivas que se abren encima sin mover nada.
-- _Paneles_ · **⌘↵** amplía el panel enfocado (también ⌘⇧↩ y doble clic en su cabecera).
-- _Equipo_ · Galería de lo recibido en las últimas 24 h, por hora o por persona y por tipo, con una vista grande que reproduce vídeos, enseña las páginas sin ejecutar su JavaScript y pone 2 o 3 alternativas **lado a lado**.
-- _Equipo_ · Ves cuándo alguien te está **escribiendo**, en su cara y al pie de la conversación.
-
-## Mejoras
-
-- _Ajustes_ · Barra lateral renovada: cada espacio con el estado de sus agentes y su pregunta pendiente, y el árbol de tareas con los mismos tonos que las ramas.
-- _Equipo_ · «Enviar a…» y tus equipos pasan a la barra del chat; los avisos de la nube, a la línea de avisos de la barra lateral, que ya no lleva la zona del equipo.
-
----
-
-## Highlights
-
-- **A new window: who launched whom, at a glance.** Each agent and the tasks it launched form a **family** with its own tone, joined by **branches** that run through the gaps between panes, without using any space. Up to **9 terminals** fit alongside the browser and the viewer. If you prefer the old one, it’s in **Settings › Window**.
-- **Up top, only agents working or waiting on you.** Agents that finish show their ✓ for a moment and move down to the **shelf**; agents that start working again come back up on their own. With **Fixed**, nothing moves except agents asking you something. Drag a family by its orchestrator to change the order.
-- **Answer without hunting for the question.** The pane waiting on you is outlined in amber and shows the question and its options **at the bottom**: one click answers. **⌥⌘↵** jumps to the next one, in other spaces too.
-- **Chat, just another pane.** Chat opens on the right as just another pane, and its thread is laid out **in branches**: each reply **grows from its message**. Whatever you hand to an agent **hangs from the message** with its live status, and a branch joins it to that agent’s pane.
-- **Your team, up top next to the chat.** A **capsule** with who wrote to you and who’s around replaces the chat button. What they send you **drops from it** and you hand it to an agent with one click; everything from today stays in the **gallery**: click to see it large, **drag it** onto an agent to hand it over.
-
-## Good to know
-
-- _Settings_ · The classic window stays available in **Settings › Window** for a while.
-
-## New
-
-- _Agents_ · Top bar with the status of all your agents: a meter, how many are working, waiting or done, and one click takes you to the next.
-- _Panes_ · The browser and the viewer sit together on the “desk”, with one tab per pane; with 9 terminals they fold into live thumbnails that open on top without moving anything.
-- _Panes_ · **⌘↵** maximizes the focused pane (so do ⌘⇧↩ and double-clicking its header).
-- _Team_ · Gallery of everything received in the last 24 h, by time or by person and by type, with a large view that plays videos, shows pages without running their JavaScript and puts 2 or 3 alternatives **side by side**.
-- _Team_ · You can see when someone is **typing** to you, on their face and at the bottom of the conversation.
-
-## Improvements
-
-- _Settings_ · Refreshed sidebar: each space shows its agents’ status and pending question, and the task tree uses the same tones as the branches.
-- _Team_ · “Send to…” and your teams move to the chat bar; cloud notices go to the sidebar notice line, which no longer holds the team area.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.11.0/Pulsar-0.11.0.dmg" length="90141909" type="application/octet-stream" sparkle:edSignature="ngMTzVpYqzABFEc0BsR2JhvHDUTP4JTcvoTI8IkoVMWrTermrDBr3325/p5Hpfi7lL9WNCRCegBERfzyDzOmCg=="/>
         </item>
     </channel>
 </rss>
