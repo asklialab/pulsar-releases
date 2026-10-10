@@ -3,6 +3,57 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.12.2</title>
+            <pubDate>Sat, 10 Oct 2026 15:26:08 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>0.12.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Su terminal ya no se encoge por su navegador.** Cada tarjeta enseña **una cara a la vez**: su terminal o su web, nunca las dos lado a lado. La terminal del agente ocupa siempre la tarjeta entera y **no cambia de columnas** al abrir, cerrar o girar su navegador. La tarjeta se sigue dando la vuelta sola, **⌥** mantenido sigue enseñando todas las webs y el conmutador `Terminal | 🌐A` de su cabecera ahora funciona siempre, también en una tarjeta ancha.
+- **La barra completa del navegador, en la tarjeta y en el visor.** La cara web de cada tarjeta y el **visor de navegadores** llevan otra vez todas sus herramientas a un clic: la **dirección** para escribir (**⌘L**), **comentar** elementos para el agente, **capturar** (copiar, la página completa, guardar o enviar al agente, siempre con aviso), el **tamaño de pantalla** (iPhone, horizontal o el tuyo) y la **consola** con sus errores. Lo que no cabe pasa a **⋯**. En el menú Navegador, **⇧⌘S** captura y **⇧⌘K** comenta elementos.
+- **Terminales más fluidas y navegadores que no gastan.** Cada terminal se dibuja **por su cuenta**: un aviso de la app ya no las repinta todas, y escribir va más suave con muchos agentes a la vez. Los navegadores que no ves **se pausan**, y los de agentes que llevan un rato sin usarse **se duermen** y liberan su memoria (Reanudar los trae tal cual; si su agente vuelve a usarlo, se despierta solo). Las animaciones van a 30 fps y Pulsar gasta mucho menos en segundo plano. `pulsar system status` cuenta ahora lo que gastan los navegadores.
+
+## Nuevo
+
+- _Visor_ · El visor de artefactos enseña **la ruta del archivo** en su cabecera. Con un clic la copias, la ves en el Finder o abres el archivo con su app; un HTML se abre además **en el navegador de Pulsar**, con la barra completa para capturarlo, comentarlo o verlo en otro tamaño.
+
+## Mejoras
+
+- _Paneles_ · **Ampliar amplía lo que ves**: con su web delante, ampliar (**⌘⇧↩**, el ⤢ o doble clic) te la enseña en grande con el teclado en la página, y ya no vuelve sola a la terminal. Una ventana emergente, un navegador nuevo o una tarea lanzada no la reducen; **Esc** sí, y al reducir vuelve la cara que tenía.
+- _Paneles_ · **Más rápido**: girar la tarjeta y ampliar o reducir tardan **0,14 s**, y ampliar con la web delante también crece desde su sitio.
+- _Barra lateral_ · **La tarjeta de tu cuenta**, rediseñada: flota sobre la ventana con tu plan y **cuándo** termina, se renueva o se cobra (con los días de prueba que te quedan), tus equipos con quién está conectado y, abajo, Ajustes de la cuenta y Cerrar sesión.
+
+## Arreglos
+
+- _Navegador_ · El cursor del agente en su navegador **apunta donde hace clic** y sigue sobre el elemento al ampliar, al pasar al visor, al girar la tarjeta y al desplazar la página.
+
+---
+
+## Highlights
+
+- **Its terminal no longer shrinks for its browser.** Each card shows **one side at a time**: its terminal or its page, never both side by side. The agent’s terminal always fills the whole card and **keeps its columns** when its browser opens, closes or flips. The card still flips on its own, holding **⌥** still shows every page, and the `Terminal | 🌐A` switch in its header now always works, on a wide card too.
+- **The full browser bar, on the card and in the viewer.** Each card’s web side and the **browser viewer** have all their tools one click away again: the **address** to type in (**⌘L**), **comment** on elements for the agent, **capture** (copy, the full page, save or send to the agent, always with a notice), the **screen size** (iPhone, landscape or your own) and the **console** with its errors. Whatever doesn’t fit goes into **⋯**. In the Browser menu, **⇧⌘S** captures and **⇧⌘K** comments on elements.
+- **Smoother terminals and browsers that don’t waste resources.** Each terminal now draws **on its own**: an app notice no longer repaints them all, and typing is smoother with many agents at once. Browsers you can’t see **are paused**, and agents’ browsers that sit unused for a while **go to sleep** and free their memory (Resume brings them back as they were; if their agent uses one again, it wakes up by itself). Animations run at 30 fps and Pulsar uses far less in the background. `pulsar system status` now counts what browsers use.
+
+## New
+
+- _Viewer_ · The artifact viewer shows **the file’s path** in its header. One click lets you copy it, show it in Finder or open the file with its app; an HTML file can also open **in Pulsar’s browser**, with the full bar to capture it, comment on it or see it at another size.
+
+## Improvements
+
+- _Panes_ · **Maximize enlarges what you see**: with its page in front, maximizing (**⌘⇧↩**, the ⤢ or a double click) shows it full size with the keyboard on the page, and it no longer flips back to the terminal on its own. A pop-up window, a new browser or a launched task don’t shrink it back; **Esc** does, and the card returns to the side it had.
+- _Panes_ · **Faster**: flipping a card and maximizing or restoring take **0.14 s**, and maximizing with the page in front also grows from where it was.
+- _Sidebar_ · **Your account card**, redesigned: it floats over the window with your plan and **when** it ends, renews or charges (with the trial days you have left), your teams with who’s online and, at the bottom, Account settings and Sign out.
+
+## Fixes
+
+- _Browser_ · The agent’s cursor in its browser **points where it clicks** and stays on the element when you maximize, move it to the viewer, flip the card or scroll the page.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.12.2/Pulsar-0.12.2.dmg" length="104577603" type="application/octet-stream" sparkle:edSignature="lO3azGzufSNAkrL0QQvDwemRFFyNKhpSKfiE3jcATAb5yXnAsoSJ03x206rPj+MOiEyoqL8YeI/lwdvi6R/7Aw=="/>
+        </item>
+        <item>
             <title>0.12.1</title>
             <pubDate>Sat, 10 Oct 2026 09:05:42 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -101,67 +152,6 @@
 - _Agents_ · While an agent waits for your pick in `pulsar media ask`, it now shows as **waiting on you** in the sidebar and in the count, like any other question.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.12.0/Pulsar-0.12.0.dmg" length="104122168" type="application/octet-stream" sparkle:edSignature="lb9OD5zizYA7UzRahyc5wJ6CDc9kum8UqVTqhwGbxPbwRmg9MkMOvE6l3G+jqAp5WhtY2xgxI5znMc4zpWxdBQ=="/>
-        </item>
-        <item>
-            <title>0.11.2</title>
-            <pubDate>Fri, 09 Oct 2026 16:29:56 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>26</sparkle:version>
-            <sparkle:shortVersionString>0.11.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Una barra para crearlo todo.** **⌘N** abre la **barra de lanzar** encima de tus paneles: elige los agentes con sus píldoras, dales a todos la misma tarea —o escribe «2 claude 1 codex arregla el login»— y el escenario te enseña dónde caerá cada uno antes de lanzarlo. **⌘T**, **⌥⌘T**, **⌘O** y **⇧⌘N** la abren en Navegador, Privado, Visor y Espacio nuevo, y **⇥** pasa de una pestaña a otra.
-- **Pulsar Voice, renovado.** El indicador es ahora una línea discreta que se abre en el logo al pasar el ratón, con agujas mientras dictas y una órbita mientras procesa. El **menú de la barra** es un panel que manejas con el teclado (y «Pegar de nuevo» sigue llegando a la app de delante), y **Ajustes** y la **configuración inicial** estrenan el diseño de Ramas, igual que **todo Ajustes de Pulsar**.
-
-## A tener en cuenta
-
-- _Agentes_ · **⌘T** y **⌘O** ahora abren la barra en su pestaña: **⌘T ↵** sigue abriendo un navegador en blanco y **⌘O ⌘O**, el selector de archivos.
-
-## Nuevo
-
-- _Agentes_ · Para crear un espacio ya no hace falta escribir rutas: busca la carpeta por su nombre, elígela entre las recientes y tus proyectos de git, ábrela con el selector de macOS o **suéltala desde Finder** sobre la barra.
-- _Navegador_ · La pestaña **Navegador** propone los servidores locales que tienes en marcha (localhost) y tus sitios recientes, y marca en la mesa dónde se abrirá. El **+** al final de las pestañas de la mesa abre otro navegador justo ahí.
-
-## Mejoras
-
-- _Agentes_ · Si el límite de agentes no deja lanzarlos todos, la barra lo dice antes («Caben 2 de 3») y **Liberar espacio…** vuelve con lo que habías elegido.
-- _Paneles_ · Al ampliar un agente o volver de él, el panel crece desde su sitio y el texto aparece ya recolocado, sin saltos.
-- _Ajustes_ · **Ajustes** estrena el diseño de Ramas: filas más limpias, estados con un glifo y una palabra, y el cielo y el logo en la barra lateral.
-
-## Arreglos
-
-- _Agentes_ · Las tareas que lanza un agente con `pulsar agent spawn` arrancan a la vista en vez de quedarse paradas en la repisa, y el agente que las lanzó no baja mientras su familia sigue trabajando.
-- _Paneles_ · Al ampliar un agente o volver de él, la terminal se redibuja una sola vez, ya con su tamaño final.
-
----
-
-## Highlights
-
-- **One bar to create it all.** **⌘N** opens the **launch bar** over your panes: pick agents with their pills, give them all the same task —or type “2 claude 1 codex fix the login”— and the stage shows where each one will land before you launch. **⌘T**, **⌥⌘T**, **⌘O** and **⇧⌘N** open it on Browser, Private, Viewer and New space, and **⇥** moves between tabs.
-- **Pulsar Voice, refreshed.** The indicator is now a quiet line that opens into the logo when you hover over it, with needles while you dictate and an orbit while it processes. The **menu bar** menu is a panel you can drive from the keyboard (and “Paste again” still reaches the app in front), and **Settings** and **setup** get the Ramas look, as does **all of Pulsar’s Settings**.
-
-## Good to know
-
-- _Agents_ · **⌘T** and **⌘O** now open the bar on their tab: **⌘T ↵** still opens a blank browser and **⌘O ⌘O** the file picker.
-
-## New
-
-- _Agents_ · Creating a space no longer means typing paths: search for the folder by name, pick it from your recent folders and git projects, open it with the macOS picker, or **drop it from Finder** onto the bar.
-- _Browser_ · The **Browser** tab suggests the local servers you have running (localhost) and your recent sites, and marks where on the desk it will open. The **+** at the end of the desk’s tabs opens another browser right there.
-
-## Improvements
-
-- _Agents_ · If the agent limit won’t fit them all, the bar tells you beforehand (“2 of 3 fit”) and **Free up space…** comes back with what you had picked.
-- _Panes_ · Maximizing an agent or going back now grows the pane from where it was, and its text appears already re-laid out, with no jumps.
-- _Settings_ · **Settings** gets the Ramas look: cleaner rows, states shown as a glyph and a word, and the sky and the logo in the sidebar.
-
-## Fixes
-
-- _Agents_ · Tasks an agent launches with `pulsar agent spawn` now start in view instead of sitting idle on the shelf, and the agent that launched them stays up while its family is still working.
-- _Panes_ · Maximizing an agent or going back now redraws the terminal only once, already at its final size.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.11.2/Pulsar-0.11.2.dmg" length="98940260" type="application/octet-stream" sparkle:edSignature="Rk4F2zGwv/F2nphn0mov/jGj1hEbzJBM0rZK9zfbbYaai7ROnqwuur2aUHg7cynhBnls6fk9gQPTdjlgzv1zBQ=="/>
         </item>
     </channel>
 </rss>
