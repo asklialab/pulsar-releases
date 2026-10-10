@@ -3,6 +3,41 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.12.1</title>
+            <pubDate>Sat, 10 Oct 2026 09:05:42 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Su navegador, también en el iPhone.** Con Pulsar para iPhone 0.5.0 ves **en vivo** la página del navegador de cada agente de esta Mac y, desde ahí, **Detener** lo para y **Corregir** le dice qué hacer distinto. Cuando un agente te pregunta por su página con `pulsar browser choose`, el iPhone te enseña la página con **cada opción marcada** y eliges tocando. Las imágenes viajan **cifradas de punta a punta**, como todo lo del puente.
+
+## Nuevo
+
+- _Agentes_ · El iPhone te dice **cuánto tiempo lleva hoy cada agente**: trabajando y esperándote.
+
+## Mejoras
+
+- _Instalación_ · **Icono nuevo**: Pulsar estrena en el Dock y en el Finder la marca **Trazo**, la misma que ves en la barra lateral y en Novedades.
+
+---
+
+## Highlights
+
+- **Its browser, on your iPhone too.** With Pulsar for iPhone 0.5.0 you see **live** the page in each agent’s browser on this Mac, and from there **Stop** halts it and **Correct** tells it what to do instead. When an agent asks you about its page with `pulsar browser choose`, your iPhone shows the page with **each option marked** and you pick by tapping. The images travel **end-to-end encrypted**, like everything over the bridge.
+
+## New
+
+- _Agents_ · Your iPhone tells you **how much time each agent has spent today**: working, and waiting on you.
+
+## Improvements
+
+- _Installation_ · **New icon**: Pulsar now wears the **Trace** mark in the Dock and the Finder, the same one you see in the sidebar and in What’s New.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.12.1/Pulsar-0.12.1.dmg" length="103604793" type="application/octet-stream" sparkle:edSignature="FR07Nj8pUqoFNIUzhpKfGfTMWKHABujGeBMVRdSZY/MIY7nvWHkPPUMssnqK+lYtnXDz4HpnKUyruc8OxKGRDw=="/>
+        </item>
+        <item>
             <title>0.12.0</title>
             <pubDate>Sat, 10 Oct 2026 02:28:55 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -127,45 +162,6 @@
 - _Panes_ · Maximizing an agent or going back now redraws the terminal only once, already at its final size.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.11.2/Pulsar-0.11.2.dmg" length="98940260" type="application/octet-stream" sparkle:edSignature="Rk4F2zGwv/F2nphn0mov/jGj1hEbzJBM0rZK9zfbbYaai7ROnqwuur2aUHg7cynhBnls6fk9gQPTdjlgzv1zBQ=="/>
-        </item>
-        <item>
-            <title>0.11.1</title>
-            <pubDate>Fri, 09 Oct 2026 13:09:09 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Nuevo
-
-- _Equipo_ · Cuando le pasas a un agente algo que te envió alguien del equipo, su panel recuerda **de quién viene** (su cara en la cabecera y en la barra lateral) y, al terminar, **↩ Devolver** prepara la respuesta en su conversación para que la revises antes de enviarla.
-
-## Mejoras
-
-- _Agentes_ · Los agentes que abres se quedan **a la vista** hasta darles la tarea, con el teclado ya en ellos; si no los atiendes, bajan solos a la repisa a los 2 minutos.
-- _Agentes_ · Cuando un agente termina y baja a la repisa, los demás ocupan su sitio en unos segundos, sin pulsar **Ordenar**.
-- _Actualizaciones_ · Las **novedades** estrenan el diseño de Ramas: cada destacado en su escena sobre el cielo, una constelación para saltar entre pasos y los cambios filtrables por tipo.
-
-## Arreglos
-
-- _Agentes_ · Responder desde la barra de cada terminal vuelve a funcionar: un clic en la opción responde a Claude sin ir a la terminal.
-
----
-
-## New
-
-- _Team_ · When you hand an agent something a teammate sent you, its pane remembers **who it came from** (their face in the header and the sidebar), and when it’s done, **↩ Send back** drafts the reply in your conversation with them so you can review it before sending.
-
-## Improvements
-
-- _Agents_ · Agents you open stay **in view** until you give them their task, with the keyboard already on them; if you don’t get to them, they move down to the shelf on their own after 2 minutes.
-- _Agents_ · When an agent finishes and moves down to the shelf, the others take its place within a few seconds, without pressing **Arrange**.
-- _Updates_ · **What’s New** gets the Ramas look: each highlight in its own scene under the sky, a constellation to jump between steps, and changes you can filter by kind.
-
-## Fixes
-
-- _Agents_ · Answering from each terminal’s prompt bar works again: one click on an option answers Claude without switching to the terminal.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.11.1/Pulsar-0.11.1.dmg" length="91695499" type="application/octet-stream" sparkle:edSignature="w000BoFDKRZFPlDfxdOkTafRPT7cfBPnlxhaltBufFr/0/zZhYp7Q4BIu8N9dQmp3lMTi2Xg1lZyBAX0kJiJBg=="/>
         </item>
     </channel>
 </rss>
