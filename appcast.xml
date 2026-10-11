@@ -3,6 +3,53 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.14.0</title>
+            <pubDate>Sun, 11 Oct 2026 01:48:46 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Modo claro.** Pulsar ya tiene **modo claro**: grises suaves que no deslumbran y paneles que flotan sobre el marco, con el Cielo y sus estrellas también de día. Elígelo en **Ajustes › Ventana › Apariencia** (Automático, Claro u Oscuro). En «Automático» cambia con macOS y **tus agentes siguen trabajando**: la terminal cambia de colores sin reiniciarse.
+
+## Nuevo
+
+- _Apariencia_ · El icono tiene su **versión de día** cuando macOS está en modo claro; de noche es el de siempre.
+- _Agentes_ · Con Pulsar de día, **Claude Code arranca con su tema claro** (si ya elegiste uno claro o propio, se respeta). Los que ya estaban abiertos cambian con `/theme`.
+
+## Mejoras
+
+- _Dictado_ · El dictado en la nube **no espera de más**: cada etapa tiene un plazo según la duración del audio y, si el estilo no llega a tiempo, se inserta tu texto sin retocar.
+- _Navegador_ · Al cerrar el navegador que se ve en el visor, **aparece el siguiente** en vez de quedarse vacío.
+
+## Arreglos
+
+- _Navegador_ · Las direcciones largas (archivos `file://`) **ya no se salen** del Velo: se recortan por el centro y se ven enteras al pasar el ratón.
+
+---
+
+## Highlights
+
+- **Light mode.** Pulsar now has a **light mode**: soft grays that don't glare and panes that float over the window, with the Sky and its stars by day too. Choose it in **Settings › Window › Appearance** (Automatic, Light or Dark). On “Automatic” it follows macOS and **your agents keep working**: the terminal changes colors without restarting.
+
+## New
+
+- _Appearance_ · The icon has a **daytime version** when macOS is in light mode; at night it's the same as always.
+- _Agents_ · With Pulsar in light mode, **Claude Code starts with its light theme** (a light or custom theme you chose is kept). Ones already open switch with `/theme`.
+
+## Improvements
+
+- _Dictation_ · Cloud dictation **doesn't wait longer than it should**: each step has a time limit based on the audio length and, if the style isn't ready in time, your text is inserted untouched.
+- _Browser_ · Closing the browser shown in the viewer **brings up the next one** instead of leaving it empty.
+
+## Fixes
+
+- _Browser_ · Long addresses (`file://` files) **no longer overflow** the Veil: they're truncated in the middle and shown in full on hover.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.14.0/Pulsar-0.14.0.dmg" length="102622682" type="application/octet-stream" sparkle:edSignature="aMj1g/kx0O4aS+ogBIzGw/2EBY2kOcbBLYheTzEbqV1cnFVRSByyrjDeB4Se3H+dbU2qfBd5ZwbzYaPec5JLCQ=="/>
+        </item>
+        <item>
             <title>0.13.1</title>
             <pubDate>Sat, 10 Oct 2026 21:29:34 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -69,57 +116,6 @@
 - _Agents_ · With many agents at once, Pulsar no longer refuses connections from `pulsar` or from agent notifications.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.13.0/Pulsar-0.13.0.dmg" length="105794741" type="application/octet-stream" sparkle:edSignature="PnhGK4GrqEZZFnVhmgypAb228gGC2/7QtlKG+HfeqXDiY0GpP+qrZ3xQdX6rZXyNqKr44S1P7uf8hSeZQHn7Cg=="/>
-        </item>
-        <item>
-            <title>0.12.2</title>
-            <pubDate>Sat, 10 Oct 2026 15:26:08 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>29</sparkle:version>
-            <sparkle:shortVersionString>0.12.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Su terminal ya no se encoge por su navegador.** Cada tarjeta enseña **una cara a la vez**: su terminal o su web, nunca las dos lado a lado. La terminal del agente ocupa siempre la tarjeta entera y **no cambia de columnas** al abrir, cerrar o girar su navegador. La tarjeta se sigue dando la vuelta sola, **⌥** mantenido sigue enseñando todas las webs y el conmutador `Terminal | 🌐A` de su cabecera ahora funciona siempre, también en una tarjeta ancha.
-- **La barra completa del navegador, en la tarjeta y en el visor.** La cara web de cada tarjeta y el **visor de navegadores** llevan otra vez todas sus herramientas a un clic: la **dirección** para escribir (**⌘L**), **comentar** elementos para el agente, **capturar** (copiar, la página completa, guardar o enviar al agente, siempre con aviso), el **tamaño de pantalla** (iPhone, horizontal o el tuyo) y la **consola** con sus errores. Lo que no cabe pasa a **⋯**. En el menú Navegador, **⇧⌘S** captura y **⇧⌘K** comenta elementos.
-- **Terminales más fluidas y navegadores que no gastan.** Cada terminal se dibuja **por su cuenta**: un aviso de la app ya no las repinta todas, y escribir va más suave con muchos agentes a la vez. Los navegadores que no ves **se pausan**, y los de agentes que llevan un rato sin usarse **se duermen** y liberan su memoria (Reanudar los trae tal cual; si su agente vuelve a usarlo, se despierta solo). Las animaciones van a 30 fps y Pulsar gasta mucho menos en segundo plano. `pulsar system status` cuenta ahora lo que gastan los navegadores.
-
-## Nuevo
-
-- _Visor_ · El visor de artefactos enseña **la ruta del archivo** en su cabecera. Con un clic la copias, la ves en el Finder o abres el archivo con su app; un HTML se abre además **en el navegador de Pulsar**, con la barra completa para capturarlo, comentarlo o verlo en otro tamaño.
-
-## Mejoras
-
-- _Paneles_ · **Ampliar amplía lo que ves**: con su web delante, ampliar (**⌘⇧↩**, el ⤢ o doble clic) te la enseña en grande con el teclado en la página, y ya no vuelve sola a la terminal. Una ventana emergente, un navegador nuevo o una tarea lanzada no la reducen; **Esc** sí, y al reducir vuelve la cara que tenía.
-- _Paneles_ · **Más rápido**: girar la tarjeta y ampliar o reducir tardan **0,14 s**, y ampliar con la web delante también crece desde su sitio.
-- _Barra lateral_ · **La tarjeta de tu cuenta**, rediseñada: flota sobre la ventana con tu plan y **cuándo** termina, se renueva o se cobra (con los días de prueba que te quedan), tus equipos con quién está conectado y, abajo, Ajustes de la cuenta y Cerrar sesión.
-
-## Arreglos
-
-- _Navegador_ · El cursor del agente en su navegador **apunta donde hace clic** y sigue sobre el elemento al ampliar, al pasar al visor, al girar la tarjeta y al desplazar la página.
-
----
-
-## Highlights
-
-- **Its terminal no longer shrinks for its browser.** Each card shows **one side at a time**: its terminal or its page, never both side by side. The agent’s terminal always fills the whole card and **keeps its columns** when its browser opens, closes or flips. The card still flips on its own, holding **⌥** still shows every page, and the `Terminal | 🌐A` switch in its header now always works, on a wide card too.
-- **The full browser bar, on the card and in the viewer.** Each card’s web side and the **browser viewer** have all their tools one click away again: the **address** to type in (**⌘L**), **comment** on elements for the agent, **capture** (copy, the full page, save or send to the agent, always with a notice), the **screen size** (iPhone, landscape or your own) and the **console** with its errors. Whatever doesn’t fit goes into **⋯**. In the Browser menu, **⇧⌘S** captures and **⇧⌘K** comments on elements.
-- **Smoother terminals and browsers that don’t waste resources.** Each terminal now draws **on its own**: an app notice no longer repaints them all, and typing is smoother with many agents at once. Browsers you can’t see **are paused**, and agents’ browsers that sit unused for a while **go to sleep** and free their memory (Resume brings them back as they were; if their agent uses one again, it wakes up by itself). Animations run at 30 fps and Pulsar uses far less in the background. `pulsar system status` now counts what browsers use.
-
-## New
-
-- _Viewer_ · The artifact viewer shows **the file’s path** in its header. One click lets you copy it, show it in Finder or open the file with its app; an HTML file can also open **in Pulsar’s browser**, with the full bar to capture it, comment on it or see it at another size.
-
-## Improvements
-
-- _Panes_ · **Maximize enlarges what you see**: with its page in front, maximizing (**⌘⇧↩**, the ⤢ or a double click) shows it full size with the keyboard on the page, and it no longer flips back to the terminal on its own. A pop-up window, a new browser or a launched task don’t shrink it back; **Esc** does, and the card returns to the side it had.
-- _Panes_ · **Faster**: flipping a card and maximizing or restoring take **0.14 s**, and maximizing with the page in front also grows from where it was.
-- _Sidebar_ · **Your account card**, redesigned: it floats over the window with your plan and **when** it ends, renews or charges (with the trial days you have left), your teams with who’s online and, at the bottom, Account settings and Sign out.
-
-## Fixes
-
-- _Browser_ · The agent’s cursor in its browser **points where it clicks** and stays on the element when you maximize, move it to the viewer, flip the card or scroll the page.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.12.2/Pulsar-0.12.2.dmg" length="104577603" type="application/octet-stream" sparkle:edSignature="lO3azGzufSNAkrL0QQvDwemRFFyNKhpSKfiE3jcATAb5yXnAsoSJ03x206rPj+MOiEyoqL8YeI/lwdvi6R/7Aw=="/>
         </item>
     </channel>
 </rss>
