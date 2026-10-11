@@ -3,6 +3,47 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.13.0</title>
+            <pubDate>Sat, 10 Oct 2026 20:57:02 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Muchos agentes a la vez, sin que la Mac se trabe.** Cuando falta CPU, **el agente que miras y Pulsar van primero**: los que no ves ceden hasta que vuelvas a mirarlos, y con la Mac libre nadie va más lento. Cada herramienta de Claude cuesta **4 procesos en vez de 17**, y ningún aviso de estado se pierde aunque trabajen muchos agentes a la vez. Al cerrar un agente **se cierra lo que lanzó** (servidores, watchers); lo que se desligó para vivir por su cuenta aparece en **Limpiar** con su puerto, para que decidas tú.
+- **Navegadores de agentes más rápidos y ligeros.** Las capturas pesan **unas 10 veces menos** (con `--scale`, `--format jpeg` y `--clip` si hacen falta) y se borran solas al día. Los clics de un agente van **el doble de rápido**, las ventanas emergentes también se duermen, y un navegador dormido ya no se despierta solo por pasar el ratón o abrir un menú. Los navegadores de agentes que no ves quedan **en silencio**.
+- **Los agentes se turnan las compilaciones.** Con `pulsar lock build -- <orden>` las compilaciones y los tests pesados **esperan su turno** (2 a la vez en una Mac de 16 GB) en vez de saturarla todas juntas; los agentes ya saben usarlo. Si la Mac va cargada o caliente, **el medidor de memoria se tiñe de ámbar** y quien lanza tareas recibe un aviso. Las tareas delegadas arrancan con una guía **más corta**.
+
+## Mejoras
+
+- _Agentes_ · Abrir un espacio con muchos agentes **los escalona** antes de cargar el shell, así arrancan antes y sin picos.
+- _Navegador_ · `text`, `html` y `eval` recortan dentro de la página (el valor entero sigue con `--json`), la consola se agrupa y la red solo guarda cuerpos cuando se piden.
+
+## Arreglos
+
+- _Agentes_ · Con muchos agentes a la vez, Pulsar ya no rechaza conexiones de `pulsar` ni de los avisos de los agentes.
+
+---
+
+## Highlights
+
+- **Many agents at once without the Mac stalling.** When CPU runs short, **the agent you’re looking at and Pulsar go first**: the ones you can’t see yield until you look at them again, and with the Mac idle nobody slows down. Each Claude tool call costs **4 processes instead of 17**, and no status update gets lost even with many agents working at once. Closing an agent **closes what it launched** (servers, watchers); whatever detached to live on its own shows up in **Clean up** with its port, so you decide.
+- **Faster, lighter agent browsers.** Screenshots are **about 10 times smaller** (with `--scale`, `--format jpeg` and `--clip` when needed) and clean themselves up after a day. An agent’s clicks are **twice as fast**, pop-up windows go to sleep too, and a sleeping browser no longer wakes up just because you hover it or open a menu. Agent browsers you can’t see stay **muted**.
+- **Agents take turns on builds.** With `pulsar lock build -- <command>`, builds and heavy test runs **wait their turn** (2 at a time on a 16 GB Mac) instead of all swamping it together; agents already know how to use it. When the Mac is busy or hot, **the memory meter turns amber** and whoever launches tasks gets a heads-up. Delegated tasks start with a **shorter** guide.
+
+## Improvements
+
+- _Agents_ · Opening a space with many agents **staggers them** before loading the shell, so they start sooner and without spikes.
+- _Browser_ · `text`, `html` and `eval` trim inside the page (the full value is still there with `--json`), the console is batched and the network only keeps bodies when asked.
+
+## Fixes
+
+- _Agents_ · With many agents at once, Pulsar no longer refuses connections from `pulsar` or from agent notifications.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.13.0/Pulsar-0.13.0.dmg" length="105794741" type="application/octet-stream" sparkle:edSignature="PnhGK4GrqEZZFnVhmgypAb228gGC2/7QtlKG+HfeqXDiY0GpP+qrZ3xQdX6rZXyNqKr44S1P7uf8hSeZQHn7Cg=="/>
+        </item>
+        <item>
             <title>0.12.2</title>
             <pubDate>Sat, 10 Oct 2026 15:26:08 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -87,71 +128,6 @@
 - _Installation_ · **New icon**: Pulsar now wears the **Trace** mark in the Dock and the Finder, the same one you see in the sidebar and in What’s New.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.12.1/Pulsar-0.12.1.dmg" length="103604793" type="application/octet-stream" sparkle:edSignature="FR07Nj8pUqoFNIUzhpKfGfTMWKHABujGeBMVRdSZY/MIY7nvWHkPPUMssnqK+lYtnXDz4HpnKUyruc8OxKGRDw=="/>
-        </item>
-        <item>
-            <title>0.12.0</title>
-            <pubDate>Sat, 10 Oct 2026 02:28:55 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>27</sparkle:version>
-            <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Su navegador, en la otra cara de su tarjeta.** El navegador de cada agente va **detrás de su terminal** y la tarjeta **se da la vuelta sola** para que lo veas trabajar; vuelve a la terminal cuando el agente regresa al código. Si estás escribiendo en su terminal, espera a que termines (escribir en otra no la frena). El conmutador de su cabecera fija una cara y mantener **⌥** enseña todas las webs a la vez.
-- **Míralo trabajar y frénalo a tiempo.** En su página ves **en vivo** lo que hace: su cursor va a lo que toca, lo que escribe aparece letra a letra y un subtítulo cuenta cada paso. Ahí mismo, **Pausar** retiene sus siguientes pasos, **Detener** lo para y **Corregir** le dice qué hacer distinto; con **Señalar** le marcas el elemento.
-- **Responde sin ir a la terminal.** **✎ Responder…** en la barra de una pregunta te deja contestar con tus palabras sin salir de la tarjeta. Y cuando el agente te pregunta por su página («¿cuál de estas portadas?»), cada opción se marca **en la propia página**: un clic o su número la elige.
-- **Todos los navegadores, en un visor.** Los navegadores se pliegan en una **cápsula** al final de la **repisa**, que ya nunca pasa de una fila: cada uno con el logo de su agente y su **letra** (A, B, C…), y pasar por ella ilumina a su dueño. Un clic abre el **visor de navegadores**, que sube desde la repisa con una pestaña por navegador: filtra **los de agentes o los tuyos** y **arrastra una pestaña a un lado** para ver dos a la vez.
-
-## A tener en cuenta
-
-- _Navegador_ · Las pestañas de la **mesa** dejan paso a las dos caras: el navegador de un agente vive detrás de su tarjeta o en el visor, y el **+** para abrir otro tuyo está en la columna del visor. Que un agente use su navegador ya no cambia lo que estás viendo.
-
-## Nuevo
-
-- _Paneles_ · En una tarjeta ancha ves **su terminal y su web lado a lado**, con la pregunta a lo ancho debajo. Ampliada con la web delante (**⌘⇧↩** o doble clic en su cabecera), su web en grande.
-- _Navegador_ · Un navegador de un agente abierto en el visor deja en su tarjeta «Lo ves en el visor» y **Traer aquí** lo devuelve sin recargar la página. Al pasar por su logo en la cápsula ves su página en vivo antes de abrirla.
-- _Navegador_ · Cuando la página de un agente abre una **ventana emergente** (por ejemplo «Entrar con Google»), va como pestaña de su navegador y su barra te ofrece **Ver su navegador** o **No puedo ahora**, que la cierra y se lo dice al agente.
-- _Agentes_ · Los agentes pueden preguntarte entre elementos de su página con `pulsar browser choose` y esperar tu elección; mientras, **te esperan** en la barra lateral y en el recuento, y **⌥⌘↵** los encuentra, como con cualquier otra pregunta.
-
-## Mejoras
-
-- _Agentes_ · La **barra de lanzar** se ve más: se abre **al centro** de la ventana y todo lo de detrás se apaga, menos los huecos donde caerán tus agentes, que llevan una etiqueta en una esquina libre. Al lanzar, cada panel nuevo se marca con un anillo donde aterriza.
-- _Paneles_ · Lo que no cabe en la repisa se pliega en **logos cuadrados** con el color de su estado (azul trabaja, ámbar te espera, rojo se detuvo, verde listo); al pasar ves su tarea y un clic lo sube.
-
-## Arreglos
-
-- _Agentes_ · Mientras un agente espera tu elección en `pulsar media ask`, sale como **te espera** en la barra lateral y en el recuento, como con cualquier otra pregunta.
-
----
-
-## Highlights
-
-- **Its browser, on the other side of its card.** Each agent’s browser sits **behind its terminal**, and the card **flips on its own** so you can watch it work; it flips back when the agent returns to the code. If you’re typing in its terminal, it waits until you’re done (typing in another one doesn’t hold it back). The switch in its header pins a side, and holding **⌥** shows every page at once.
-- **Watch it work, and step in.** On its page you see what it does **live**: its cursor moves to what it touches, what it types appears letter by letter, and a caption describes each step. Right there, **Pause** holds its next steps, **Stop** halts it and **Correct** tells it what to do instead; with **Point** you mark the element.
-- **Answer without going to the terminal.** **✎ Answer…** on a question’s bar lets you reply in your own words without leaving the card. And when the agent asks about its page (“which of these covers?”), each option is marked **on the page itself**: a click or its number picks it.
-- **All your browsers in one viewer.** Browsers fold into a **capsule** at the end of the **shelf**, which now never takes more than one row: each one with its agent’s logo and its **letter** (A, B, C…), and hovering it lights up its owner. One click opens the **browser viewer**, which rises from the shelf with a tab per browser: filter **agents’ or yours**, and **drag a tab to one side** to see two at once.
-
-## Good to know
-
-- _Browser_ · The **desk**’s tabs give way to the two sides: an agent’s browser lives behind its card or in the viewer, and the **+** to open another one of yours is in the viewer’s column. An agent using its browser no longer changes what you’re looking at.
-
-## New
-
-- _Panes_ · On a wide card you see **its terminal and its page side by side**, with the question across the bottom. Maximized with the page in front (**⌘⇧↩** or double-clicking its header), you get its page full size.
-- _Browser_ · An agent’s browser open in the viewer leaves “It’s open in the viewer” on its card, and **Bring it here** sends it back without reloading the page. Hovering its logo in the capsule shows its page live before you open it.
-- _Browser_ · When an agent’s page opens a **pop-up window** (for example “Sign in with Google”), it shows up as a tab of its browser and its bar offers **See its browser** or **Can’t right now**, which closes it and lets the agent know.
-- _Agents_ · Agents can ask you to choose between elements of their page with `pulsar browser choose` and wait for your pick; meanwhile they show as **waiting on you** in the sidebar and in the count, and **⌥⌘↵** finds them, like any other question.
-
-## Improvements
-
-- _Agents_ · The **launch bar** stands out more: it opens **in the middle** of the window and everything behind it dims, except the slots where your agents will land, which get a label in a free corner. When you launch, each new pane is marked with a ring where it lands.
-- _Panes_ · What doesn’t fit on the shelf folds into **square logos** in the color of their state (blue working, amber waiting on you, red stopped, green done); hover to see its task and click to bring it up.
-
-## Fixes
-
-- _Agents_ · While an agent waits for your pick in `pulsar media ask`, it now shows as **waiting on you** in the sidebar and in the count, like any other question.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.12.0/Pulsar-0.12.0.dmg" length="104122168" type="application/octet-stream" sparkle:edSignature="lb9OD5zizYA7UzRahyc5wJ6CDc9kum8UqVTqhwGbxPbwRmg9MkMOvE6l3G+jqAp5WhtY2xgxI5znMc4zpWxdBQ=="/>
         </item>
     </channel>
 </rss>
