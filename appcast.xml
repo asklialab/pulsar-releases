@@ -3,6 +3,49 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.16.0</title>
+            <pubDate>Mon, 12 Oct 2026 22:14:40 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Enlace público.** Enseña **la página que estás haciendo** a quien no tiene Pulsar: en **Compartir**, elige **Público** y Pulsar te da un enlace que se abre en **cualquier navegador**. Por defecto es de **solo lectura**: quien entra navega y carga lo que la página lee, pero no envía formularios ni nada que no sea una lectura, salvo que lo permitas. La primera vez te cuenta todo lo que implica y lo confirmas con **Touch ID**; las siguientes, una confirmación corta. Se cierra solo como los demás compartidos, y un agente solo puede **proponerlo**.
+- **Lo que compartes, en el iPhone de tu equipo.** Tus compañeros ven **en su iPhone** lo que compartes con el equipo o por un **enlace de Pulsar**, aunque no tengan Mac: en **Equipo › En vivo** o tocando el enlace. Tú les dejas entrar como siempre, y desde tu iPhone emparejado puedes **admitir** a quien llega y **confirmar** lo que un agente quiere compartir.
+
+## A tener en cuenta
+
+- _Compartir en vivo_ · Quien mira desde un iPhone necesita **Pulsar para iPhone 0.7.0** (TestFlight).
+- _Paneles_ · Se retira la ventana clásica (la cuadrícula de divisiones y la barra lateral con «Pulso»): la ventana nueva de la 0.11 es la única. Ya no están **Ajustes › Ventana › Diseño de la ventana** ni **Ver › Diseño de la ventana**. Tus espacios, agentes y ajustes no cambian.
+
+## Nuevo
+
+- _Compartir en vivo_ · El enlace público sale de tu Mac por **Cloudflare** (Quick Tunnel): la primera vez Pulsar descarga su conector oficial y comprueba que es el de Cloudflare antes de usarlo. Ves cuántas personas miran, se pausa a los 15 minutos sin nadie y tiene un tope de tráfico por hora.
+- _Compartir en vivo_ · **Reactivar** un enlace público vuelve a pedir tu confirmación y te da un enlace nuevo; mientras se prepara puedes seguir trabajando y el progreso pasa al indicador del panel.
+- _Ajustes_ · **Ajustes › Compartir › Restablecer avisos** vuelve a enseñarte el aviso completo del enlace público.
+
+---
+
+## Highlights
+
+- **Public link.** Show **the page you're building** to people without Pulsar: in **Share**, choose **Public** and Pulsar gives you a link that opens in **any browser**. By default it's **read only**: visitors browse and load what the page reads, but can't send forms or anything that isn't a read, unless you allow it. The first time it tells you everything it means and you confirm with **Touch ID**; after that, a short confirmation. It closes on its own like your other shares, and an agent can only **suggest** it.
+- **What you share, on your team's iPhone.** Your teammates see what you share with the team or through a **Pulsar link** **on their iPhone**, even without a Mac: in **Team › Live** or by tapping the link. You let them in as always, and from your paired iPhone you can **admit** whoever arrives and **confirm** what an agent wants to share.
+
+## Good to know
+
+- _Share live_ · Watching from an iPhone needs **Pulsar for iPhone 0.7.0** (TestFlight).
+- _Panes_ · The classic window (the split grid and the sidebar with “Pulse”) is retired: the new window from 0.11 is the only one. **Settings › Window › Window design** and **View › Window design** are gone. Your spaces, agents and settings stay the same.
+
+## New
+
+- _Share live_ · The public link leaves your Mac through **Cloudflare** (Quick Tunnel): the first time, Pulsar downloads its official connector and checks it's Cloudflare's before using it. You see how many people are watching, it pauses after 15 minutes with nobody and it has an hourly traffic cap.
+- _Share live_ · **Resuming** a public link asks for your confirmation again and gives you a new link; while it's getting ready you can keep working and the progress moves to the pane's indicator.
+- _Settings_ · **Settings › Sharing › Reset notices** shows you the full public link notice again.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.16.0/Pulsar-0.16.0.dmg" length="115639656" type="application/octet-stream" sparkle:edSignature="SxDrM9Z6DEqzIdvUvC9hUNVOHJOYF8CJadBafnUSGTkyxJRiTdn5yMFlEi0tyUtNWJYNjzfoTh9oLf9I4GmHDQ=="/>
+        </item>
+        <item>
             <title>0.15.1</title>
             <pubDate>Mon, 12 Oct 2026 09:07:33 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -95,53 +138,6 @@
 - _Panes_ · In Branches, branches going to another row **go around the panes** instead of crossing them.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.15.0/Pulsar-0.15.0.dmg" length="118016121" type="application/octet-stream" sparkle:edSignature="TJ0Fa2efY1EMGwjc+moy8Pw3piKYHjT2w2SlYRjHOTd0A9xKnbDUg+t+cQNRNJtmny+TzzTwMUz+CVZbOTufBA=="/>
-        </item>
-        <item>
-            <title>0.14.0</title>
-            <pubDate>Sun, 11 Oct 2026 01:48:46 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>32</sparkle:version>
-            <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Modo claro.** Pulsar ya tiene **modo claro**: grises suaves que no deslumbran y paneles que flotan sobre el marco, con el Cielo y sus estrellas también de día. Elígelo en **Ajustes › Ventana › Apariencia** (Automático, Claro u Oscuro). En «Automático» cambia con macOS y **tus agentes siguen trabajando**: la terminal cambia de colores sin reiniciarse.
-
-## Nuevo
-
-- _Apariencia_ · El icono tiene su **versión de día** cuando macOS está en modo claro; de noche es el de siempre.
-- _Agentes_ · Con Pulsar de día, **Claude Code arranca con su tema claro** (si ya elegiste uno claro o propio, se respeta). Los que ya estaban abiertos cambian con `/theme`.
-
-## Mejoras
-
-- _Dictado_ · El dictado en la nube **no espera de más**: cada etapa tiene un plazo según la duración del audio y, si el estilo no llega a tiempo, se inserta tu texto sin retocar.
-- _Navegador_ · Al cerrar el navegador que se ve en el visor, **aparece el siguiente** en vez de quedarse vacío.
-
-## Arreglos
-
-- _Navegador_ · Las direcciones largas (archivos `file://`) **ya no se salen** del Velo: se recortan por el centro y se ven enteras al pasar el ratón.
-
----
-
-## Highlights
-
-- **Light mode.** Pulsar now has a **light mode**: soft grays that don't glare and panes that float over the window, with the Sky and its stars by day too. Choose it in **Settings › Window › Appearance** (Automatic, Light or Dark). On “Automatic” it follows macOS and **your agents keep working**: the terminal changes colors without restarting.
-
-## New
-
-- _Appearance_ · The icon has a **daytime version** when macOS is in light mode; at night it's the same as always.
-- _Agents_ · With Pulsar in light mode, **Claude Code starts with its light theme** (a light or custom theme you chose is kept). Ones already open switch with `/theme`.
-
-## Improvements
-
-- _Dictation_ · Cloud dictation **doesn't wait longer than it should**: each step has a time limit based on the audio length and, if the style isn't ready in time, your text is inserted untouched.
-- _Browser_ · Closing the browser shown in the viewer **brings up the next one** instead of leaving it empty.
-
-## Fixes
-
-- _Browser_ · Long addresses (`file://` files) **no longer overflow** the Veil: they're truncated in the middle and shown in full on hover.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.14.0/Pulsar-0.14.0.dmg" length="102622682" type="application/octet-stream" sparkle:edSignature="aMj1g/kx0O4aS+ogBIzGw/2EBY2kOcbBLYheTzEbqV1cnFVRSByyrjDeB4Se3H+dbU2qfBd5ZwbzYaPec5JLCQ=="/>
         </item>
     </channel>
 </rss>
