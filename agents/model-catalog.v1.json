@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "updated": "2026-10-13",
+  "agents": {
+    "claude": {
+      "models": [
+        { "alias": "fable", "name": "Fable", "pin": "claude-fable-5-1" },
+        { "alias": "opus", "name": "Opus", "pin": "claude-opus-5-5" },
+        { "alias": "sonnet", "name": "Sonnet", "pin": "claude-sonnet-5-5" },
+        { "alias": "haiku", "name": "Haiku", "pin": "claude-haiku-5-5" }
+      ],
+      "efforts": ["low", "medium", "high", "xhigh", "max"],
+      "presets": {
+        "balanced": {
+          "main": { "model": "opus", "effort": "high" },
+          "quality": { "model": "opus", "effort": "high" },
+          "work": { "model": "opus", "effort": "medium" },
+          "light": { "model": "sonnet" }
+        },
+        "maximum": {
+          "main": { "model": "fable", "effort": "high" },
+          "quality": { "model": "fable", "effort": "high" },
+          "work": { "model": "fable", "effort": "high" },
+          "light": { "model": "opus" }
+        },
+        "saving": {
+          "main": { "model": "sonnet", "effort": "medium" },
+          "quality": { "model": "opus", "effort": "high" },
+          "work": { "model": "sonnet", "effort": "medium" },
+          "light": { "model": "haiku" }
+        }
+      }
+    },
+    "codex": {
+      "models": [
+        { "alias": "astra", "name": "Astra", "id": "gpt-6-astra", "match": "^gpt-[0-9.]+-astra$" },
+        { "alias": "sol", "name": "Sol", "id": "gpt-6.1-sol", "match": "^gpt-[0-9.]+-sol$" },
+        { "alias": "luna", "name": "Luna", "id": "gpt-6-luna", "match": "^gpt-[0-9.]+-luna$" }
+      ],
+      "efforts": ["low", "medium", "high", "xhigh", "max", "ultra"],
+      "presets": {
+        "balanced": {
+          "main": { "model": "sol", "effort": "high" },
+          "quality": { "model": "sol", "effort": "high" },
+          "work": { "model": "sol", "effort": "medium" },
+          "light": { "model": "luna", "effort": "low" }
+        },
+        "maximum": {
+          "main": { "model": "astra", "effort": "high" },
+          "quality": { "model": "astra", "effort": "high" },
+          "work": { "model": "astra", "effort": "high" },
+          "light": { "model": "sol", "effort": "medium" }
+        },
+        "saving": {
+          "main": { "model": "sol", "effort": "medium" },
+          "quality": { "model": "sol", "effort": "high" },
+          "work": { "model": "sol", "effort": "medium" },
+          "light": { "model": "luna", "effort": "low" }
+        }
+      }
+    },
+    "gemini": {
+      "models": [
+        { "alias": "pro", "name": "Pro" },
+        { "alias": "flash", "name": "Flash" },
+        { "alias": "flash-lite", "name": "Flash-Lite" }
+      ],
+      "efforts": [],
+      "presets": {
+        "balanced": {
+          "main": { "model": "pro" }, "quality": { "model": "pro" }, "work": { "model": "pro" }, "light": { "model": "flash" }
+        },
+        "maximum": {
+          "main": { "model": "pro" }, "quality": { "model": "pro" }, "work": { "model": "pro" }, "light": { "model": "pro" }
+        },
+        "saving": {
+          "main": { "model": "flash" }, "quality": { "model": "pro" }, "work": { "model": "flash" }, "light": { "model": "flash-lite" }
+        }
+      }
+    },
+    "grok": {
+      "models": [],
+      "efforts": ["low", "medium", "high"],
+      "presets": {
+        "balanced": {
+          "main": { "effort": "high" }, "quality": { "effort": "high" }, "work": { "effort": "medium" }
+        },
+        "maximum": {
+          "main": { "effort": "high" }, "quality": { "effort": "high" }, "work": { "effort": "high" }
+        },
+        "saving": {
+          "main": { "effort": "medium" }, "quality": { "effort": "high" }, "work": { "effort": "medium" }
+        }
+      }
+    }
+  }
+}
