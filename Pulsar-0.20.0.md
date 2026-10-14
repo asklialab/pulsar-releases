@@ -1,0 +1,57 @@
+## Lo más destacado
+
+- **Comparte una carpeta.** Las propuestas, maquetas e informes que hace tu agente ya no necesitan servidor: en una página abierta desde tu disco, pulsa **Compartir** junto a **Enviar a…** y Pulsar comparte **su carpeta** con las mismas opciones que un puerto (solo tú, tu equipo, un enlace de Pulsar o público). Quien mira ve **los cambios al guardar**. Antes te dice qué no se servirá (archivos ocultos, claves, lo que no es de la web) y, si la carpeta **parece un proyecto**, te propone compartir su puerto en su lugar.
+- **Codex y Claude piden compartir.** Desde **Codex**, **Claude** o **Dots**, un agente puede pedir compartir el puerto o la página que hizo. **Solo tú** sale al momento; con tu **equipo** o por **enlace** queda pendiente hasta que lo confirmas en la Mac, y **nunca** puede hacerlo público. El agente no recibe el enlace y solo puede parar lo suyo.
+- **Lo que enseñan tus agentes, a un clic del tablero.** Las imágenes, capturas, páginas HTML, PDF y descargas que enseñan tus agentes llegan a la **bandeja** del tablero, agrupadas por agente, y nada entra solo: tú eliges con **«Añadir los 2»** o una a una. También hay **«Añadir al tablero»** en el visor y en lo recibido del equipo, **«Captura al tablero»** en el navegador, y puedes **soltar** páginas HTML y PDF en el lienzo. Una página HTML entra **viva** en una tarjeta aislada y sin red (haz clic dos veces para usarla, Esc para salir); un PDF entra como su página, y los agentes dibujan **gráficas** a partir de datos con `pulsar board chart`.
+
+## A tener en cuenta
+
+- _Compartir en vivo_ · Para ver una carpeta compartida hace falta **Pulsar 0.20.0** en la Mac o **Pulsar para iPhone 0.8.0** (TestFlight); las versiones anteriores no la ven.
+- _Tablero_ · Una página HTML que te envía alguien del equipo entra en el tablero **solo como imagen**, nunca viva; la pruebas con «Probar la página en el visor aislado».
+
+## Nuevo
+
+- _Compartir en vivo_ · Con **enlace** o **público**, lo nuevo que aparece en la carpeta solo se sirve si es contenido de la web (páginas, estilos, scripts, imágenes, fuentes, vídeo) y pasa la comprobación; lo demás espera a que pulses **Revisar** en el indicador del panel, y un aviso te lo dice si llegan varios. Con solo tú o tu equipo, lo nuevo se ve al guardar.
+- _Compartir en vivo_ · Si mueves o borras la carpeta, el compartido se pausa y te ofrece **volver a compartirla** o **quitarla**.
+- _Compartir en vivo_ · Las carpetas de otros también se ven **en el visor y en la tarjeta del chat** de tu Mac, como un puerto.
+- _Compartir en vivo_ · Los agentes de los paneles tienen `pulsar share folder <carpeta>`: comparten contigo sin preguntar solo una carpeta pequeña dentro de la suya; lo demás te lo piden.
+
+## Mejoras
+
+- _Compartir en vivo_ · El cupo cuenta **puertos y carpetas** juntos y te dice cuántos ocupan tus otros dispositivos.
+- _Tablero_ · Como mucho **seis tarjetas vivas** a la vez: las demás esperan en pausa hasta que te acercas. Si una página se cuelga, Pulsar la detiene, la deja como imagen y te ofrece «Volver a cargarla», sin tocar las demás.
+
+## Arreglos
+
+- _Navegador_ · Una descarga ya no deja Pulsar esperando mientras macOS pide permiso para la carpeta Descargas.
+- _Tablero_ · Codex sale «trabajando» y su hilo se llena desde su primer turno, y cada panel recuerda su tablero al volver a abrir Pulsar.
+
+---
+
+## Highlights
+
+- **Share a folder.** The proposals, mockups and reports your agent makes no longer need a server: on a page opened from your disk, press **Share** next to **Send to…** and Pulsar shares **its folder** with the same options as a port (only you, your team, a Pulsar link or public). Viewers see **changes as you save**. First it tells you what won't be served (hidden files, keys, anything that isn't web content) and, if the folder **looks like a project**, it suggests sharing its port instead.
+- **Codex and Claude ask to share.** From **Codex**, **Claude** or **Dots**, an agent can ask to share the port or page it made. **Only you** goes out right away; with your **team** or by **link** it waits until you confirm it on the Mac, and it can **never** make it public. The agent doesn't get the link and can only stop its own.
+- **What your agents show, one click from the board.** The images, screenshots, HTML pages, PDFs and downloads your agents show land in the board's **tray**, grouped by agent, and nothing goes in by itself: you choose with **“Add all 2”** or one by one. There's also **“Add to Board”** in the viewer and on what your team sends you, **“Screenshot to Board”** in the browser, and you can **drop** HTML pages and PDFs on the canvas. An HTML page goes in **live** in an isolated card with no network (click twice to use it, Esc to leave); a PDF goes in as its page, and agents draw **charts** from data with `pulsar board chart`.
+
+## Good to know
+
+- _Share live_ · Watching a shared folder needs **Pulsar 0.20.0** on the Mac or **Pulsar for iPhone 0.8.0** (TestFlight); earlier versions don't see it.
+- _Board_ · An HTML page a teammate sends you goes on the board **only as an image**, never live; try it with “Try the page in the isolated viewer”.
+
+## New
+
+- _Share live_ · With a **link** or **public**, new files that show up in the folder are only served if they're web content (pages, styles, scripts, images, fonts, video) and pass the check; the rest waits until you press **Review** in the pane's indicator, and a notification tells you if several arrive. With only you or your team, new files show as you save.
+- _Share live_ · If you move or delete the folder, the share pauses and offers to **share it again** or **remove it**.
+- _Share live_ · Other people's folders also show **in the viewer and the chat card** on your Mac, like a port.
+- _Share live_ · Agents in panes get `pulsar share folder <folder>`: they share with you without asking only a small folder inside their own; anything else they ask you for.
+
+## Improvements
+
+- _Share live_ · The limit counts **ports and folders** together and tells you how many your other devices are using.
+- _Board_ · At most **six live cards** at once: the rest wait paused until you zoom in. If a page hangs, Pulsar stops it, leaves it as an image and offers “Load it again”, without touching the others.
+
+## Fixes
+
+- _Browser_ · A download no longer leaves Pulsar waiting while macOS asks for permission to the Downloads folder.
+- _Board_ · Codex shows as “working” and its thread fills in from its first turn, and each panel remembers its board when you reopen Pulsar.
