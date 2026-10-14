@@ -3,6 +3,25 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.18.1</title>
+            <pubDate>Wed, 14 Oct 2026 11:10:10 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>0.18.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Arreglos
+
+- _Rendimiento_ · Con la apariencia en **Automático**, Pulsar se quedaba gastando un núcleo entero de la CPU desde el cambio de claro a oscuro del atardecer hasta que lo cerrabas. Ya no.
+
+---
+
+## Fixes
+
+- _Performance_ · With appearance set to **Automatic**, Pulsar kept a whole CPU core busy from the evening light-to-dark switch until you quit it. Not anymore.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.18.1/Pulsar-0.18.1.dmg" length="122208179" type="application/octet-stream" sparkle:edSignature="k/AP+W0yTPj7bYrw2y16eSxMA12uh4XGGyzQBwGdm6SO2ImzxbEpxu0VDZ3T4ms0j5tF7G5/OIBy3htWhea9Dg=="/>
+        </item>
+        <item>
             <title>0.18.0</title>
             <pubDate>Wed, 14 Oct 2026 00:03:48 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -81,25 +100,6 @@
 - _Agents_ · Agents **split the work better** and spend less: they read and review with their **subagents**, only start helpers for what you'll see or long work, and fixes are done by **whoever built it**. **Gemini** tasks finally get Pulsar's instructions.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.17.0/Pulsar-0.17.0.dmg" length="118164237" type="application/octet-stream" sparkle:edSignature="yTOpjn2f2AaePlJlMDLub8cgITv6RPDMyvg+5yFTy0ibQ1r6GBKYTwUNzmZ+KnH4FFTXmPM007WGmSqDDlnEBA=="/>
-        </item>
-        <item>
-            <title>0.16.1</title>
-            <pubDate>Tue, 13 Oct 2026 12:41:15 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>36</sparkle:version>
-            <sparkle:shortVersionString>0.16.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Mejoras
-
-- _Dictado_ · El **dictado en la nube** tarda bastante menos desde que sueltas la tecla: Pulsar Voice **prepara la conexión mientras hablas**, y el servidor usa primero el transcriptor que siempre respondía a tiempo; si uno se retrasa, **lanza otro en paralelo** y se queda con el primero que conteste.
-
----
-
-## Improvements
-
-- _Dictation_ · **Cloud dictation** takes much less time after you release the key: Pulsar Voice **gets the connection ready while you speak**, and the server now tries first the transcriber that always answered in time; if one is slow, it **starts another in parallel** and keeps whichever answers first.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.16.1/Pulsar-0.16.1.dmg" length="115650567" type="application/octet-stream" sparkle:edSignature="1/twETlU+d8WBb0wZFbxZJP3mIpRp5Bpi6Vvw8tSPpnTRs07SDgiSnVgkp9n8z/NzXlS4jEl7yvWHwghxjw+AA=="/>
         </item>
     </channel>
 </rss>
