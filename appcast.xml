@@ -3,6 +3,49 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.19.0</title>
+            <pubDate>Wed, 14 Oct 2026 12:42:36 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>41</sparkle:version>
+            <sparkle:shortVersionString>0.19.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Envía tu tablero y junta lo que vuelve.** Con **«Enviar copia…»** en la cabecera del tablero, alguien de tu equipo recibe una copia: la abre en el visor en solo lectura y puede **aceptarla como tablero nuevo** o dibujar sobre ella y devolvértela. Cuando vuelve, **«Juntar con mi tablero»** pinta sus cambios encima del tuyo, marcados uno a uno, sin tocar nada hasta que pulsas «Juntar»; lo suyo lleva su color unos segundos y desde el menú del tablero puedes **«Ver lo de Ana»** o **«Deshacer lo de Ana»**. La copia viaja limpia: sin los nombres de tus imágenes ni sus metadatos.
+
+## A tener en cuenta
+
+- _Tablero_ · Un tablero de la 0.18.0 que abrió primero un agente queda en **solo lectura** hasta que **haces clic en él**: así un agente nunca decide por ti dónde vive tu tablero.
+
+## Nuevo
+
+- _Tablero_ · **Exportar PNG** del tablero entero, de lo seleccionado o de un marco, desde la cabecera del tablero.
+
+## Mejoras
+
+- _Tablero_ · Una copia que ya juntaste no vuelve a ofrecer «Juntar», y una que vuelve tarde se compara con lo que enviaste antes: nunca propone borrar lo que la otra persona no llegó a ver.
+
+---
+
+## Highlights
+
+- **Send your board and merge what comes back.** With **“Send a Copy…”** in the board's header, a teammate receives a copy: they open it read-only in the viewer and can **accept it as a new board** or draw on it and send it back. When it returns, **“Merge with my board”** paints their changes over yours, marked one by one, without touching anything until you press “Merge”; theirs carry their color for a few seconds, and from the board menu you can **“Show Ana's changes”** or **“Undo what Ana did”**. The copy travels clean: without your image names or their metadata.
+
+## Good to know
+
+- _Board_ · A 0.18.0 board that an agent opened first stays **read-only** until **you click on it**: that way an agent never decides for you where your board lives.
+
+## New
+
+- _Board_ · **Export PNG** of the whole board, the selection or a frame, from the board's header.
+
+## Improvements
+
+- _Board_ · A copy you already merged doesn't offer “Merge” again, and one that comes back late is compared with what you sent before: it never proposes deleting what the other person never saw.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.19.0/Pulsar-0.19.0.dmg" length="124534310" type="application/octet-stream" sparkle:edSignature="NS2EA09nK7gLmzqJliSvn2FJM05KmeRMt47OYFFyZ46oak+nxGuwMjWVnIbI5Kn82ufE2Lw0DxK/MkBVYtFBAQ=="/>
+        </item>
+        <item>
             <title>0.18.2</title>
             <pubDate>Wed, 14 Oct 2026 12:02:32 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -39,51 +82,6 @@
 - _Performance_ · With appearance set to **Automatic**, Pulsar kept a whole CPU core busy from the evening light-to-dark switch until you quit it. Not anymore.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.18.1/Pulsar-0.18.1.dmg" length="122208179" type="application/octet-stream" sparkle:edSignature="k/AP+W0yTPj7bYrw2y16eSxMA12uh4XGGyzQBwGdm6SO2ImzxbEpxu0VDZ3T4ms0j5tF7G5/OIBy3htWhea9Dg=="/>
-        </item>
-        <item>
-            <title>0.18.0</title>
-            <pubDate>Wed, 14 Oct 2026 00:03:48 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>38</sparkle:version>
-            <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Tablero para ti y tus agentes.** Cada workspace tiene su **tablero**: una pizarra infinita que abres desde su miniatura en la repisa y que siempre está ahí. Dibuja formas, flechas, texto, trazos, marcos e imágenes, y pide a un **agente** que dibuje contigo: con **«+»** abajo abres uno nuevo en el tablero, ves su **cursor** con su nombre donde trabaja y le escribes desde la caja, también sobre lo que tengas seleccionado. Lo tuyo y lo suyo se **deshacen por separado** («Deshacer lo de Claude»). Los agentes lo usan con `pulsar board` y desde otras apps con el **MCP** de Pulsar, y el tablero se guarda en la carpeta `tableros/` del proyecto, fuera de Git.
-
-## A tener en cuenta
-
-- _Tablero_ · El tablero es **nuevo**: aún no se comparte con el equipo ni se ve en el iPhone. Si un agente de otra app (Codex, Claude) quiere usarlo por el MCP, la primera vez **lo aceptas tú** en la Mac.
-
-## Nuevo
-
-- _Visor_ · **Las páginas HTML que te envían se ven tal cual**: una propuesta o maqueta que te manda alguien del equipo se abre en el visor con su JavaScript, como la ve quien la envió, dentro de una **jaula sin red**: no puede conectarse a internet ni ver tus sesiones o tus archivos. Abajo dice de quién es y lleva «🔒 Sin red»; «Abrir con red…» la abre en un navegador privado tras confirmarlo.
-- _Chat del equipo_ · **Miniaturas de las páginas en el chat**: al enviar una página, Pulsar guarda dentro cómo se ve. En el chat y en Equipo verás su miniatura en lugar de un globo vacío, sin ejecutar nada hasta abrirla.
-
-## Mejoras
-
-- _Seguridad_ · **Fuentes y librerías incluidas al enviar**: si la página usa fuentes o librerías de internet, la hoja de envío te enseña los sitios y, al pulsar Enviar, las mete dentro para que quien la recibe la vea sin red. Nada se descarga antes de que confirmes, y un sitio desconocido va aparte y desmarcado.
-
----
-
-## Highlights
-
-- **A board for you and your agents.** Every workspace has its **board**: an infinite whiteboard you open from its thumbnail on the shelf and that's always there. Draw shapes, arrows, text, strokes, frames and images, and ask an **agent** to draw with you: **“+”** at the bottom opens a new one on the board, you see its **cursor** with its name where it works and you write to it from the box, also about what you have selected. Your changes and its changes are **undone separately** (“Undo what Claude did”). Agents use it with `pulsar board` and from other apps through Pulsar's **MCP**, and the board is saved in the project's `tableros/` folder, outside Git.
-
-## Good to know
-
-- _Board_ · The board is **new**: it isn't shared with your team or shown on iPhone yet. If an agent in another app (Codex, Claude) wants to use it through the MCP, **you accept it** on the Mac the first time.
-
-## New
-
-- _Viewer_ · **HTML pages you receive look exactly as sent**: a proposal or mockup a teammate sends opens in the viewer with its JavaScript, just as the sender sees it, inside a **jail with no network**: it can't connect to the internet or see your sessions or files. The caption says who sent it and shows “🔒 No network”; “Open with network…” opens it in a private browser after you confirm.
-- _Team chat_ · **Page thumbnails in the chat**: when you send a page, Pulsar stores how it looks inside it. In the chat and in Team you'll see its thumbnail instead of an empty globe, without running anything until you open it.
-
-## Improvements
-
-- _Security_ · **Fonts and libraries included when sending**: if the page uses fonts or libraries from the internet, the send sheet shows you the sites and, when you press Send, puts them inside so the recipient sees it without network. Nothing is downloaded before you confirm, and an unknown site is listed separately and unchecked.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.18.0/Pulsar-0.18.0.dmg" length="122909392" type="application/octet-stream" sparkle:edSignature="vItmPc3tOEO+PPLJKbAH6irgpDS9QV64FnhAj+1qDZzLIOF+KQMTUvZghew81BqDOUOfBfUu+IdS/pgUq7csBA=="/>
         </item>
     </channel>
 </rss>
