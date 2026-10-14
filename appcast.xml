@@ -3,6 +3,25 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.18.2</title>
+            <pubDate>Wed, 14 Oct 2026 12:02:32 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>0.18.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Arreglos
+
+- _Barra lateral_ · Con la barra lateral plegada, un clic en el logo de Pulsar vuelve a desplegarla.
+
+---
+
+## Fixes
+
+- _Sidebar_ · With the sidebar collapsed, clicking the Pulsar logo expands it again.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.18.2/Pulsar-0.18.2.dmg" length="122210366" type="application/octet-stream" sparkle:edSignature="e+ulPYDMB1/DRwPcvRcu7Gsg5potKkz1ZAOMfsWWcok5hR+OiUJEaSlWnrwkd6fJlOWrwiKRh9CsOAOtMsU8CA=="/>
+        </item>
+        <item>
             <title>0.18.1</title>
             <pubDate>Wed, 14 Oct 2026 11:10:10 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -65,41 +84,6 @@
 - _Security_ · **Fonts and libraries included when sending**: if the page uses fonts or libraries from the internet, the send sheet shows you the sites and, when you press Send, puts them inside so the recipient sees it without network. Nothing is downloaded before you confirm, and an unknown site is listed separately and unchecked.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.18.0/Pulsar-0.18.0.dmg" length="122909392" type="application/octet-stream" sparkle:edSignature="vItmPc3tOEO+PPLJKbAH6irgpDS9QV64FnhAj+1qDZzLIOF+KQMTUvZghew81BqDOUOfBfUu+IdS/pgUq7csBA=="/>
-        </item>
-        <item>
-            <title>0.17.0</title>
-            <pubDate>Tue, 13 Oct 2026 17:02:15 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>37</sparkle:version>
-            <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Modos de trabajo.** Decide **una vez por proyecto** cómo trabajan tus agentes: **Como en mi CLI** (lo de siempre, viene marcado), **Equilibrado**, **Máxima calidad** o **Ahorro**. Cada modo elige el modelo y el esfuerzo del agente que abres, de sus **ayudantes** y de sus **subagentes**, en Claude, Codex, Gemini y Grok, y las **maquetas nunca bajan de modelo**. Siempre ves con qué trabaja cada panel en su cabecera (**Opus · alto**), solo con alias que pasan solos al modelo más reciente. Si le pides a un agente otro modelo, lo usa **solo para esa tarea** o te lo propone para el proyecto y **lo aceptas tú**.
-
-## A tener en cuenta
-
-- _Agentes_ · Los modos de **Gemini** y **Grok** aún no se han probado con sus CLIs: si algo no arranca, elige **Como en mi CLI** para ese proyecto.
-
-## Mejoras
-
-- _Agentes_ · Los agentes **reparten mejor el trabajo** y gastan menos: leen y revisan con sus **subagentes**, solo lanzan ayudantes para lo que vas a ver o es largo, y los arreglos los hace **quien lo construyó**. Las tareas de **Gemini** reciben por fin las instrucciones de Pulsar.
-
----
-
-## Highlights
-
-- **Work modes.** Decide **once per project** how your agents work: **Like my CLI** (as always, selected by default), **Balanced**, **Maximum quality** or **Saving**. Each mode picks the model and effort of the agent you open, its **helpers** and its **subagents**, in Claude, Codex, Gemini and Grok, and **mockups never get a weaker model**. You always see what each pane runs in its header (**Opus · high**), with aliases that move to the newest model on their own. If you ask an agent for another model, it uses it **just for that task** or suggests it for the project and **you accept it**.
-
-## Good to know
-
-- _Agents_ · **Gemini** and **Grok** modes haven't been tested with their CLIs yet: if something doesn't start, choose **Like my CLI** for that project.
-
-## Improvements
-
-- _Agents_ · Agents **split the work better** and spend less: they read and review with their **subagents**, only start helpers for what you'll see or long work, and fixes are done by **whoever built it**. **Gemini** tasks finally get Pulsar's instructions.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.17.0/Pulsar-0.17.0.dmg" length="118164237" type="application/octet-stream" sparkle:edSignature="yTOpjn2f2AaePlJlMDLub8cgITv6RPDMyvg+5yFTy0ibQ1r6GBKYTwUNzmZ+KnH4FFTXmPM007WGmSqDDlnEBA=="/>
         </item>
     </channel>
 </rss>
