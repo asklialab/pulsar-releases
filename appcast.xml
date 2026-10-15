@@ -3,6 +3,69 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.22.0</title>
+            <pubDate>Thu, 15 Oct 2026 13:48:15 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>44</sparkle:version>
+            <sparkle:shortVersionString>0.22.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Presenta tu tablero.** El **▶ de la cabecera** abre la ventana **«Pulsar · Presentación»**, un marco cada vez y sin nada más: compártela en Zoom, Meet o Teams y pasa con ← →, espacio o tu mando. A tu lado tienes las **notas del presentador** de cada marco, que nunca salen en la llamada, y tu **puntero** sobre la diapositiva grande se ve en la ventana compartida. Si preguntas a un agente mientras presentas, responde en tus notas. **«Exportar PDF…»** saca una página por marco.
+- **El tablero, en vivo con tu equipo.** **Comparte en vivo** un tablero y tu equipo lo ve y lo toca contigo: eliges **quién ve y quién edita**, ves sus caras y sus cursores, y puedes **deshacer lo de cada persona**. Con **«Seguir»** van detrás de tu vista, y si presentas, solo ven qué marco enseñas cuando tú lo dices; tus notas, nunca. Quien está en el iPhone o entra por enlace solo mira.
+
+## A tener en cuenta
+
+- _Tablero_ · Si tu Mac duerme, cierras el tablero o te quedas sin red, el tablero en vivo **se pausa**: quien mira se queda con la última imagen y nada se guarda en su Mac. Pulsar guarda una copia de seguridad al abrirlo y cada 10 minutos si alguien edita.
+- _Compartir en vivo_ · Un tablero en vivo cuenta en el **mismo cupo** que tus puertos y carpetas compartidos. Para verlo desde el iPhone hace falta su próxima versión.
+
+## Nuevo
+
+- _Tablero_ · Presentando, los agentes **no tocan** lo que se ve salvo que enciendas **«Dejar que los agentes editen»**; lo que te propongan pasa a la diapositiva con **«Llevar a la diapositiva»** o **«Ponerlo»**.
+- _Tablero_ · Si un agente pide presentar, una hoja enseña los marcos y sus páginas HTML; **«Ahora no»** lo deja en espera 5 minutos. Para exportar a PDF también te pide permiso.
+- _Tablero_ · Mientras presentas con el tablero en vivo, nadie más edita (ven **«La edición está en pausa»**) y quien te sigue solo ve el marco que presentas si enciendes **«Compartir mi presentación con quien me sigue»**.
+
+## Mejoras
+
+- _Compartir en vivo_ · **«Pausar»** y **«Detener»** un compartido en vivo, y los botones que solo puedes pulsar tú, responden bien dentro de listas y al aparecer bajo el puntero.
+- _Agentes_ · Cuando un agente te pregunta con imágenes, **pasa el ratón** por una miniatura y la ves entera y en grande encima de la barra; las miniaturas altas ya no la estiran.
+
+## Arreglos
+
+- _Compartir en vivo_ · Las **carpetas compartidas en vivo** salen en el chat como tarjeta, como los puertos; antes llegaban como el texto «Actualiza Pulsar».
+- _Seguridad_ · Touch ID, la hoja de reiniciar para actualizar y la confirmación al soltar en una terminal ya no aparecen en la ventana que compartes.
+
+---
+
+## Highlights
+
+- **Present your board.** The **▶ in the header** opens the **“Pulsar · Presentation”** window, one frame at a time and nothing else: share it in Zoom, Meet or Teams and move with ← →, space or your clicker. Beside you are the **presenter notes** for each frame, which never show up in the call, and your **pointer** over the large slide shows in the shared window. If you ask an agent while presenting, it answers in your notes. **“Export PDF…”** makes one page per frame.
+- **Your board, live with your team.** **Share a board live** and your team sees it and works on it with you: you choose **who views and who edits**, you see their faces and cursors, and you can **undo what each person did**. With **“Follow”** they stay with your view, and if you present, they only see which frame you're showing when you say so; your notes, never. Whoever is on an iPhone or comes in by link only watches.
+
+## Good to know
+
+- _Board_ · If your Mac sleeps, you close the board or lose your connection, the live board **pauses**: whoever's watching keeps the last image and nothing is saved on their Mac. Pulsar keeps a backup when it opens and every 10 minutes if someone edits.
+- _Share live_ · A live board counts toward the **same limit** as your shared ports and folders. Viewing it from the iPhone needs its next version.
+
+## New
+
+- _Board_ · While you present, agents **don't touch** what's on screen unless you turn on **“Let agents edit”**; what they suggest goes onto the slide with **“Put on the slide”** or **“Put it”**.
+- _Board_ · If an agent asks to present, a sheet shows the frames and their HTML pages; **“Not now”** holds it off for 5 minutes. Exporting to PDF also asks for your permission.
+- _Board_ · While you present with the board live, nobody else edits (they see **“Editing is paused”**) and whoever follows you only sees the frame you're presenting if you turn on **“Share my presentation with followers”**.
+
+## Improvements
+
+- _Share live_ · **“Pause”** and **“Stop”** on a live share, and the buttons only you can press, now respond properly inside lists and when they appear under the pointer.
+- _Agents_ · When an agent asks you with images, **hover** a thumbnail to see it whole and large above the bar; tall thumbnails no longer stretch it.
+
+## Fixes
+
+- _Share live_ · **Folders shared live** now show up in the chat as a card, like ports; before, they arrived as the text “Update Pulsar”.
+- _Security_ · Touch ID, the restart-to-update sheet and the confirmation when dropping onto a terminal no longer appear in the window you're sharing.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.22.0/Pulsar-0.22.0.dmg" length="132197100" type="application/octet-stream" sparkle:edSignature="dxzR9mIew/gUUPpTQQQP1U7su7Aa3+1dOBN4iS8jMId7JQ36SYn4BBBAj9QErWGDwX7B/4BLU/266UyzHzeoCQ=="/>
+        </item>
+        <item>
             <title>0.21.0</title>
             <pubDate>Thu, 15 Oct 2026 06:38:58 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -119,49 +182,6 @@
 - _Board_ · Codex shows as “working” and its thread fills in from its first turn, and each panel remembers its board when you reopen Pulsar.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.20.0/Pulsar-0.20.0.dmg" length="127011607" type="application/octet-stream" sparkle:edSignature="ZNLzMiq/GfvL9y1+jGkmh7S+06RUZSP9inDlAVuo26cTm5TRp5CiSVdOOBOgMw5tMdC6wScVOFIfpSMU4/rVCg=="/>
-        </item>
-        <item>
-            <title>0.19.0</title>
-            <pubDate>Wed, 14 Oct 2026 12:42:36 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>41</sparkle:version>
-            <sparkle:shortVersionString>0.19.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Envía tu tablero y junta lo que vuelve.** Con **«Enviar copia…»** en la cabecera del tablero, alguien de tu equipo recibe una copia: la abre en el visor en solo lectura y puede **aceptarla como tablero nuevo** o dibujar sobre ella y devolvértela. Cuando vuelve, **«Juntar con mi tablero»** pinta sus cambios encima del tuyo, marcados uno a uno, sin tocar nada hasta que pulsas «Juntar»; lo suyo lleva su color unos segundos y desde el menú del tablero puedes **«Ver lo de Ana»** o **«Deshacer lo de Ana»**. La copia viaja limpia: sin los nombres de tus imágenes ni sus metadatos.
-
-## A tener en cuenta
-
-- _Tablero_ · Un tablero de la 0.18.0 que abrió primero un agente queda en **solo lectura** hasta que **haces clic en él**: así un agente nunca decide por ti dónde vive tu tablero.
-
-## Nuevo
-
-- _Tablero_ · **Exportar PNG** del tablero entero, de lo seleccionado o de un marco, desde la cabecera del tablero.
-
-## Mejoras
-
-- _Tablero_ · Una copia que ya juntaste no vuelve a ofrecer «Juntar», y una que vuelve tarde se compara con lo que enviaste antes: nunca propone borrar lo que la otra persona no llegó a ver.
-
----
-
-## Highlights
-
-- **Send your board and merge what comes back.** With **“Send a Copy…”** in the board's header, a teammate receives a copy: they open it read-only in the viewer and can **accept it as a new board** or draw on it and send it back. When it returns, **“Merge with my board”** paints their changes over yours, marked one by one, without touching anything until you press “Merge”; theirs carry their color for a few seconds, and from the board menu you can **“Show Ana's changes”** or **“Undo what Ana did”**. The copy travels clean: without your image names or their metadata.
-
-## Good to know
-
-- _Board_ · A 0.18.0 board that an agent opened first stays **read-only** until **you click on it**: that way an agent never decides for you where your board lives.
-
-## New
-
-- _Board_ · **Export PNG** of the whole board, the selection or a frame, from the board's header.
-
-## Improvements
-
-- _Board_ · A copy you already merged doesn't offer “Merge” again, and one that comes back late is compared with what you sent before: it never proposes deleting what the other person never saw.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.19.0/Pulsar-0.19.0.dmg" length="124534310" type="application/octet-stream" sparkle:edSignature="NS2EA09nK7gLmzqJliSvn2FJM05KmeRMt47OYFFyZ46oak+nxGuwMjWVnIbI5Kn82ufE2Lw0DxK/MkBVYtFBAQ=="/>
         </item>
     </channel>
 </rss>
