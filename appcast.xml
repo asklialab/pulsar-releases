@@ -3,6 +3,61 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.23.0</title>
+            <pubDate>Fri, 16 Oct 2026 01:20:33 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>0.23.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **«Limpiar» lo libera todo.** Pulsa la **memoria del pie de la barra lateral** para ver qué está gastando: lo que tienes a la vista y lo que sigue en segundo plano. **«Limpiar»** hiberna las terminales paradas y **duerme lo que no estás mirando** (navegadores, visores, tableros y miniaturas) sin cerrar nada: cada cosa vuelve tal cual en cuanto la miras.
+- **Se limpia solo.** **«Limpiar automáticamente»** (Ajustes › Rendimiento, encendido a los 10 min) duerme lo que no estás mirando y las tareas de otros agentes, para que no tengas que hacerlo tú. Tus propios agentes solo se hibernan si lo activas. **«Mantener listo»** en el menú de un panel lo deja siempre despierto.
+
+## A tener en cuenta
+
+- _Rendimiento_ · Las páginas que **no estás mirando se duermen solas** a los 10 min. Las que reciben avisos (con una conexión abierta o permiso de notificaciones), un formulario a medias, lo que suena o lo que usa un agente se quedan despiertas; para cualquier otra, **«Mantener listo»**.
+
+## Mejoras
+
+- _Visor_ · El visor **solo carga un archivo pesado cuando lo abres**: la repisa, la cabecera y la galería usan una miniatura, y un visor oculto se duerme y despierta solo, en la misma página, zoom y posición. Ya **no hay tope de 100 archivos** por visor.
+- _Visor_ · Las **fotos grandes** se decodifican al tamaño en que se ven (una de 24 MP pasa de ~92 a ~33 MB) y ganan detalle al acercarte.
+- _Visor_ · Un **vídeo se pausa** cuando dejas de verlo y sigue al volver. Si quieres oírlo con la ventana oculta, **«Seguir sonando con la ventana oculta»** en su menú.
+- _Tablero_ · Un **tablero que no ves** apaga sus tarjetas vivas y suelta su motor; al volver recupera la cámara y la selección. Las imágenes se cargan a la resolución que necesitas.
+- _Rendimiento_ · Con la **ventana oculta**, Pulsar deja quietas sus animaciones y lee menos las terminales que no ves, sin perder avisos ni preguntas de tus agentes; la barra superior y la lateral se redibujan mucho menos.
+- _Rendimiento_ · Las compilaciones de varios agentes en **la misma carpeta** van en fila en vez de pisarse. Nueva opción **«Priorizar fluidez mientras compilo»** en Ajustes › Rendimiento (apagada de serie): con la Mac justa, compila de una en una.
+
+## Arreglos
+
+- _Agentes_ · Las tareas que lanza un **ayudante de calidad** (maquetas, diseño, pruebas) ya usan el modelo y esfuerzo de calidad que elegiste, en vez de bajar a los de trabajo.
+
+---
+
+## Highlights
+
+- **“Clean up” frees everything.** Click the **memory at the bottom of the sidebar** to see what is using resources: what you have in view and what keeps running in the background. **“Clean up”** hibernates idle terminals and **puts to sleep what you’re not looking at** (browsers, viewers, boards and thumbnails) without closing anything: each one comes back as it was as soon as you look at it.
+- **It cleans up on its own.** **“Clean up automatically”** (Settings › Performance, on after 10 min) puts to sleep what you’re not looking at and other agents’ tasks, so you don’t have to. Your own agents are only hibernated if you turn it on. **“Keep ready”** in a pane’s menu keeps it always awake.
+
+## Good to know
+
+- _Performance_ · Pages **you’re not looking at go to sleep on their own** after 10 min. Pages that receive alerts (with an open connection or notification permission), a half-filled form, anything playing or in use by an agent stay awake; for anything else, **“Keep ready”**.
+
+## Improvements
+
+- _Viewer_ · The viewer **only loads a heavy file when you open it**: the shelf, the header and the gallery use a thumbnail, and a hidden viewer goes to sleep and wakes up on its own, on the same page, zoom and position. There’s **no longer a 100-file limit** per viewer.
+- _Viewer_ · **Large photos** are decoded at the size they’re shown (a 24 MP one goes from ~92 to ~33 MB) and gain detail as you zoom in.
+- _Viewer_ · A **video pauses** when you stop seeing it and resumes when you come back. To keep hearing it with the window hidden, choose **“Keep playing when the window is hidden”** in its menu.
+- _Board_ · A **board you can’t see** turns off its live cards and releases its engine; when you come back it restores the camera and selection. Images load at the resolution you need.
+- _Performance_ · With the **window hidden**, Pulsar keeps its animations still and reads the terminals you can’t see less often, without missing your agents’ alerts or questions; the top bar and sidebar redraw much less.
+- _Performance_ · Builds from several agents in **the same folder** now run one after another instead of colliding. New option **“Prioritize smoothness while building”** in Settings › Performance (off by default): when your Mac is tight, it builds one at a time.
+
+## Fixes
+
+- _Agents_ · Tasks launched by a **quality helper** (mockups, design, tests) now use the quality model and effort you chose, instead of dropping to the work ones.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.23.0/Pulsar-0.23.0.dmg" length="136095020" type="application/octet-stream" sparkle:edSignature="pcXJV6lCPwuzDsfuB7D4lyy7+/X2ROmUCL789Bye5MaAPiOWPBKAmaec0opDrcFmAOF9TZTUnkwM97ktplOKAg=="/>
+        </item>
+        <item>
             <title>0.22.1</title>
             <pubDate>Thu, 15 Oct 2026 16:52:08 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -83,57 +138,6 @@
 - _Security_ · Touch ID, the restart-to-update sheet and the confirmation when dropping onto a terminal no longer appear in the window you're sharing.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.22.0/Pulsar-0.22.0.dmg" length="132197100" type="application/octet-stream" sparkle:edSignature="dxzR9mIew/gUUPpTQQQP1U7su7Aa3+1dOBN4iS8jMId7JQ36SYn4BBBAj9QErWGDwX7B/4BLU/266UyzHzeoCQ=="/>
-        </item>
-        <item>
-            <title>0.21.0</title>
-            <pubDate>Thu, 15 Oct 2026 06:38:58 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>43</sparkle:version>
-            <sparkle:shortVersionString>0.21.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Varios tableros en cada espacio.** El **⌄ del título** del tablero abre la lista de los tableros del espacio, con su miniatura, quién lo creó y hace cuánto, y desde ahí cambias de uno a otro o creas uno nuevo. Uno es el **principal** (el del espacio, o el que elijas con **«Hacer principal»**) y en los demás **«Enviar todo a…»** le pasa una copia, o solo lo que tengas seleccionado. Si un agente crea un tablero, aparece en la lista como **nuevo** con un aviso, sin cambiarte el lienzo.
-- **La conversación con tus agentes, en el tablero.** La zona de agentes del tablero ahora enseña las **preguntas** del agente y **tus respuestas**, las des desde el tablero, desde la barra bajo la terminal o en un permiso, y lo que envías sale **al momento**. Lo que escriben los agentes se ve **con formato**: encabezados, listas, tablas y código.
-
-## Nuevo
-
-- _Tablero_ · **Suelta** imágenes, PDF y páginas desde **Finder** sobre el tablero, y también sobre un documento abierto en el visor.
-- _Tablero_ · «Añadir al tablero», «Captura a…» y la bandeja van al tablero **que miras o al último que miraste**; el menú lo nombra y el aviso trae **Ver · Cambiar · Deshacer**.
-- _Navegador_ · El botón de captura del navegador es **partido**: su ⌄ abre las demás opciones, como mandar la captura a un tablero.
-
-## Mejoras
-
-- _Tablero_ · Las imágenes que llegan de la bandeja, el visor o una captura entran **a buen tamaño** y en un hueco libre, sin pisar lo que hay.
-- _Tablero_ · Si una tarjeta viva se cuelga, Pulsar lo nota en **unos 6 segundos** y el tablero vuelve con la misma vista y la misma selección.
-
-## Arreglos
-
-- _Tablero_ · `pulsar board`: `card` respeta `--w` y `--h`, `info` cuenta lo que hay vivo y responde aunque mires otro tablero, y `list` ya no enseña tableros borrados.
-
----
-
-## Highlights
-
-- **Several boards in each space.** The **⌄ in the board's title** opens the list of the space's boards, with their thumbnail, who made them and how long ago, and from there you switch between them or create a new one. One is the **main** board (the space's own, or the one you pick with **“Make main”**) and on the others **“Send all to…”** gives it a copy, or only what you have selected. If an agent creates a board, it shows up in the list as **new** with a notification, without changing your canvas.
-- **The conversation with your agents, on the board.** The board's agent area now shows the agent's **questions** and **your answers**, whether you give them from the board, from the bar under the terminal or in a permission, and what you send shows up **right away**. What agents write is shown **formatted**: headings, lists, tables and code.
-
-## New
-
-- _Board_ · **Drop** images, PDFs and pages from **Finder** onto the board, and also onto a document open in the viewer.
-- _Board_ · “Add to Board”, “Capture to…” and the tray go to the board **you're looking at or the last one you looked at**; the menu names it and the notification offers **View · Change · Undo**.
-- _Browser_ · The browser's screenshot button is now **split**: its ⌄ opens the other options, like sending the screenshot to a board.
-
-## Improvements
-
-- _Board_ · Images coming from the tray, the viewer or a screenshot go in **at a useful size** and in a free spot, without covering what's there.
-- _Board_ · If a live card hangs, Pulsar notices in **about 6 seconds** and the board comes back with the same view and the same selection.
-
-## Fixes
-
-- _Board_ · `pulsar board`: `card` honors `--w` and `--h`, `info` counts what's live and answers even while you look at another board, and `list` no longer shows deleted boards.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.21.0/Pulsar-0.21.0.dmg" length="128352784" type="application/octet-stream" sparkle:edSignature="2YVJ0zRavsV/Qo3DURGcraTO1Rok55LTPEfrS9Ay4EBOYOtkre3/XC4O7702/AE1qCxHjew2uVRosC562+AJDw=="/>
         </item>
     </channel>
 </rss>
