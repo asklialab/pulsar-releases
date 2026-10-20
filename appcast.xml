@@ -3,6 +3,63 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.25.0</title>
+            <pubDate>Tue, 20 Oct 2026 03:08:26 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>49</sparkle:version>
+            <sparkle:shortVersionString>0.25.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Preguntas y estados de Codex más fiables.** Pulsar distingue mejor **cuándo Codex termina, trabaja o necesita una respuesta**. Las preguntas con varias partes mantienen cada respuesta en su lugar, y los agentes que coordinan tareas pueden responder preguntas de sus ayudantes sin concederles permisos de ejecución.
+- **Imágenes y documentos con menos carga.** El visor comparte la vigilancia de archivos y limita las lecturas y decodificaciones simultáneas. **Cambiar de documento o cerrar un panel cancela su trabajo pendiente** sin interrumpir otros visores que usan el mismo archivo.
+
+## Nuevo
+
+- _Agentes_ · La firma de los agentes permite consultar **modelos y consumo observados por tarea**, junto con la elección registrada al lanzarla.
+
+## Mejoras
+
+- _Agentes_ · Las tareas pueden declarar su dificultad y riesgo para elegir modelo y esfuerzo según el modo de trabajo del proyecto. Los recibos distinguen las comprobaciones declaradas de la evidencia disponible.
+- _Rendimiento_ · La coordinación de compilaciones tiene en cuenta la carga sostenida de CPU de los agentes. Las instrucciones del proyecto se cargan por área para evitar contexto innecesario.
+
+## Arreglos
+
+- _Agentes_ · Los hilos internos de Codex y las notificaciones duplicadas ya no se confunden con la finalización de la tarea visible. Una notificación genérica tampoco se interpreta por sí sola como una petición de permiso.
+- _Agentes_ · Las respuestas vuelven a comprobar la pregunta, la sesión y el candado antes de escribir. Se evita mezclar mensajes simultáneos y se avisa si quedó un borrador sin enviar.
+- _Agentes_ · Si Codex tarda en registrar una respuesta, Pulsar muestra que está esperando confirmación y evita enviarla dos veces. Las partes todavía pendientes conservan su propia pregunta.
+- _Agentes_ · Las esperas y la vigilancia de tareas se cancelan cuando se desconecta quien las pidió. Los cambios de pregunta se anuncian aunque el agente conserve el mismo estado.
+- _Agentes_ · Las tareas hibernadas dejan de ocupar cupo activo. Al despertar se comprueba de nuevo la capacidad y se conserva la identidad de la tarea.
+- _Apariencia_ · Se corrigen el tamaño óptico de la tipografía, las sombras en capturas de vistas y la reutilización de vistas nativas al cambiar de sesión.
+
+---
+
+## Highlights
+
+- **More reliable Codex questions and status.** Pulsar more reliably identifies **when Codex finishes, works or needs an answer**. Multi-part questions keep each answer in the right place, and coordinating agents can answer their helpers' questions without granting execution permissions.
+- **Lighter images and documents.** The viewer shares file monitoring and limits simultaneous reads and image decoding. **Switching documents or closing a pane cancels its pending work** without interrupting other viewers using the same file.
+
+## New
+
+- _Agents_ · Agent signatures let you inspect **observed models and usage per task**, alongside the choice recorded at launch.
+
+## Improvements
+
+- _Agents_ · Tasks can declare difficulty and risk to select a model and effort according to the project's work mode. Receipts distinguish reported checks from available evidence.
+- _Performance_ · Build coordination accounts for sustained agent CPU load. Project instructions are loaded by area to avoid unnecessary context.
+
+## Fixes
+
+- _Agents_ · Internal Codex threads and duplicate notifications are no longer confused with completion of the visible task. A generic notification is no longer treated as a permission request on its own.
+- _Agents_ · Answers recheck the question, session and lock before writing. Simultaneous messages no longer interleave, and Pulsar warns when an unsent draft remains.
+- _Agents_ · When Codex takes time to record an answer, Pulsar shows that confirmation is pending and prevents duplicate delivery. Unanswered parts retain their own question.
+- _Agents_ · Task waits and watches are cancelled when their caller disconnects. Question changes are announced even when the agent keeps the same status.
+- _Agents_ · Hibernated tasks no longer occupy active capacity. Waking a task rechecks capacity and preserves its identity.
+- _Appearance_ · Fixes optical font sizing, shadows in view snapshots and native view reuse when switching sessions.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.25.0/Pulsar-0.25.0.dmg" length="140669801" type="application/octet-stream" sparkle:edSignature="M37b3EgEdU8GP3/r43t3NdNL0ebvurzlBWbNtb+E1gUBDgwunzqjLEG4EhbhYmxB3QvSBsDVYd2AkYK22dkvDQ=="/>
+        </item>
+        <item>
             <title>0.24.0</title>
             <pubDate>Fri, 16 Oct 2026 04:00:59 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -59,61 +116,6 @@
 - _Settings_ · Pulsar **no longer quits when you open Settings › Share live** while an app that reads the screen is running (like ChatGPT's computer history).
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.23.1/Pulsar-0.23.1.dmg" length="136123283" type="application/octet-stream" sparkle:edSignature="4zumcNRHUdVTjNAENDhJINBIxb9ty5wcX4r65XyxRE6hTFCmWrG5Qm2RyGZayLKtgfJSmBgT014ebKHBt7oTDA=="/>
-        </item>
-        <item>
-            <title>0.23.0</title>
-            <pubDate>Fri, 16 Oct 2026 01:20:33 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>46</sparkle:version>
-            <sparkle:shortVersionString>0.23.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **«Limpiar» lo libera todo.** Pulsa la **memoria del pie de la barra lateral** para ver qué está gastando: lo que tienes a la vista y lo que sigue en segundo plano. **«Limpiar»** hiberna las terminales paradas y **duerme lo que no estás mirando** (navegadores, visores, tableros y miniaturas) sin cerrar nada: cada cosa vuelve tal cual en cuanto la miras.
-- **Se limpia solo.** **«Limpiar automáticamente»** (Ajustes › Rendimiento, encendido a los 10 min) duerme lo que no estás mirando y las tareas de otros agentes, para que no tengas que hacerlo tú. Tus propios agentes solo se hibernan si lo activas. **«Mantener listo»** en el menú de un panel lo deja siempre despierto.
-
-## A tener en cuenta
-
-- _Rendimiento_ · Las páginas que **no estás mirando se duermen solas** a los 10 min. Las que reciben avisos (con una conexión abierta o permiso de notificaciones), un formulario a medias, lo que suena o lo que usa un agente se quedan despiertas; para cualquier otra, **«Mantener listo»**.
-
-## Mejoras
-
-- _Visor_ · El visor **solo carga un archivo pesado cuando lo abres**: la repisa, la cabecera y la galería usan una miniatura, y un visor oculto se duerme y despierta solo, en la misma página, zoom y posición. Ya **no hay tope de 100 archivos** por visor.
-- _Visor_ · Las **fotos grandes** se decodifican al tamaño en que se ven (una de 24 MP pasa de ~92 a ~33 MB) y ganan detalle al acercarte.
-- _Visor_ · Un **vídeo se pausa** cuando dejas de verlo y sigue al volver. Si quieres oírlo con la ventana oculta, **«Seguir sonando con la ventana oculta»** en su menú.
-- _Tablero_ · Un **tablero que no ves** apaga sus tarjetas vivas y suelta su motor; al volver recupera la cámara y la selección. Las imágenes se cargan a la resolución que necesitas.
-- _Rendimiento_ · Con la **ventana oculta**, Pulsar deja quietas sus animaciones y lee menos las terminales que no ves, sin perder avisos ni preguntas de tus agentes; la barra superior y la lateral se redibujan mucho menos.
-- _Rendimiento_ · Las compilaciones de varios agentes en **la misma carpeta** van en fila en vez de pisarse. Nueva opción **«Priorizar fluidez mientras compilo»** en Ajustes › Rendimiento (apagada de serie): con la Mac justa, compila de una en una.
-
-## Arreglos
-
-- _Agentes_ · Las tareas que lanza un **ayudante de calidad** (maquetas, diseño, pruebas) ya usan el modelo y esfuerzo de calidad que elegiste, en vez de bajar a los de trabajo.
-
----
-
-## Highlights
-
-- **“Clean up” frees everything.** Click the **memory at the bottom of the sidebar** to see what is using resources: what you have in view and what keeps running in the background. **“Clean up”** hibernates idle terminals and **puts to sleep what you’re not looking at** (browsers, viewers, boards and thumbnails) without closing anything: each one comes back as it was as soon as you look at it.
-- **It cleans up on its own.** **“Clean up automatically”** (Settings › Performance, on after 10 min) puts to sleep what you’re not looking at and other agents’ tasks, so you don’t have to. Your own agents are only hibernated if you turn it on. **“Keep ready”** in a pane’s menu keeps it always awake.
-
-## Good to know
-
-- _Performance_ · Pages **you’re not looking at go to sleep on their own** after 10 min. Pages that receive alerts (with an open connection or notification permission), a half-filled form, anything playing or in use by an agent stay awake; for anything else, **“Keep ready”**.
-
-## Improvements
-
-- _Viewer_ · The viewer **only loads a heavy file when you open it**: the shelf, the header and the gallery use a thumbnail, and a hidden viewer goes to sleep and wakes up on its own, on the same page, zoom and position. There’s **no longer a 100-file limit** per viewer.
-- _Viewer_ · **Large photos** are decoded at the size they’re shown (a 24 MP one goes from ~92 to ~33 MB) and gain detail as you zoom in.
-- _Viewer_ · A **video pauses** when you stop seeing it and resumes when you come back. To keep hearing it with the window hidden, choose **“Keep playing when the window is hidden”** in its menu.
-- _Board_ · A **board you can’t see** turns off its live cards and releases its engine; when you come back it restores the camera and selection. Images load at the resolution you need.
-- _Performance_ · With the **window hidden**, Pulsar keeps its animations still and reads the terminals you can’t see less often, without missing your agents’ alerts or questions; the top bar and sidebar redraw much less.
-- _Performance_ · Builds from several agents in **the same folder** now run one after another instead of colliding. New option **“Prioritize smoothness while building”** in Settings › Performance (off by default): when your Mac is tight, it builds one at a time.
-
-## Fixes
-
-- _Agents_ · Tasks launched by a **quality helper** (mockups, design, tests) now use the quality model and effort you chose, instead of dropping to the work ones.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.23.0/Pulsar-0.23.0.dmg" length="136095020" type="application/octet-stream" sparkle:edSignature="pcXJV6lCPwuzDsfuB7D4lyy7+/X2ROmUCL789Bye5MaAPiOWPBKAmaec0opDrcFmAOF9TZTUnkwM97ktplOKAg=="/>
         </item>
     </channel>
 </rss>
