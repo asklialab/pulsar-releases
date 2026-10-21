@@ -3,6 +3,35 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.26.0</title>
+            <pubDate>Wed, 21 Oct 2026 16:22:19 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>0.26.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Presentaciones nítidas en la videollamada.** La ventana que compartes en Zoom, Meet o Teams **siempre tiene 1920×1080 píxeles reales** y vive detrás de Pulsar: ya no tienes que ampliarla ni te tapa la pantalla. Presentas desde la vista del presentador y, para elegirla en la llamada, usa «Mostrar ventana de la llamada».
+
+## Mejoras
+
+- _Tablero_ · **Pasar de diapositiva es más rápido**: la anterior y la siguiente quedan preparadas, sus imágenes se cargan antes y la vista del presentador enseña al instante las que ya viste.
+- _Tablero_ · En el Tablero, **el cursor de un agente solo se ve mientras trabaja**: su nombre se apaga enseguida y ya no se queda una etiqueta encima de lo que hizo. «Ir a lo que hizo» lo señala un momento.
+
+---
+
+## Highlights
+
+- **Sharp presentations in video calls.** The window you share in Zoom, Meet or Teams **is always a true 1920×1080** and stays behind Pulsar: no need to enlarge it, and it no longer covers your screen. Present from the presenter view and use "Show call window" to pick it in the call.
+
+## Improvements
+
+- _Board_ · **Changing slides is faster**: the previous and next slides stay ready, their images load ahead of time, and the presenter view shows slides you've already seen instantly.
+- _Board_ · On the Board, **an agent's cursor only shows while it's working**: its name fades right away and no label stays on top of what it did. "Go to what it did" points it out for a moment.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.26.0/Pulsar-0.26.0.dmg" length="144265536" type="application/octet-stream" sparkle:edSignature="4tSUE9kj3EZuJLCSpQDnRD7lD/6OMnmu6fycBjDhVsX9IbrcdZr4Rbeke2zVsIjlF6INFy7A403R1oXTSoXcDA=="/>
+        </item>
+        <item>
             <title>0.25.0</title>
             <pubDate>Tue, 20 Oct 2026 03:08:26 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -97,25 +126,6 @@
 - _Performance_ · The CPU column in the resources popover no longer wraps onto two lines with interface zoom.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.24.0/Pulsar-0.24.0.dmg" length="139179894" type="application/octet-stream" sparkle:edSignature="OMR3/lUWL+Uvr4EJZziwGA057BzcAN8iJQCUqnJHaquGiez9rW17TO22iGPBGRuQCwBv3so2hZOJ1xuwvaCyBg=="/>
-        </item>
-        <item>
-            <title>0.23.1</title>
-            <pubDate>Fri, 16 Oct 2026 02:50:40 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>0.23.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Arreglos
-
-- _Ajustes_ · Pulsar ya **no se cierra al entrar en Ajustes › Compartir en vivo** con una app que lee la pantalla abierta (como el historial del ordenador de ChatGPT).
-
----
-
-## Fixes
-
-- _Settings_ · Pulsar **no longer quits when you open Settings › Share live** while an app that reads the screen is running (like ChatGPT's computer history).
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.23.1/Pulsar-0.23.1.dmg" length="136123283" type="application/octet-stream" sparkle:edSignature="4zumcNRHUdVTjNAENDhJINBIxb9ty5wcX4r65XyxRE6hTFCmWrG5Qm2RyGZayLKtgfJSmBgT014ebKHBt7oTDA=="/>
         </item>
     </channel>
 </rss>
