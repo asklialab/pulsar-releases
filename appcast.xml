@@ -3,6 +3,25 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.28.1</title>
+            <pubDate>Fri, 23 Oct 2026 14:58:48 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>0.28.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Arreglos
+
+- _Resumen_ · **Ajustes › Resumen › Correo** ya enseña tus **cuentas de Mail**: antes decía «No se pudieron leer las cuentas de Mail» aunque el permiso estuviera concedido. También se leen bien los adjuntos de los correos de Mail.
+
+---
+
+## Fixes
+
+- _Brief_ · **Settings › Brief › Email** now shows your **Mail accounts**: it used to say "Couldn't read Mail's accounts" even with permission granted. Attachments of Mail emails are read correctly too.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.28.1/Pulsar-0.28.1.dmg" length="163738904" type="application/octet-stream" sparkle:edSignature="l5XsHglcZv7I8wKSkfrgf79YR+l1o4dFxRwl1z0NdJTsBUGnLjQcZfoMmehfLfRgoN+uOthOzdHgg8ew19gDBg=="/>
+        </item>
+        <item>
             <title>0.28.0</title>
             <pubDate>Fri, 23 Oct 2026 04:38:03 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -115,35 +134,6 @@
 - _Security_ · Buttons that **only you can press** (confirm, send, admit…) reject fewer normal clicks right after you bring the window to the front, and still reject those made by an agent.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.27.0/Pulsar-0.27.0.dmg" length="158488954" type="application/octet-stream" sparkle:edSignature="tyhHL42ng7IkO3yIm3z9UaXugFMIjGwbLeBXpO0FApDAZ4SRa3NqIA/mjgAZalk1694lmSoV6BOR/6DTMY5FBQ=="/>
-        </item>
-        <item>
-            <title>0.26.0</title>
-            <pubDate>Wed, 21 Oct 2026 16:22:19 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>50</sparkle:version>
-            <sparkle:shortVersionString>0.26.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Presentaciones nítidas en la videollamada.** La ventana que compartes en Zoom, Meet o Teams **siempre tiene 1920×1080 píxeles reales** y vive detrás de Pulsar: ya no tienes que ampliarla ni te tapa la pantalla. Presentas desde la vista del presentador y, para elegirla en la llamada, usa «Mostrar ventana de la llamada».
-
-## Mejoras
-
-- _Tablero_ · **Pasar de diapositiva es más rápido**: la anterior y la siguiente quedan preparadas, sus imágenes se cargan antes y la vista del presentador enseña al instante las que ya viste.
-- _Tablero_ · En el Tablero, **el cursor de un agente solo se ve mientras trabaja**: su nombre se apaga enseguida y ya no se queda una etiqueta encima de lo que hizo. «Ir a lo que hizo» lo señala un momento.
-
----
-
-## Highlights
-
-- **Sharp presentations in video calls.** The window you share in Zoom, Meet or Teams **is always a true 1920×1080** and stays behind Pulsar: no need to enlarge it, and it no longer covers your screen. Present from the presenter view and use "Show call window" to pick it in the call.
-
-## Improvements
-
-- _Board_ · **Changing slides is faster**: the previous and next slides stay ready, their images load ahead of time, and the presenter view shows slides you've already seen instantly.
-- _Board_ · On the Board, **an agent's cursor only shows while it's working**: its name fades right away and no label stays on top of what it did. "Go to what it did" points it out for a moment.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.26.0/Pulsar-0.26.0.dmg" length="144265536" type="application/octet-stream" sparkle:edSignature="4tSUE9kj3EZuJLCSpQDnRD7lD/6OMnmu6fycBjDhVsX9IbrcdZr4Rbeke2zVsIjlF6INFy7A403R1oXTSoXcDA=="/>
         </item>
     </channel>
 </rss>
