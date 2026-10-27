@@ -3,6 +3,41 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.29.0</title>
+            <pubDate>Tue, 27 Oct 2026 13:41:24 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>54</sparkle:version>
+            <sparkle:shortVersionString>0.29.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Una barra superior más ligera.** Tu espacio, su rama y el modo de trabajo van juntos en **una placa** a la izquierda; el modo se ve como un **nivel de barras**. En el centro, **una isla** te dice cuántos agentes **te esperan** (en ámbar, con **⌥⌘↵** para ir a la siguiente pregunta) y cuántos trabajan. Pasa el ratón por la isla para ver el desglose por estado y por espacio; haz clic en un estado para ir al siguiente agente en él.
+
+## Mejoras
+
+- _Paneles_ · **Automático** ya solo enseña su interruptor (la palabra aparece al pasar el ratón) y **Ordenar** solo sale en **Fijo**, como icono. ⌘⇧G y el menú siguen igual.
+
+## Arreglos
+
+- _Visor_ · El **visor** ya no deja las imágenes a un cuarto de su tamaño: la tira de miniaturas ocupaba medio panel. Pasaba en el panel, en el escenario y en la vista previa de lo recibido.
+
+---
+
+## Highlights
+
+- **A lighter top bar.** Your space, its branch and the work mode sit together in **one plate** on the left; the mode shows as a **level of bars**. In the middle, **an island** tells you how many agents are **waiting for you** (in amber, with **⌥⌘↵** to jump to the next question) and how many are working. Hover the island to see the breakdown by state and by space; click a state to go to its next agent.
+
+## Improvements
+
+- _Panes_ · **Automatic** now shows just its switch (the word appears on hover) and **Arrange** only appears in **Fixed**, as an icon. ⌘⇧G and the menu work as before.
+
+## Fixes
+
+- _Viewer_ · The **viewer** no longer shrinks images to a quarter of their size: the thumbnail strip took up half the panel. It happened in the panel, on the stage and in the preview of received items.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.29.0/Pulsar-0.29.0.dmg" length="164545016" type="application/octet-stream" sparkle:edSignature="cT4GPVdxMa/TT9+jtArlE02AU0Grs1ihLDmG5a1A+cCdcjp9j+hH5PB+WH20U+rPEiAeEwcs30mfvC0+RTh4Aw=="/>
+        </item>
+        <item>
             <title>0.28.1</title>
             <pubDate>Fri, 23 Oct 2026 14:58:48 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -85,55 +120,6 @@
 - _Share live_ · When sharing live, a rejection from Pulsar Cloud is no longer shown as "didn't respond": each case says what happened.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.28.0/Pulsar-0.28.0.dmg" length="163741971" type="application/octet-stream" sparkle:edSignature="cgNoanzw3mq4OR1D7QQmXu4bj/qAdKTAe62QDElCH1T6MeQvItMIitE8Zov4pnTaBJWwFDgB9zhG2CaSrQc9Aw=="/>
-        </item>
-        <item>
-            <title>0.27.0</title>
-            <pubDate>Thu, 22 Oct 2026 02:41:16 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>51</sparkle:version>
-            <sparkle:shortVersionString>0.27.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Resumen (experimental).** Una vista que junta **lo que no debes perder**: tus reuniones y recordatorios, los agentes que te esperan y sus preguntas, PRs y repos con cambios y el chat de tu equipo, ordenado por lo que más importa ahora. Está **apagado**: enciéndelo en **Ajustes › Resumen** y ábrelo con **⌘0**. Desde ahí abres lo que toca, marcas como hecho o le pasas algo a un agente. Apagado no hace nada en segundo plano. El correo llegará en una versión siguiente.
-
-## A tener en cuenta
-
-- _Resumen_ · Con el Resumen encendido, **⌘0 abre la vista general** y «Tamaño real del texto» pasa a **⌥⌘0**. Apagado, ⌘0 sigue como siempre.
-
-## Nuevo
-
-- _Resumen_ · Con el Resumen encendido, **la Isla** de la barra superior te dice la próxima reunión y cuántas cosas te piden, y **⌥⌘R** baja la **Persiana** con lo más importante sin mover ni cambiar de tamaño tus terminales.
-- _Resumen_ · **Tus apps** (opcional, apagado): si usas Claude Code con los conectores de Vercel o Supabase, el Resumen te avisa de despliegues fallidos y errores leyendo con tu propia cuenta, solo lectura. Gasta un poco de tu plan en cada pasada.
-- _Resumen_ · El Resumen se adapta a **la pantalla de un portátil**: el centro se estrecha y lo demás va en fichas más estrechas o en una columna, en vez de esconderse.
-
-## Mejoras
-
-- _Paneles_ · Un atajo con **⌘ que no hace nada ya no escribe texto** en la terminal.
-- _Seguridad_ · Los botones que **solo puedes pulsar tú** (confirmar, enviar, admitir…) rechazan menos clics normales justo después de traer la ventana al frente, y siguen rechazando los que hace un agente.
-
----
-
-## Highlights
-
-- **Brief (experimental).** One view that gathers **what you shouldn't miss**: your meetings and reminders, the agents waiting for you and their questions, PRs and repos with changes, and your team chat, ordered by what matters most right now. It's **off**: turn it on in **Settings › Brief** and open it with **⌘0**. From there you open what needs you, mark things done or hand something to an agent. When it's off, nothing runs in the background. Email comes in a later version.
-
-## Good to know
-
-- _Brief_ · With Brief on, **⌘0 opens the overview** and "Actual text size" moves to **⌥⌘0**. When it's off, ⌘0 works as always.
-
-## New
-
-- _Brief_ · With Brief on, **the Island** in the top bar shows your next meeting and how many things need you, and **⌥⌘R** pulls down the **Shade** with what matters most without moving or resizing your terminals.
-- _Brief_ · **Your apps** (optional, off): if you use Claude Code with the Vercel or Supabase connectors, Brief tells you about failed deploys and errors by reading with your own account, read-only. Each pass uses a little of your plan.
-- _Brief_ · Brief adapts to **a laptop screen**: the center gets narrower and the rest goes into slimmer cards or a single column instead of hiding.
-
-## Improvements
-
-- _Panes_ · A **⌘ shortcut that does nothing no longer types text** into the terminal.
-- _Security_ · Buttons that **only you can press** (confirm, send, admit…) reject fewer normal clicks right after you bring the window to the front, and still reject those made by an agent.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.27.0/Pulsar-0.27.0.dmg" length="158488954" type="application/octet-stream" sparkle:edSignature="tyhHL42ng7IkO3yIm3z9UaXugFMIjGwbLeBXpO0FApDAZ4SRa3NqIA/mjgAZalk1694lmSoV6BOR/6DTMY5FBQ=="/>
         </item>
     </channel>
 </rss>
