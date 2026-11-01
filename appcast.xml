@@ -3,6 +3,49 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.32.0</title>
+            <pubDate>Sun, 01 Nov 2026 05:20:29 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>57</sparkle:version>
+            <sparkle:shortVersionString>0.32.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Nuevo
+
+- _Navegador_ · **Reloj virtual** para probar animaciones: `pulsar browser animations clock pause | advance <ms> | play | status` congela el tiempo de la página (rAF, temporizadores, `Date`, CSS y SMIL) y lo avanza cuadro a cuadro, así una captura justo después enseña ese instante exacto.
+- _Navegador_ · `pulsar browser perf -- <acción>` mide mientras corre una acción (p. ej. un clic) y `--from-mark`/`--to-mark` recorta a los cuadros entre dos `performance.mark`. `perf`, `wait` y `expect` aguantan una navegación a mitad.
+
+## Mejoras
+
+- _Navegador_ · La **barra del navegador de un agente** en su tarjeta queda más limpia: un solo botón de **ampliar** (el de la cabecera), la **×** para cerrar su navegador dentro del 🌐 del conmutador y **«Abrir en el visor»** en las herramientas de la cabecera. La fila del navegador queda para la página: la **consola** sale solo con errores o abierta (si no, en «⋯» y con ⌥⌘C), **Compartir** es un icono que se enciende en vivo y las pestañas de las **ventanas emergentes** llevan el título de su página.
+- _Agentes_ · «No puedo ahora» en una ventana emergente ya **no interrumpe al agente** ni le gasta un turno: la cierra y el agente se entera en su siguiente orden del navegador. Si esperaba en ella, su orden ya no la da por hecha, y una pregunta `pulsar browser ask` en una página que se cierra deja de esperar al momento.
+- _Navegador_ · `pulsar browser wait --time 5` (o `2s`, `500ms`) hace una pausa fija y `viewport reset` vuelve al escritorio. Los avisos (un tamaño simulado que sigue fijado, un navegador libre adoptado) salen aparte, sin mezclarse con lo que un guion lee.
+
+## Arreglos
+
+- _Navegador_ · Cuando el navegador de un agente abre una **ventana emergente**, «Ver su navegador» la enseña y el aviso **desaparece** (antes se quedaba por más que lo pulsaras).
+- _Navegador_ · Con un **tamaño de pantalla simulado** (p. ej. 1440×900) en un panel más pequeño, `svh` y `lvh` miden ese tamaño y no el del panel: las páginas a pantalla completa se ven como en un navegador de verdad.
+
+---
+
+## New
+
+- _Browser_ · A **virtual clock** for testing animations: `pulsar browser animations clock pause | advance <ms> | play | status` freezes the page's time (rAF, timers, `Date`, CSS and SMIL) and moves it forward frame by frame, so a screenshot right after shows that exact instant.
+- _Browser_ · `pulsar browser perf -- <action>` measures while an action runs (e.g. a click) and `--from-mark`/`--to-mark` trims to the frames between two `performance.mark`s. `perf`, `wait` and `expect` survive a navigation halfway through.
+
+## Improvements
+
+- _Browser_ · An **agent's browser bar** on its card is cleaner: a single **maximize** button (the header's), the **×** to close its browser inside the face switcher's 🌐 and **“Open in the viewer”** among the header tools. The browser row is just for the page: the **console** shows only with errors or when open (otherwise in “⋯” and with ⌥⌘C), **Share** is an icon that lights up when live, and **pop-up window** tabs carry their page's title.
+- _Agents_ · “Can’t right now” on a pop-up window **no longer interrupts the agent** or costs it a turn: it closes it and the agent finds out on its next browser command. If it was waiting on it, its command no longer reports it as done, and a `pulsar browser ask` question on a page that closes stops waiting right away.
+- _Browser_ · `pulsar browser wait --time 5` (or `2s`, `500ms`) pauses for a fixed time and `viewport reset` goes back to desktop. Notices (a simulated size still set, a free browser adopted) come out separately, without mixing with what a script reads.
+
+## Fixes
+
+- _Browser_ · When an agent's browser opens a **pop-up window**, “See its browser” shows it and the notice **goes away** (before, it stayed no matter how many times you clicked it).
+- _Browser_ · With a **simulated screen size** (e.g. 1440×900) in a smaller pane, `svh` and `lvh` measure that size and not the pane's: full-screen pages look as they would in a real browser.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.32.0/Pulsar-0.32.0.dmg" length="167317522" type="application/octet-stream" sparkle:edSignature="vtmUco5HtnbLnsxp1e7vk+b1zKKDv3eW3iRDJU066ZwH/hjoSNx/bZOejAo6mq8NONwjr6/QdLgcW0CHCshOCA=="/>
+        </item>
+        <item>
             <title>0.31.0</title>
             <pubDate>Sat, 31 Oct 2026 21:05:51 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -87,41 +130,6 @@
 - _Dictation_ · **Pulsar Voice** no longer stops dictating when you plug or unplug a microphone or AirPods: it could hang and ignore the key until you restarted your Mac.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.30.0/Pulsar-0.30.0.dmg" length="164707396" type="application/octet-stream" sparkle:edSignature="nF2E+x/M1/furTFxCiozJxGF2fJjayKDdHSdmhqOsYmeY57vIGOeGGztwPxd6Z6Y5AkkOv5H21ystQsb2k0RCQ=="/>
-        </item>
-        <item>
-            <title>0.29.0</title>
-            <pubDate>Tue, 27 Oct 2026 13:41:24 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>54</sparkle:version>
-            <sparkle:shortVersionString>0.29.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Una barra superior más ligera.** Tu espacio, su rama y el modo de trabajo van juntos en **una placa** a la izquierda; el modo se ve como un **nivel de barras**. En el centro, **una isla** te dice cuántos agentes **te esperan** (en ámbar, con **⌥⌘↵** para ir a la siguiente pregunta) y cuántos trabajan. Pasa el ratón por la isla para ver el desglose por estado y por espacio; haz clic en un estado para ir al siguiente agente en él.
-
-## Mejoras
-
-- _Paneles_ · **Automático** ya solo enseña su interruptor (la palabra aparece al pasar el ratón) y **Ordenar** solo sale en **Fijo**, como icono. ⌘⇧G y el menú siguen igual.
-
-## Arreglos
-
-- _Visor_ · El **visor** ya no deja las imágenes a un cuarto de su tamaño: la tira de miniaturas ocupaba medio panel. Pasaba en el panel, en el escenario y en la vista previa de lo recibido.
-
----
-
-## Highlights
-
-- **A lighter top bar.** Your space, its branch and the work mode sit together in **one plate** on the left; the mode shows as a **level of bars**. In the middle, **an island** tells you how many agents are **waiting for you** (in amber, with **⌥⌘↵** to jump to the next question) and how many are working. Hover the island to see the breakdown by state and by space; click a state to go to its next agent.
-
-## Improvements
-
-- _Panes_ · **Automatic** now shows just its switch (the word appears on hover) and **Arrange** only appears in **Fixed**, as an icon. ⌘⇧G and the menu work as before.
-
-## Fixes
-
-- _Viewer_ · The **viewer** no longer shrinks images to a quarter of their size: the thumbnail strip took up half the panel. It happened in the panel, on the stage and in the preview of received items.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.29.0/Pulsar-0.29.0.dmg" length="164545016" type="application/octet-stream" sparkle:edSignature="cT4GPVdxMa/TT9+jtArlE02AU0Grs1ihLDmG5a1A+cCdcjp9j+hH5PB+WH20U+rPEiAeEwcs30mfvC0+RTh4Aw=="/>
         </item>
     </channel>
 </rss>
