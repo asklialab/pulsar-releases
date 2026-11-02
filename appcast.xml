@@ -3,6 +3,61 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.33.0</title>
+            <pubDate>Mon, 02 Nov 2026 12:30:35 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>58</sparkle:version>
+            <sparkle:shortVersionString>0.33.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Tus agentes saben quién lleva qué.** Un agente ya no pregunta a todas las sesiones: con **`pulsar agent who`** ve los agentes abiertos en todos tus espacios, con su carpeta, rama, título y estado, y escribe solo al que corresponde. Entre agentes del **mismo proyecto** el mensaje llega directo; a **otro espacio**, también si tú se lo pediste en ese turno. Si no, Pulsar lo retiene en una **tarjeta al pie del agente que escribe** con el texto exacto, y solo sale cuando pulsas «Enviar».
+
+## A tener en cuenta
+
+- _Resumen_ · **El Resumen se retira**: la vista general (⌘0), la Persiana, el correo de Gmail y Mail, el calendario, los recordatorios y `pulsar vista` ya no están. Pulsar deja de pedir los permisos de Calendario y Recordatorios.
+
+## Nuevo
+
+- _Agentes_ · **`pulsar agent who [texto]`** lista todos los agentes abiertos y su relación con quien pregunta (tú, tu tarea, mismo proyecto u otro espacio), y para Claude Code la dirección exacta de su sesión. Nunca enseña lo que hace otro agente: ni su pantalla, ni sus preguntas, ni sus informes.
+- _Agentes_ · **`pulsar agent send`** llega también a agentes que no lanzaste, con una cabecera de Pulsar que dice quién escribe y cómo responderle. Siempre te pide el OK si quien escribe no es un agente, si el destino trabaja sin permisos, si el mensaje es largo o si se pasa de los topes; si descartas, ese agente tarda cada vez más en poder volver a pedirlo.
+
+## Mejoras
+
+- _Agentes_ · El papel «Calidad» se separa en **Diseño** (maquetas y llevarlas a la app) y **Pruebas** (pruebas con navegador o visor y revisión crítica), cada uno con su modelo y esfuerzo. Pruebas baja un escalón de serie, porque son largas y de muchos turnos. `--role quality` sigue valiendo y equivale a Diseño.
+- _Integraciones_ · La skill de Pulsar para Codex, Claude y ChatGPT aclara que, **dentro de un panel de Pulsar**, los agentes se manejan con `pulsar agent …` y no con las herramientas `pulsar_*`, que allí no aparecen.
+
+## Arreglos
+
+- _Integraciones_ · Si un agente de Codex no pasa `PULSAR_PANE_ID` a sus órdenes (con `shell_environment_policy.inherit = "core"`), `pulsar agent`, `browser` y `board` ahora le dicen **cuál es su panel** y cómo repetir la orden, en vez de un error a secas. Sigue sin hacerse nada sin esa variable.
+
+---
+
+## Highlights
+
+- **Your agents know who's on what.** An agent no longer asks every session: with **`pulsar agent who`** it sees the agents open across all your spaces, with their folder, branch, title and status, and writes only to the right one. Between agents of the **same project** the message goes straight through; to **another space**, too, if you asked it to in that turn. Otherwise Pulsar holds it in a **card at the foot of the agent that's writing** with the exact text, and it only goes out when you click “Send”.
+
+## Good to know
+
+- _Brief_ · **Brief is retired**: the overview (⌘0), the Shade, Gmail and Mail email, calendar, reminders and `pulsar vista` are gone. Pulsar no longer asks for Calendar and Reminders permissions.
+
+## New
+
+- _Agents_ · **`pulsar agent who [text]`** lists every open agent and how it relates to whoever asks (you, your task, same project or another space), and for Claude Code the exact address of its session. It never shows what another agent is doing: not its screen, questions or reports.
+- _Agents_ · **`pulsar agent send`** also reaches agents you didn't launch, with a Pulsar header saying who's writing and how to reply. It always asks for your OK if the sender isn't an agent, if the target runs without permissions, if the message is long or if it goes over the limits; if you dismiss it, that agent waits longer each time before it can ask again.
+
+## Improvements
+
+- _Agents_ · The “Quality” role splits into **Design** (mockups and bringing them into the app) and **Testing** (browser or viewer tests and critical review), each with its own model and effort. Testing goes one step down by default, since tests are long and take many turns. `--role quality` still works and means Design.
+- _Integrations_ · The Pulsar skill for Codex, Claude and ChatGPT makes clear that **inside a Pulsar pane** agents are handled with `pulsar agent …` and not with the `pulsar_*` tools, which don't show up there.
+
+## Fixes
+
+- _Integrations_ · If a Codex agent doesn't pass `PULSAR_PANE_ID` to its commands (with `shell_environment_policy.inherit = "core"`), `pulsar agent`, `browser` and `board` now tell it **which pane is its own** and how to repeat the command, instead of a bare error. Nothing runs without that variable, as before.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.33.0/Pulsar-0.33.0.dmg" length="148417372" type="application/octet-stream" sparkle:edSignature="PrB/JOUYNivGUM3qoa2vnOJ96+95HyrUuh+wYu9CURIDr9f9zsI5IU0VuECHnGAOEHzU2P4RpE4z1tJXYtBWBg=="/>
+        </item>
+        <item>
             <title>0.32.0</title>
             <pubDate>Sun, 01 Nov 2026 05:20:29 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -91,45 +146,6 @@
 - _Browser_ · `pulsar browser eval` honors `--timeout` (up to 165 s) in the built-in browser and in Chrome, and **never runs a script again** when it fails while running (before, it could repeat, for example, a submission).
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.31.0/Pulsar-0.31.0.dmg" length="166844416" type="application/octet-stream" sparkle:edSignature="5DokpzfHYYx9wNHP2V33gqQ1XfmIDybHZ831NDmhWEmznUTs3pStDJWQIYLyYAJhR5OWknYVwacBKZyRLwsUCA=="/>
-        </item>
-        <item>
-            <title>0.30.0</title>
-            <pubDate>Fri, 30 Oct 2026 19:15:49 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>55</sparkle:version>
-            <sparkle:shortVersionString>0.30.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Nuevo
-
-- _Visor_ · Reproduce **vídeos y audios directamente en la cuadrícula** del visor y de **Comparar** (▶ y mini barra en cada celda); al abrirlos en grande siguen en el mismo segundo.
-
-## Mejoras
-
-- _Apariencia_ · En **modo claro**, la barra de tus mensajes en **Claude Code** se lee mejor: los blancos de la terminal son ahora grises claros con el texto en negro.
-- _Dictado_ · Si **Pulsar Voice** se queda sin responder por cualquier otro motivo, se reinicia solo en unos segundos.
-
-## Arreglos
-
-- _Visor_ · La barra de reproducción ya no se queda en cero al abrir en grande un vídeo o audio desde la cuadrícula.
-- _Dictado_ · **Pulsar Voice** ya no deja de dictar al conectar o desconectar un micrófono o unos AirPods: podía quedarse colgado sin responder a la tecla hasta reiniciar la Mac.
-
----
-
-## New
-
-- _Viewer_ · Play **videos and audio right in the grid** of the viewer and of **Compare** (▶ and a mini bar in each cell); when you open them large they continue from the same second.
-
-## Improvements
-
-- _Appearance_ · In **light mode**, the bar behind your messages in **Claude Code** is easier to read: the terminal whites are now light grays with black text.
-- _Dictation_ · If **Pulsar Voice** stops responding for any other reason, it restarts on its own within seconds.
-
-## Fixes
-
-- _Viewer_ · The playback bar no longer stays at zero when you open a video or audio large from the grid.
-- _Dictation_ · **Pulsar Voice** no longer stops dictating when you plug or unplug a microphone or AirPods: it could hang and ignore the key until you restarted your Mac.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.30.0/Pulsar-0.30.0.dmg" length="164707396" type="application/octet-stream" sparkle:edSignature="nF2E+x/M1/furTFxCiozJxGF2fJjayKDdHSdmhqOsYmeY57vIGOeGGztwPxd6Z6Y5AkkOv5H21ystQsb2k0RCQ=="/>
         </item>
     </channel>
 </rss>
