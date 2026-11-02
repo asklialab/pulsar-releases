@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13",
+  "updated": "2026-11-02",
   "agents": {
     "claude": {
       "models": [
@@ -13,19 +13,22 @@
       "presets": {
         "balanced": {
           "main": { "model": "opus", "effort": "high" },
-          "quality": { "model": "opus", "effort": "high" },
+          "design": { "model": "opus", "effort": "high" },
+          "test": { "model": "opus", "effort": "medium" },
           "work": { "model": "opus", "effort": "medium" },
           "light": { "model": "sonnet" }
         },
         "maximum": {
           "main": { "model": "fable", "effort": "high" },
-          "quality": { "model": "fable", "effort": "high" },
+          "design": { "model": "fable", "effort": "high" },
+          "test": { "model": "fable", "effort": "high" },
           "work": { "model": "fable", "effort": "high" },
           "light": { "model": "opus" }
         },
         "saving": {
           "main": { "model": "sonnet", "effort": "medium" },
-          "quality": { "model": "opus", "effort": "high" },
+          "design": { "model": "opus", "effort": "high" },
+          "test": { "model": "sonnet", "effort": "high" },
           "work": { "model": "sonnet", "effort": "medium" },
           "light": { "model": "haiku" }
         }
@@ -41,19 +44,22 @@
       "presets": {
         "balanced": {
           "main": { "model": "sol", "effort": "high" },
-          "quality": { "model": "sol", "effort": "high" },
+          "design": { "model": "sol", "effort": "high" },
+          "test": { "model": "sol", "effort": "medium" },
           "work": { "model": "sol", "effort": "medium" },
           "light": { "model": "luna", "effort": "low" }
         },
         "maximum": {
           "main": { "model": "astra", "effort": "high" },
-          "quality": { "model": "astra", "effort": "high" },
+          "design": { "model": "astra", "effort": "high" },
+          "test": { "model": "astra", "effort": "high" },
           "work": { "model": "astra", "effort": "high" },
           "light": { "model": "sol", "effort": "medium" }
         },
         "saving": {
           "main": { "model": "sol", "effort": "medium" },
-          "quality": { "model": "sol", "effort": "high" },
+          "design": { "model": "sol", "effort": "high" },
+          "test": { "model": "sol", "effort": "medium" },
           "work": { "model": "sol", "effort": "medium" },
           "light": { "model": "luna", "effort": "low" }
         }
@@ -68,13 +74,16 @@
       "efforts": [],
       "presets": {
         "balanced": {
-          "main": { "model": "pro" }, "quality": { "model": "pro" }, "work": { "model": "pro" }, "light": { "model": "flash" }
+          "main": { "model": "pro" }, "design": { "model": "pro" }, "test": { "model": "pro" }, "work": { "model": "pro" },
+          "light": { "model": "flash" }
         },
         "maximum": {
-          "main": { "model": "pro" }, "quality": { "model": "pro" }, "work": { "model": "pro" }, "light": { "model": "pro" }
+          "main": { "model": "pro" }, "design": { "model": "pro" }, "test": { "model": "pro" }, "work": { "model": "pro" },
+          "light": { "model": "pro" }
         },
         "saving": {
-          "main": { "model": "flash" }, "quality": { "model": "pro" }, "work": { "model": "flash" }, "light": { "model": "flash-lite" }
+          "main": { "model": "flash" }, "design": { "model": "pro" }, "test": { "model": "flash" }, "work": { "model": "flash" },
+          "light": { "model": "flash-lite" }
         }
       }
     },
@@ -83,13 +92,13 @@
       "efforts": ["low", "medium", "high"],
       "presets": {
         "balanced": {
-          "main": { "effort": "high" }, "quality": { "effort": "high" }, "work": { "effort": "medium" }
+          "main": { "effort": "high" }, "design": { "effort": "high" }, "test": { "effort": "medium" }, "work": { "effort": "medium" }
         },
         "maximum": {
-          "main": { "effort": "high" }, "quality": { "effort": "high" }, "work": { "effort": "high" }
+          "main": { "effort": "high" }, "design": { "effort": "high" }, "test": { "effort": "high" }, "work": { "effort": "high" }
         },
         "saving": {
-          "main": { "effort": "medium" }, "quality": { "effort": "high" }, "work": { "effort": "medium" }
+          "main": { "effort": "medium" }, "design": { "effort": "high" }, "test": { "effort": "medium" }, "work": { "effort": "medium" }
         }
       }
     }
