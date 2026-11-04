@@ -3,6 +3,37 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.35.0</title>
+            <pubDate>Wed, 04 Nov 2026 03:23:00 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>0.35.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Texto más claro de un vistazo.** Pulsar tiene ahora **seis tamaños de letra bien separados** en lugar de ocho casi iguales, así que lo importante se distingue sin buscarlo. **Tiempos, contadores y rutas van en Hack**, la letra de la terminal, y las palabras de estado llevan su color. Además, **los textos grises se leen mejor**: todos pasan el contraste recomendado (WCAG AA) en modo oscuro y claro, también sobre la fila seleccionada.
+
+## Mejoras
+
+- _Apariencia_ · Los textos más apagados (detalles, contadores, rutas, pistas) suben de 3,4:1 a 5,2:1 de contraste en modo oscuro y de 3,2:1 a 5,2:1 en modo claro; el gris secundario de día también se oscurece un poco para que la jerarquía no se aplane.
+- _Barra lateral_ · Los puntos y rayitas de los agentes **en reposo** y **dormidos** se ven sin forzar la vista; dormido sigue siendo solo el filo, así que se distinguen por la forma.
+- _Barra lateral_ · El pie de la barra lateral acorta antes «12 de 12 agentes» a «12/12» para no perder la memoria liberable, y la bienvenida de un espacio vacío es algo más ancha para que los lanzadores quepan en una fila.
+
+---
+
+## Highlights
+
+- **Text that reads at a glance.** Pulsar now has **six clearly separated text sizes** instead of eight nearly identical ones, so what matters stands out without looking for it. **Times, counters and paths use Hack**, the terminal font, and status words carry their color. Also, **grey text is easier to read**: all of it meets the recommended contrast (WCAG AA) in dark and light mode, including on the selected row.
+
+## Improvements
+
+- _Appearance_ · The faintest text (details, counters, paths, hints) goes from 3.4:1 to 5.2:1 contrast in dark mode and from 3.2:1 to 5.2:1 in light mode; the secondary grey in light mode also gets a little darker so the hierarchy doesn't flatten.
+- _Sidebar_ · The dots and bars of **idle** and **sleeping** agents are visible without straining; sleeping is still just the outline, so you tell them apart by shape.
+- _Sidebar_ · The sidebar footer shortens “12 of 12 agents” to “12/12” sooner so the reclaimable memory stays visible, and an empty workspace's welcome is a bit wider so the launchers fit on one row.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.35.0/Pulsar-0.35.0.dmg" length="148727886" type="application/octet-stream" sparkle:edSignature="BVqEJoIDkn03P2MhkZS8p7sWOEYmuZBmGxlQSNQq/yxB1umMo1cZ7Nl2IcAgDRSeju0DxhbHMUJBI4up1LopBQ=="/>
+        </item>
+        <item>
             <title>0.34.0</title>
             <pubDate>Tue, 03 Nov 2026 23:07:28 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -103,49 +134,6 @@
 - _Integrations_ · If a Codex agent doesn't pass `PULSAR_PANE_ID` to its commands (with `shell_environment_policy.inherit = "core"`), `pulsar agent`, `browser` and `board` now tell it **which pane is its own** and how to repeat the command, instead of a bare error. Nothing runs without that variable, as before.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.33.0/Pulsar-0.33.0.dmg" length="148417372" type="application/octet-stream" sparkle:edSignature="PrB/JOUYNivGUM3qoa2vnOJ96+95HyrUuh+wYu9CURIDr9f9zsI5IU0VuECHnGAOEHzU2P4RpE4z1tJXYtBWBg=="/>
-        </item>
-        <item>
-            <title>0.32.0</title>
-            <pubDate>Sun, 01 Nov 2026 05:20:29 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>57</sparkle:version>
-            <sparkle:shortVersionString>0.32.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Nuevo
-
-- _Navegador_ · **Reloj virtual** para probar animaciones: `pulsar browser animations clock pause | advance <ms> | play | status` congela el tiempo de la página (rAF, temporizadores, `Date`, CSS y SMIL) y lo avanza cuadro a cuadro, así una captura justo después enseña ese instante exacto.
-- _Navegador_ · `pulsar browser perf -- <acción>` mide mientras corre una acción (p. ej. un clic) y `--from-mark`/`--to-mark` recorta a los cuadros entre dos `performance.mark`. `perf`, `wait` y `expect` aguantan una navegación a mitad.
-
-## Mejoras
-
-- _Navegador_ · La **barra del navegador de un agente** en su tarjeta queda más limpia: un solo botón de **ampliar** (el de la cabecera), la **×** para cerrar su navegador dentro del 🌐 del conmutador y **«Abrir en el visor»** en las herramientas de la cabecera. La fila del navegador queda para la página: la **consola** sale solo con errores o abierta (si no, en «⋯» y con ⌥⌘C), **Compartir** es un icono que se enciende en vivo y las pestañas de las **ventanas emergentes** llevan el título de su página.
-- _Agentes_ · «No puedo ahora» en una ventana emergente ya **no interrumpe al agente** ni le gasta un turno: la cierra y el agente se entera en su siguiente orden del navegador. Si esperaba en ella, su orden ya no la da por hecha, y una pregunta `pulsar browser ask` en una página que se cierra deja de esperar al momento.
-- _Navegador_ · `pulsar browser wait --time 5` (o `2s`, `500ms`) hace una pausa fija y `viewport reset` vuelve al escritorio. Los avisos (un tamaño simulado que sigue fijado, un navegador libre adoptado) salen aparte, sin mezclarse con lo que un guion lee.
-
-## Arreglos
-
-- _Navegador_ · Cuando el navegador de un agente abre una **ventana emergente**, «Ver su navegador» la enseña y el aviso **desaparece** (antes se quedaba por más que lo pulsaras).
-- _Navegador_ · Con un **tamaño de pantalla simulado** (p. ej. 1440×900) en un panel más pequeño, `svh` y `lvh` miden ese tamaño y no el del panel: las páginas a pantalla completa se ven como en un navegador de verdad.
-
----
-
-## New
-
-- _Browser_ · A **virtual clock** for testing animations: `pulsar browser animations clock pause | advance <ms> | play | status` freezes the page's time (rAF, timers, `Date`, CSS and SMIL) and moves it forward frame by frame, so a screenshot right after shows that exact instant.
-- _Browser_ · `pulsar browser perf -- <action>` measures while an action runs (e.g. a click) and `--from-mark`/`--to-mark` trims to the frames between two `performance.mark`s. `perf`, `wait` and `expect` survive a navigation halfway through.
-
-## Improvements
-
-- _Browser_ · An **agent's browser bar** on its card is cleaner: a single **maximize** button (the header's), the **×** to close its browser inside the face switcher's 🌐 and **“Open in the viewer”** among the header tools. The browser row is just for the page: the **console** shows only with errors or when open (otherwise in “⋯” and with ⌥⌘C), **Share** is an icon that lights up when live, and **pop-up window** tabs carry their page's title.
-- _Agents_ · “Can’t right now” on a pop-up window **no longer interrupts the agent** or costs it a turn: it closes it and the agent finds out on its next browser command. If it was waiting on it, its command no longer reports it as done, and a `pulsar browser ask` question on a page that closes stops waiting right away.
-- _Browser_ · `pulsar browser wait --time 5` (or `2s`, `500ms`) pauses for a fixed time and `viewport reset` goes back to desktop. Notices (a simulated size still set, a free browser adopted) come out separately, without mixing with what a script reads.
-
-## Fixes
-
-- _Browser_ · When an agent's browser opens a **pop-up window**, “See its browser” shows it and the notice **goes away** (before, it stayed no matter how many times you clicked it).
-- _Browser_ · With a **simulated screen size** (e.g. 1440×900) in a smaller pane, `svh` and `lvh` measure that size and not the pane's: full-screen pages look as they would in a real browser.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.32.0/Pulsar-0.32.0.dmg" length="167317522" type="application/octet-stream" sparkle:edSignature="vtmUco5HtnbLnsxp1e7vk+b1zKKDv3eW3iRDJU066ZwH/hjoSNx/bZOejAo6mq8NONwjr6/QdLgcW0CHCshOCA=="/>
         </item>
     </channel>
 </rss>
