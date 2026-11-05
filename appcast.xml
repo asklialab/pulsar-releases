@@ -3,6 +3,47 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.36.0</title>
+            <pubDate>Thu, 05 Nov 2026 02:34:23 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>0.36.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Agentes que arrancan más ligeros.** Los agentes Claude que abre Pulsar empiezan **sin cargar los conectores de claude.ai ni Artifact**, que ocupaban casi la mitad de cada petición: pasan de unos 64k a unos 37k tokens. Si el agente necesita Gmail, Vercel u otro conector, **lo enciende él solo** y el panel se reanuda en unos segundos con la conversación intacta, sin volver a iniciar sesión. Se apaga en **Ajustes › Agentes › Arranque ligero**.
+- **Relevo cuando el contexto crece.** Cuando una conversación pasa de 300k tokens (o del 70 % de la ventana del modelo), Pulsar **releva al agente por uno nuevo en el mismo panel**: el viejo escribe un traspaso con lo decidido y lo pendiente, se hiberna, y el nuevo sigue con el mismo modo de permisos o uno más estricto. Cada turno sale mucho más barato y el agente no pierde el hilo. Te pregunta una sola vez; también puedes **Relevar ahora** desde el menú del panel.
+- **Mensajes entre agentes que siempre llegan.** Los mensajes entre agentes ya no se pierden ni se quedan a medias en la caja: esperan en un buzón hasta que el destino puede recibirlos, van siempre firmados y el orquestador recibe copia de lo que se habla con sus tareas sin que le interrumpa. `pulsar agent who` marca a tu orquestador, al coordinador y a las tareas hermanas.
+
+## Mejoras
+
+- _Agentes_ · El traspaso del relevo enseña qué permisos no pasan al agente nuevo (los «siempre» de Bash sí siguen valiendo) y tus respuestas anteriores como historial, nunca como permiso.
+- _Agentes_ · Un modo de permisos fijado en un panel, también desde el iPhone, ya no supera lo que digan los Ajustes de la Mac.
+
+## Arreglos
+
+- _Agentes_ · Tras reiniciar Pulsar, un mensaje a un agente de un workspace que aún no abriste ya no falla: su terminal arranca en segundo plano y el mensaje le llega en cuanto puede recibirlo.
+
+---
+
+## Highlights
+
+- **Agents that start lighter.** Claude agents opened by Pulsar start **without loading the claude.ai connectors or Artifact**, which took almost half of every request: from about 64k down to about 37k tokens. If the agent needs Gmail, Vercel or another connector, **it turns them on by itself** and the pane resumes in a few seconds with the conversation intact, without signing in again. Turn it off in **Settings › Agents › Light startup**.
+- **Handoff when the context grows.** When a conversation passes 300k tokens (or 70% of the model's window), Pulsar **hands the agent off to a fresh one in the same pane**: the old one writes a handoff with what was decided and what's pending, goes to sleep, and the new one continues with the same permission mode or a stricter one. Each turn gets much cheaper and the agent keeps the thread. It asks you only once; you can also **Hand off now** from the pane menu.
+- **Messages between agents that always arrive.** Messages between agents no longer get lost or stuck half-typed in the input box: they wait in a mailbox until the recipient can take them, they are always signed, and the orchestrator gets a copy of what is said to its tasks without being interrupted. `pulsar agent who` marks your orchestrator, the coordinator and sibling tasks.
+
+## Improvements
+
+- _Agents_ · The handoff shows which permissions don't carry over to the new agent (Bash “always” rules still apply) and your earlier answers as history, never as permission.
+- _Agents_ · A permission mode set on a pane, including from the iPhone, no longer goes beyond what the Mac's Settings allow.
+
+## Fixes
+
+- _Agents_ · After restarting Pulsar, a message to an agent in a workspace you haven't opened yet no longer fails: its terminal starts in the background and the message reaches it as soon as it can take it.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.36.0/Pulsar-0.36.0.dmg" length="150732267" type="application/octet-stream" sparkle:edSignature="gX+yzQuNHYBP4a03n05UIpqbjN9Wu9UxL1i26WvACokwEhkTPVaGkQrELmhUTWiviGlBaQSsd+lreU7d+1HXCg=="/>
+        </item>
+        <item>
             <title>0.35.0</title>
             <pubDate>Wed, 04 Nov 2026 03:23:00 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -79,61 +120,6 @@
 - _Browser_ · “See its browser” with that page already in front just gives it the keyboard, without the jolt of focusing its terminal and flipping the card back.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.34.0/Pulsar-0.34.0.dmg" length="148843144" type="application/octet-stream" sparkle:edSignature="NMXrBJbX+mEASHhaQAu0+S6apYNXcNu9weSSP5bZSGVL9IBfHJdBvP7DjVZywi7Y+I85fUIN73YBvDh7yoJZDQ=="/>
-        </item>
-        <item>
-            <title>0.33.0</title>
-            <pubDate>Mon, 02 Nov 2026 12:30:35 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>58</sparkle:version>
-            <sparkle:shortVersionString>0.33.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Tus agentes saben quién lleva qué.** Un agente ya no pregunta a todas las sesiones: con **`pulsar agent who`** ve los agentes abiertos en todos tus espacios, con su carpeta, rama, título y estado, y escribe solo al que corresponde. Entre agentes del **mismo proyecto** el mensaje llega directo; a **otro espacio**, también si tú se lo pediste en ese turno. Si no, Pulsar lo retiene en una **tarjeta al pie del agente que escribe** con el texto exacto, y solo sale cuando pulsas «Enviar».
-
-## A tener en cuenta
-
-- _Resumen_ · **El Resumen se retira**: la vista general (⌘0), la Persiana, el correo de Gmail y Mail, el calendario, los recordatorios y `pulsar vista` ya no están. Pulsar deja de pedir los permisos de Calendario y Recordatorios.
-
-## Nuevo
-
-- _Agentes_ · **`pulsar agent who [texto]`** lista todos los agentes abiertos y su relación con quien pregunta (tú, tu tarea, mismo proyecto u otro espacio), y para Claude Code la dirección exacta de su sesión. Nunca enseña lo que hace otro agente: ni su pantalla, ni sus preguntas, ni sus informes.
-- _Agentes_ · **`pulsar agent send`** llega también a agentes que no lanzaste, con una cabecera de Pulsar que dice quién escribe y cómo responderle. Siempre te pide el OK si quien escribe no es un agente, si el destino trabaja sin permisos, si el mensaje es largo o si se pasa de los topes; si descartas, ese agente tarda cada vez más en poder volver a pedirlo.
-
-## Mejoras
-
-- _Agentes_ · El papel «Calidad» se separa en **Diseño** (maquetas y llevarlas a la app) y **Pruebas** (pruebas con navegador o visor y revisión crítica), cada uno con su modelo y esfuerzo. Pruebas baja un escalón de serie, porque son largas y de muchos turnos. `--role quality` sigue valiendo y equivale a Diseño.
-- _Integraciones_ · La skill de Pulsar para Codex, Claude y ChatGPT aclara que, **dentro de un panel de Pulsar**, los agentes se manejan con `pulsar agent …` y no con las herramientas `pulsar_*`, que allí no aparecen.
-
-## Arreglos
-
-- _Integraciones_ · Si un agente de Codex no pasa `PULSAR_PANE_ID` a sus órdenes (con `shell_environment_policy.inherit = "core"`), `pulsar agent`, `browser` y `board` ahora le dicen **cuál es su panel** y cómo repetir la orden, en vez de un error a secas. Sigue sin hacerse nada sin esa variable.
-
----
-
-## Highlights
-
-- **Your agents know who's on what.** An agent no longer asks every session: with **`pulsar agent who`** it sees the agents open across all your spaces, with their folder, branch, title and status, and writes only to the right one. Between agents of the **same project** the message goes straight through; to **another space**, too, if you asked it to in that turn. Otherwise Pulsar holds it in a **card at the foot of the agent that's writing** with the exact text, and it only goes out when you click “Send”.
-
-## Good to know
-
-- _Brief_ · **Brief is retired**: the overview (⌘0), the Shade, Gmail and Mail email, calendar, reminders and `pulsar vista` are gone. Pulsar no longer asks for Calendar and Reminders permissions.
-
-## New
-
-- _Agents_ · **`pulsar agent who [text]`** lists every open agent and how it relates to whoever asks (you, your task, same project or another space), and for Claude Code the exact address of its session. It never shows what another agent is doing: not its screen, questions or reports.
-- _Agents_ · **`pulsar agent send`** also reaches agents you didn't launch, with a Pulsar header saying who's writing and how to reply. It always asks for your OK if the sender isn't an agent, if the target runs without permissions, if the message is long or if it goes over the limits; if you dismiss it, that agent waits longer each time before it can ask again.
-
-## Improvements
-
-- _Agents_ · The “Quality” role splits into **Design** (mockups and bringing them into the app) and **Testing** (browser or viewer tests and critical review), each with its own model and effort. Testing goes one step down by default, since tests are long and take many turns. `--role quality` still works and means Design.
-- _Integrations_ · The Pulsar skill for Codex, Claude and ChatGPT makes clear that **inside a Pulsar pane** agents are handled with `pulsar agent …` and not with the `pulsar_*` tools, which don't show up there.
-
-## Fixes
-
-- _Integrations_ · If a Codex agent doesn't pass `PULSAR_PANE_ID` to its commands (with `shell_environment_policy.inherit = "core"`), `pulsar agent`, `browser` and `board` now tell it **which pane is its own** and how to repeat the command, instead of a bare error. Nothing runs without that variable, as before.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.33.0/Pulsar-0.33.0.dmg" length="148417372" type="application/octet-stream" sparkle:edSignature="PrB/JOUYNivGUM3qoa2vnOJ96+95HyrUuh+wYu9CURIDr9f9zsI5IU0VuECHnGAOEHzU2P4RpE4z1tJXYtBWBg=="/>
         </item>
     </channel>
 </rss>
