@@ -3,6 +3,51 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.37.0</title>
+            <pubDate>Fri, 06 Nov 2026 12:23:27 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>0.37.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Reuniones con más de 4 personas.** Las reuniones que transcribe **Pulsar Voice** ya no se quedan en «Hablante 1…4» y «Otros»: un **repaso de hablantes** relee el audio cada pocos minutos y al parar, y corrige las frases ya escritas sin perder los nombres que pusiste. En nuestras pruebas, una reunión de 7 personas pasó del 63 % al 91 % de frases con la persona correcta, y una de 9 sale con las 9. Todo va en la Mac; el audio de los demás solo existe mientras dura la reunión.
+- **ChatGPT y Claude recuerdan su permiso.** El permiso que das a **ChatGPT** o a **Claude** para usar Pulsar ya no se pierde al cerrar Pulsar, la app o al actualizar: se guarda en el llavero y lo recuperado nunca pasa de **Operar**. La hoja de permiso queda centrada y quieta, por encima de las demás ventanas, así que sus botones se pulsan a la primera.
+
+## A tener en cuenta
+
+- _Dictado_ · El aviso de privacidad de las reuniones se enseña otra vez: ahora explica que el audio de los demás se guarda en un archivo temporal sin nombre mientras dura la reunión (como mucho 4 horas) y se borra al terminar.
+
+## Mejoras
+
+- _Dictado_ · Cuando dos personas hablan en la misma frase, la transcripción la parte donde cambia quien habla.
+
+## Arreglos
+
+- _Integraciones_ · Claude Code dentro de Claude ya no vuelve a pedir permiso cada vez que cierras Claude.
+
+---
+
+## Highlights
+
+- **Meetings with more than 4 people.** Meetings transcribed by **Pulsar Voice** no longer stop at “Speaker 1…4” and “Others”: a **speaker review** rereads the audio every few minutes and when you stop, and fixes the lines already written without losing the names you set. In our tests, a 7-person meeting went from 63% to 91% of lines with the right person, and a 9-person one comes out with all 9. It all runs on your Mac; other people's audio only exists while the meeting lasts.
+- **ChatGPT and Claude remember their permission.** The permission you give **ChatGPT** or **Claude** to use Pulsar is no longer lost when you quit Pulsar, the app or update: it is kept in the keychain and what comes back never goes beyond **Operate**. The permission sheet stays centered and still, above other windows, so its buttons work on the first click.
+
+## Good to know
+
+- _Dictation_ · The meetings privacy notice shows once more: it now explains that other people's audio is kept in a nameless temporary file while the meeting lasts (4 hours at most) and is deleted when it ends.
+
+## Improvements
+
+- _Dictation_ · When two people speak in the same line, the transcript splits it where the speaker changes.
+
+## Fixes
+
+- _Integrations_ · Claude Code inside Claude no longer asks for permission again every time you quit Claude.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.37.0/Pulsar-0.37.0.dmg" length="151219020" type="application/octet-stream" sparkle:edSignature="FEysNVSFlNj13ZDCkLVC7qmnRAaOmbFA0SjpFpT82yg+xkmO+MEfcvnRD2OSYg13ioBbpAzYrb6ZIdzrl4KCAQ=="/>
+        </item>
+        <item>
             <title>0.36.0</title>
             <pubDate>Thu, 05 Nov 2026 02:34:23 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -73,53 +118,6 @@
 - _Sidebar_ · The sidebar footer shortens “12 of 12 agents” to “12/12” sooner so the reclaimable memory stays visible, and an empty workspace's welcome is a bit wider so the launchers fit on one row.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.35.0/Pulsar-0.35.0.dmg" length="148727886" type="application/octet-stream" sparkle:edSignature="BVqEJoIDkn03P2MhkZS8p7sWOEYmuZBmGxlQSNQq/yxB1umMo1cZ7Nl2IcAgDRSeju0DxhbHMUJBI4up1LopBQ=="/>
-        </item>
-        <item>
-            <title>0.34.0</title>
-            <pubDate>Tue, 03 Nov 2026 23:07:28 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>59</sparkle:version>
-            <sparkle:shortVersionString>0.34.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Lo que abre un agente se va con él.** Al cerrar un agente (su X, «Limpiar», `agent close`, salir de su terminal o cerrar el workspace) se cierran también **los navegadores y visores que abrió**, con sus emergentes. Antes solo se dormían y se iban acumulando. **Lo que adoptaste se queda**, igual que lo que algo retiene: «Mantener listo», una descarga, un inicio de sesión que te pidió, el iPhone, otro agente que lo usa o un formulario a medias que viste. Hibernar no cierra nada.
-
-## Nuevo
-
-- _Rendimiento_ · **«Limpiar» › «Sin su agente»** recoge los navegadores y visores que se quedaron sin dueño, de antes de este cambio o porque algo los retuvo. Cada pieza dice de qué agente era y sale marcada para cerrar, salvo lo que tienes a la vista. Nunca se cierra sola.
-- _Paneles_ · Un workspace que se queda **sin agentes** pero con navegadores o artefactos ya no se ve en blanco: enseña la bienvenida «Sin agentes», cuenta lo que sigue en la repisa y ofrece **«Cerrar lo que queda»**, con unos segundos para deshacerlo.
-
-## Mejoras
-
-- _Visor_ · Las **páginas HTML de los agentes se abren en su navegador**, con la barra completa (capturar, comentar, tamaño de pantalla); el visor queda para imágenes, PDF, vídeo, audio y documentos. Si un agente pide `pulsar media open` con un HTML, Pulsar lo lleva a su navegador y se lo dice; para elegir entre maquetas se usa `pulsar browser choose`. Lo que te envía otra persona sigue en el visor, aislado y sin red.
-
-## Arreglos
-
-- _Navegador_ · Abrir un enlace en otra pestaña del navegador de un agente ya no hace que la barra de respuesta pregunte por una «ventana emergente»: solo pregunta por lo que abre la página mientras la maneja el agente, como un inicio de sesión.
-- _Navegador_ · «Ver su navegador» con esa página ya delante solo le da el teclado, sin el tirón de enfocar su terminal y volver a girar la tarjeta.
-
----
-
-## Highlights
-
-- **What an agent opens leaves with it.** When you close an agent (its X, “Clean up”, `agent close`, exiting its terminal or closing the workspace), **the browsers and viewers it opened** close too, along with their pop-ups. Before, they just went to sleep and piled up. **What you adopted stays**, as does anything something is holding on to: “Keep ready”, a download, a sign-in it asked you for, the iPhone, another agent using it or a half-filled form you looked at. Hibernating closes nothing.
-
-## New
-
-- _Performance_ · **“Clean up” › “Left by closed agents”** gathers the browsers and viewers left without an owner, from before this change or because something held them. Each item says which agent it belonged to and comes checked for closing, except what you have in view. It never closes on its own.
-- _Panes_ · A workspace left **with no agents** but with browsers or artifacts no longer looks blank: it shows the “No agents” welcome, counts what's still on the shelf and offers **“Close what’s left”**, with a few seconds to undo it.
-
-## Improvements
-
-- _Viewer_ · **Agents' HTML pages open in their browser**, with the full bar (capture, comment, screen size); the viewer is now for images, PDFs, video, audio and documents. If an agent runs `pulsar media open` with an HTML file, Pulsar sends it to its browser and tells it so; choosing between mockups uses `pulsar browser choose`. What someone else sends you still opens in the viewer, isolated and offline.
-
-## Fixes
-
-- _Browser_ · Opening a link in another tab of an agent's browser no longer makes the answer bar ask about a “pop-up window”: it only asks about what the page opens while the agent is driving it, such as a sign-in.
-- _Browser_ · “See its browser” with that page already in front just gives it the keyboard, without the jolt of focusing its terminal and flipping the card back.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.34.0/Pulsar-0.34.0.dmg" length="148843144" type="application/octet-stream" sparkle:edSignature="NMXrBJbX+mEASHhaQAu0+S6apYNXcNu9weSSP5bZSGVL9IBfHJdBvP7DjVZywi7Y+I85fUIN73YBvDh7yoJZDQ=="/>
         </item>
     </channel>
 </rss>
