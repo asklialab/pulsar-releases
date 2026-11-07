@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-06",
   "agents": {
     "claude": {
       "models": [
-        { "alias": "fable", "name": "Fable", "pin": "claude-fable-5-1" },
-        { "alias": "opus", "name": "Opus", "pin": "claude-opus-5-5" },
-        { "alias": "sonnet", "name": "Sonnet", "pin": "claude-sonnet-5-5" },
-        { "alias": "haiku", "name": "Haiku", "pin": "claude-haiku-5-5" }
+        { "alias": "fable", "name": "Fable", "pin": "claude-fable-5-1", "contextWindow": 1000000 },
+        { "alias": "opus", "name": "Opus", "pin": "claude-opus-5-5", "contextWindow": 1000000 },
+        { "alias": "sonnet", "name": "Sonnet", "pin": "claude-sonnet-5-5", "contextWindow": 1000000 },
+        { "alias": "haiku", "name": "Haiku", "pin": "claude-haiku-5-5", "contextWindow": 1000000 }
       ],
       "efforts": ["low", "medium", "high", "xhigh", "max"],
       "presets": {
