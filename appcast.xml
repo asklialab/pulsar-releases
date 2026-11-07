@@ -3,6 +3,47 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.38.0</title>
+            <pubDate>Fri, 06 Nov 2026 19:09:04 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>0.38.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Los mensajes entre agentes ya no se atascan.** Cuando un agente escribe a otro con `pulsar agent send`, el mensaje ya no se pega en su caja de texto: espera en un **buzón** de Pulsar y le llega por los hooks de **Claude Code** y **Codex**, tanto si está trabajando como si acaba su turno o está parado (un Claude parado se despierta solo). Se acabaron los mensajes a medio llegar que parecían tuyos, y tu borrador en la caja queda intacto. La confianza de los hooks de Codex solo se da a las sesiones que abre Pulsar: las de fuera no cambian.
+- **«Esperando»: un agente con algo en marcha no ha terminado.** Si un agente acaba su turno con subagentes, una compilación u otros ayudantes en marcha, ya no sale «Terminado»: pasa a **Esperando** y dice a qué espera («2 subagentes», «xcodebuild +2»). El aviso de «Terminó» llega **una sola vez**, cuando de verdad acaba. En el iPhone llega con su próxima versión.
+- **Voice en reunión: hilo, subtítulos y ⌥ Fn.** La ventana de la reunión se lee **por turnos**, con tus preguntas y las respuestas del agente en el mismo hilo, adjuntos y citas `[mm:ss]`. Plegada, al pasar el ratón por la línea salen **subtítulos**. **Fn** sola dicta siempre y **⌥ Fn** pregunta al agente de la reunión, que ahora ve los workspaces que elijas para esa reunión y tu pantalla. Si alguien te pregunta algo, la línea se pone ámbar y te ofrece «¿Qué respondo?». Lo de cada reunión se guarda en una carpeta fija, `Meetings`.
+
+## Nuevo
+
+- _Dictado_ · La línea de **Pulsar Voice** se mueve con un clic sostenido o arrastrándola: al soltar se queda a la izquierda, abajo o a la derecha de la pantalla.
+
+## Mejoras
+
+- _Avisos y sonidos_ · Las notificaciones enseñan el nombre completo del agente, sin cortarlo a mitad.
+- _Agentes_ · Si el agente al que escribes ya salió de su CLI, Pulsar deja de intentarlo en vez de reintentar sin fin.
+
+---
+
+## Highlights
+
+- **Messages between agents no longer get stuck.** When an agent writes to another with `pulsar agent send`, the message is no longer pasted into its text box: it waits in a Pulsar **mailbox** and arrives through the **Claude Code** and **Codex** hooks, whether the agent is working, finishing its turn or idle (an idle Claude wakes up on its own). No more half-delivered messages that looked like yours, and your draft in the box stays untouched. Codex hook trust is only granted to sessions Pulsar opens: the rest don't change.
+- **“Waiting”: an agent with something running isn't done.** If an agent ends its turn with subagents, a build or other helpers still running, it no longer shows “Done”: it moves to **Waiting** and says what it is waiting for (“2 subagents”, “xcodebuild +2”). The “Done” alert arrives **only once**, when it really finishes. On iPhone it arrives with its next version.
+- **Voice in meetings: thread, captions and ⌥ Fn.** The meeting window reads **by turns**, with your questions and the agent's answers in the same thread, attachments and `[mm:ss]` quotes. Collapsed, hovering the line shows **captions**. **Fn** alone always dictates and **⌥ Fn** asks the meeting agent, which can now see the workspaces you pick for that meeting and your screen. If someone asks you something, the line turns amber and offers “What do I answer?”. Each meeting's files are kept in a fixed `Meetings` folder.
+
+## New
+
+- _Dictation_ · The **Pulsar Voice** line moves with a long click or by dragging it: when you let go it stays on the left, bottom or right of the screen.
+
+## Improvements
+
+- _Alerts & sounds_ · Notifications show the agent's full name instead of cutting it off.
+- _Agents_ · If the agent you write to has already left its CLI, Pulsar stops trying instead of retrying forever.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.38.0/Pulsar-0.38.0.dmg" length="154308866" type="application/octet-stream" sparkle:edSignature="pUhVyNM1SEWxwL0lgyHEfV9t1lUuEJhTArhN1v8Vks/QgaUgZw/0rYl2VcTGo2SQl0JMAyOZfZykTw+CAyp2BQ=="/>
+        </item>
+        <item>
             <title>0.37.0</title>
             <pubDate>Fri, 06 Nov 2026 12:23:27 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -87,37 +128,6 @@
 - _Agents_ · After restarting Pulsar, a message to an agent in a workspace you haven't opened yet no longer fails: its terminal starts in the background and the message reaches it as soon as it can take it.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.36.0/Pulsar-0.36.0.dmg" length="150732267" type="application/octet-stream" sparkle:edSignature="gX+yzQuNHYBP4a03n05UIpqbjN9Wu9UxL1i26WvACokwEhkTPVaGkQrELmhUTWiviGlBaQSsd+lreU7d+1HXCg=="/>
-        </item>
-        <item>
-            <title>0.35.0</title>
-            <pubDate>Wed, 04 Nov 2026 03:23:00 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>60</sparkle:version>
-            <sparkle:shortVersionString>0.35.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Texto más claro de un vistazo.** Pulsar tiene ahora **seis tamaños de letra bien separados** en lugar de ocho casi iguales, así que lo importante se distingue sin buscarlo. **Tiempos, contadores y rutas van en Hack**, la letra de la terminal, y las palabras de estado llevan su color. Además, **los textos grises se leen mejor**: todos pasan el contraste recomendado (WCAG AA) en modo oscuro y claro, también sobre la fila seleccionada.
-
-## Mejoras
-
-- _Apariencia_ · Los textos más apagados (detalles, contadores, rutas, pistas) suben de 3,4:1 a 5,2:1 de contraste en modo oscuro y de 3,2:1 a 5,2:1 en modo claro; el gris secundario de día también se oscurece un poco para que la jerarquía no se aplane.
-- _Barra lateral_ · Los puntos y rayitas de los agentes **en reposo** y **dormidos** se ven sin forzar la vista; dormido sigue siendo solo el filo, así que se distinguen por la forma.
-- _Barra lateral_ · El pie de la barra lateral acorta antes «12 de 12 agentes» a «12/12» para no perder la memoria liberable, y la bienvenida de un espacio vacío es algo más ancha para que los lanzadores quepan en una fila.
-
----
-
-## Highlights
-
-- **Text that reads at a glance.** Pulsar now has **six clearly separated text sizes** instead of eight nearly identical ones, so what matters stands out without looking for it. **Times, counters and paths use Hack**, the terminal font, and status words carry their color. Also, **grey text is easier to read**: all of it meets the recommended contrast (WCAG AA) in dark and light mode, including on the selected row.
-
-## Improvements
-
-- _Appearance_ · The faintest text (details, counters, paths, hints) goes from 3.4:1 to 5.2:1 contrast in dark mode and from 3.2:1 to 5.2:1 in light mode; the secondary grey in light mode also gets a little darker so the hierarchy doesn't flatten.
-- _Sidebar_ · The dots and bars of **idle** and **sleeping** agents are visible without straining; sleeping is still just the outline, so you tell them apart by shape.
-- _Sidebar_ · The sidebar footer shortens “12 of 12 agents” to “12/12” sooner so the reclaimable memory stays visible, and an empty workspace's welcome is a bit wider so the launchers fit on one row.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.35.0/Pulsar-0.35.0.dmg" length="148727886" type="application/octet-stream" sparkle:edSignature="BVqEJoIDkn03P2MhkZS8p7sWOEYmuZBmGxlQSNQq/yxB1umMo1cZ7Nl2IcAgDRSeju0DxhbHMUJBI4up1LopBQ=="/>
         </item>
     </channel>
 </rss>
