@@ -3,6 +3,55 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.39.0</title>
+            <pubDate>Sat, 07 Nov 2026 06:58:19 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>0.39.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
+
+- **Historial de tus agentes en Recursos.** Pulsar guarda en tu Mac, sin subir nada, cuánto gasta cada agente y cómo van las compilaciones. En **Recursos › Historial** verás el gasto por día y por papel, cuánto esperan y fallan los turnos de `pulsar lock`, y qué ayudantes crecen demasiado de contexto o se paran sin reportar. Los agentes lo consultan con `pulsar metrics`.
+- **Los orquestadores ya no pierden de vista a sus ayudantes.** Cada reporte o pregunta de un ayudante le llega a su orquestador en el momento, también si ocurre entre dos vigilancias o tras reiniciar Pulsar. Las preguntas de trabajo de un ayudante las responde su orquestador: a ti solo te llega lo que él no puede decidir. Un ayudante que recibe un mensaje nuevo o que se está relevando ya no aparece como «parado sin reportar».
+
+## Mejoras
+
+- _Agentes_ · Al cerrar un sub-orquestador, sus ayudantes pasan al agente que lo lanzó en vez de quedarse huérfanos, y «Limpiar» no cierra tareas con un reporte sin leer (salvo con `--force`).
+- _Seguridad_ · Cuando un orquestador responde una pregunta de su ayudante, la respuesta dice que fue él y no tú, y nunca responde por un ayudante que va sin permisos.
+- _Seguridad_ · Tras reiniciar, un mensaje entre workspaces que habías confirmado y aún no se había entregado te pide confirmarlo otra vez.
+- _Agentes_ · Los recibos de comprobaciones ya no salen «parciales» por hacer un commit mientras corren, y dicen qué archivos cambiaron.
+
+## Arreglos
+
+- _Agentes_ · Un mensaje a un agente con texto sin enviar en su caja ya no se queda pegado ni se reenvía en bucle: va por el buzón y **tu borrador nunca se envía ni se pierde**.
+- _Agentes_ · El relevo por contexto ya no se cancela si llega un mensaje justo después del traspaso (lo recibe el agente nuevo) y se reintenta solo si algo lo frena al acabar el turno.
+- _Agentes_ · Los reportes de los ayudantes y los mensajes pendientes sobreviven a un reinicio de Pulsar.
+- _Agentes_ · Codex en su sandbox explica que no puede hablar con Pulsar en vez de decir que Pulsar está cerrado, y `pulsar lock` avisa cuando corre sin turno.
+
+---
+
+## Highlights
+
+- **Your agents' history in Resources.** Pulsar keeps on your Mac, without uploading anything, how much each agent spends and how builds are going. In **Resources › History** you'll see spend per day and per role, how long `pulsar lock` turns wait and how often they fail, and which helpers grow too much context or stop without reporting. Agents can query it with `pulsar metrics`.
+- **Orchestrators no longer lose track of their helpers.** Every report or question from a helper reaches its orchestrator right away, even between two watches or after restarting Pulsar. A helper's work questions are answered by its orchestrator: only what it can't decide reaches you. A helper that gets a new message or is handing over no longer shows up as «stopped without reporting».
+
+## Improvements
+
+- _Agents_ · Closing a sub-orchestrator hands its helpers to the agent that launched it instead of orphaning them, and «Clean up» no longer closes tasks with an unread report (unless `--force`).
+- _Security_ · When an orchestrator answers its helper's question, the answer says it came from the orchestrator and not you, and it never answers for a helper running without permissions.
+- _Security_ · After a restart, a cross-workspace message you had confirmed but that wasn't delivered yet asks you to confirm it again.
+- _Agents_ · Check receipts no longer come out «partial» because of a commit made while they run, and they say which files changed.
+
+## Fixes
+
+- _Agents_ · A message to an agent with unsent text in its box no longer gets stuck or resent in a loop: it goes through the mailbox and **your draft is never sent or lost**.
+- _Agents_ · Context handover is no longer cancelled when a message arrives right after the handoff (the new agent gets it), and it retries on its own if something holds it up at the end of the turn.
+- _Agents_ · Helper reports and pending messages survive a Pulsar restart.
+- _Agents_ · Codex in its sandbox explains it can't talk to Pulsar instead of saying Pulsar is closed, and `pulsar lock` warns when it runs without a turn.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.39.0/Pulsar-0.39.0.dmg" length="158891201" type="application/octet-stream" sparkle:edSignature="X0SGGWFCtHvr3JFg+oWL1lXL0LbXp658aa8OIht7rcoGJV0ACQAw8cIoIarDH8mspD9sGadif2jBgqJJ0vg1AQ=="/>
+        </item>
+        <item>
             <title>0.38.1</title>
             <pubDate>Fri, 06 Nov 2026 21:56:14 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -69,51 +118,6 @@
 - _Agents_ · If the agent you write to has already left its CLI, Pulsar stops trying instead of retrying forever.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.38.0/Pulsar-0.38.0.dmg" length="154308866" type="application/octet-stream" sparkle:edSignature="pUhVyNM1SEWxwL0lgyHEfV9t1lUuEJhTArhN1v8Vks/QgaUgZw/0rYl2VcTGo2SQl0JMAyOZfZykTw+CAyp2BQ=="/>
-        </item>
-        <item>
-            <title>0.37.0</title>
-            <pubDate>Fri, 06 Nov 2026 12:23:27 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>62</sparkle:version>
-            <sparkle:shortVersionString>0.37.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Reuniones con más de 4 personas.** Las reuniones que transcribe **Pulsar Voice** ya no se quedan en «Hablante 1…4» y «Otros»: un **repaso de hablantes** relee el audio cada pocos minutos y al parar, y corrige las frases ya escritas sin perder los nombres que pusiste. En nuestras pruebas, una reunión de 7 personas pasó del 63 % al 91 % de frases con la persona correcta, y una de 9 sale con las 9. Todo va en la Mac; el audio de los demás solo existe mientras dura la reunión.
-- **ChatGPT y Claude recuerdan su permiso.** El permiso que das a **ChatGPT** o a **Claude** para usar Pulsar ya no se pierde al cerrar Pulsar, la app o al actualizar: se guarda en el llavero y lo recuperado nunca pasa de **Operar**. La hoja de permiso queda centrada y quieta, por encima de las demás ventanas, así que sus botones se pulsan a la primera.
-
-## A tener en cuenta
-
-- _Dictado_ · El aviso de privacidad de las reuniones se enseña otra vez: ahora explica que el audio de los demás se guarda en un archivo temporal sin nombre mientras dura la reunión (como mucho 4 horas) y se borra al terminar.
-
-## Mejoras
-
-- _Dictado_ · Cuando dos personas hablan en la misma frase, la transcripción la parte donde cambia quien habla.
-
-## Arreglos
-
-- _Integraciones_ · Claude Code dentro de Claude ya no vuelve a pedir permiso cada vez que cierras Claude.
-
----
-
-## Highlights
-
-- **Meetings with more than 4 people.** Meetings transcribed by **Pulsar Voice** no longer stop at “Speaker 1…4” and “Others”: a **speaker review** rereads the audio every few minutes and when you stop, and fixes the lines already written without losing the names you set. In our tests, a 7-person meeting went from 63% to 91% of lines with the right person, and a 9-person one comes out with all 9. It all runs on your Mac; other people's audio only exists while the meeting lasts.
-- **ChatGPT and Claude remember their permission.** The permission you give **ChatGPT** or **Claude** to use Pulsar is no longer lost when you quit Pulsar, the app or update: it is kept in the keychain and what comes back never goes beyond **Operate**. The permission sheet stays centered and still, above other windows, so its buttons work on the first click.
-
-## Good to know
-
-- _Dictation_ · The meetings privacy notice shows once more: it now explains that other people's audio is kept in a nameless temporary file while the meeting lasts (4 hours at most) and is deleted when it ends.
-
-## Improvements
-
-- _Dictation_ · When two people speak in the same line, the transcript splits it where the speaker changes.
-
-## Fixes
-
-- _Integrations_ · Claude Code inside Claude no longer asks for permission again every time you quit Claude.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.37.0/Pulsar-0.37.0.dmg" length="151219020" type="application/octet-stream" sparkle:edSignature="FEysNVSFlNj13ZDCkLVC7qmnRAaOmbFA0SjpFpT82yg+xkmO+MEfcvnRD2OSYg13ioBbpAzYrb6ZIdzrl4KCAQ=="/>
         </item>
     </channel>
 </rss>
