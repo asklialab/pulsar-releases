@@ -3,6 +3,31 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.41.1</title>
+            <pubDate>Mon, 09 Nov 2026 10:37:16 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>0.41.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Arreglos
+
+- _Agentes_ · Tras **reiniciar Pulsar**, lo que un ayudante reportó mientras tanto ya despierta a su orquestador al momento, en vez de esperar a tu siguiente mensaje.
+- _Agentes_ · Con un agente en una carpeta con **enlace simbólico** (como `/tmp`), su consumo, su contexto y su último texto vuelven a aparecer.
+- _Agentes_ · Sin avisos falsos de **«sigue con procesos en segundo plano: nc»** al acabar un turno: la conexión de los hooks de Pulsar ya no cuenta como proceso del agente.
+- _Agentes_ · Una misma pregunta de un ayudante ya **no le llega dos veces** a su orquestador cuando este le escribe mientras espera.
+
+---
+
+## Fixes
+
+- _Agents_ · After **restarting Pulsar**, what a helper reported in the meantime now wakes its orchestrator right away, instead of waiting for your next message.
+- _Agents_ · With an agent in a folder behind a **symbolic link** (like `/tmp`), its usage, context and last text show up again.
+- _Agents_ · No more false **“still has background processes: nc”** when a turn ends: the connection of Pulsar's hooks no longer counts as one of the agent's processes.
+- _Agents_ · The same question from a helper **no longer reaches its orchestrator twice** when the orchestrator writes to it while it waits.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.41.1/Pulsar-0.41.1.dmg" length="215942335" type="application/octet-stream" sparkle:edSignature="H5nMYEXTPNVrKh6PAjM92GlFE1dXb7ar6AtSKrwDR0spAE5Fa4xy0GRlkqIeLOFUuYwrZcSts9t8HFfbZ3gdAg=="/>
+        </item>
+        <item>
             <title>0.41.0</title>
             <pubDate>Mon, 09 Nov 2026 03:05:18 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -119,55 +144,6 @@
 - _Browser_ · Agents no longer steal your focus when they use their browser: opening it, asking you for something in it or a popup from their page **don't switch workspace, don't unmaximize what you have maximized and don't take the keyboard**. Their card turns to the web when you let go of their terminal, and their 🌐 tells you if they're asking for something.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.40.0/Pulsar-0.40.0.dmg" length="214841164" type="application/octet-stream" sparkle:edSignature="Ve8/PFOuNK8ilkHEgipbWfiwCd9HmL4DLrEIXqfHGsV95JnfJrjpUMY4n45fMe9WtqgiY1esM0douBupKxD+AA=="/>
-        </item>
-        <item>
-            <title>0.39.0</title>
-            <pubDate>Sat, 07 Nov 2026 06:58:19 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>65</sparkle:version>
-            <sparkle:shortVersionString>0.39.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Historial de tus agentes en Recursos.** Pulsar guarda en tu Mac, sin subir nada, cuánto gasta cada agente y cómo van las compilaciones. En **Recursos › Historial** verás el gasto por día y por papel, cuánto esperan y fallan los turnos de `pulsar lock`, y qué ayudantes crecen demasiado de contexto o se paran sin reportar. Los agentes lo consultan con `pulsar metrics`.
-- **Los orquestadores ya no pierden de vista a sus ayudantes.** Cada reporte o pregunta de un ayudante le llega a su orquestador en el momento, también si ocurre entre dos vigilancias o tras reiniciar Pulsar. Las preguntas de trabajo de un ayudante las responde su orquestador: a ti solo te llega lo que él no puede decidir. Un ayudante que recibe un mensaje nuevo o que se está relevando ya no aparece como «parado sin reportar».
-
-## Mejoras
-
-- _Agentes_ · Al cerrar un sub-orquestador, sus ayudantes pasan al agente que lo lanzó en vez de quedarse huérfanos, y «Limpiar» no cierra tareas con un reporte sin leer (salvo con `--force`).
-- _Seguridad_ · Cuando un orquestador responde una pregunta de su ayudante, la respuesta dice que fue él y no tú, y nunca responde por un ayudante que va sin permisos.
-- _Seguridad_ · Tras reiniciar, un mensaje entre workspaces que habías confirmado y aún no se había entregado te pide confirmarlo otra vez.
-- _Agentes_ · Los recibos de comprobaciones ya no salen «parciales» por hacer un commit mientras corren, y dicen qué archivos cambiaron.
-
-## Arreglos
-
-- _Agentes_ · Un mensaje a un agente con texto sin enviar en su caja ya no se queda pegado ni se reenvía en bucle: va por el buzón y **tu borrador nunca se envía ni se pierde**.
-- _Agentes_ · El relevo por contexto ya no se cancela si llega un mensaje justo después del traspaso (lo recibe el agente nuevo) y se reintenta solo si algo lo frena al acabar el turno.
-- _Agentes_ · Los reportes de los ayudantes y los mensajes pendientes sobreviven a un reinicio de Pulsar.
-- _Agentes_ · Codex en su sandbox explica que no puede hablar con Pulsar en vez de decir que Pulsar está cerrado, y `pulsar lock` avisa cuando corre sin turno.
-
----
-
-## Highlights
-
-- **Your agents' history in Resources.** Pulsar keeps on your Mac, without uploading anything, how much each agent spends and how builds are going. In **Resources › History** you'll see spend per day and per role, how long `pulsar lock` turns wait and how often they fail, and which helpers grow too much context or stop without reporting. Agents can query it with `pulsar metrics`.
-- **Orchestrators no longer lose track of their helpers.** Every report or question from a helper reaches its orchestrator right away, even between two watches or after restarting Pulsar. A helper's work questions are answered by its orchestrator: only what it can't decide reaches you. A helper that gets a new message or is handing over no longer shows up as «stopped without reporting».
-
-## Improvements
-
-- _Agents_ · Closing a sub-orchestrator hands its helpers to the agent that launched it instead of orphaning them, and «Clean up» no longer closes tasks with an unread report (unless `--force`).
-- _Security_ · When an orchestrator answers its helper's question, the answer says it came from the orchestrator and not you, and it never answers for a helper running without permissions.
-- _Security_ · After a restart, a cross-workspace message you had confirmed but that wasn't delivered yet asks you to confirm it again.
-- _Agents_ · Check receipts no longer come out «partial» because of a commit made while they run, and they say which files changed.
-
-## Fixes
-
-- _Agents_ · A message to an agent with unsent text in its box no longer gets stuck or resent in a loop: it goes through the mailbox and **your draft is never sent or lost**.
-- _Agents_ · Context handover is no longer cancelled when a message arrives right after the handoff (the new agent gets it), and it retries on its own if something holds it up at the end of the turn.
-- _Agents_ · Helper reports and pending messages survive a Pulsar restart.
-- _Agents_ · Codex in its sandbox explains it can't talk to Pulsar instead of saying Pulsar is closed, and `pulsar lock` warns when it runs without a turn.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.39.0/Pulsar-0.39.0.dmg" length="158891201" type="application/octet-stream" sparkle:edSignature="X0SGGWFCtHvr3JFg+oWL1lXL0LbXp658aa8OIht7rcoGJV0ACQAw8cIoIarDH8mspD9sGadif2jBgqJJ0vg1AQ=="/>
         </item>
     </channel>
 </rss>
