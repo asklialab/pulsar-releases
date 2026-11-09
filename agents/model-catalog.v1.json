@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "agents": {
     "claude": {
       "models": [
@@ -38,6 +38,7 @@
       "models": [
         { "alias": "astra", "name": "Astra", "id": "gpt-6-astra", "match": "^gpt-[0-9.]+-astra$" },
         { "alias": "sol", "name": "Sol", "id": "gpt-6.1-sol", "match": "^gpt-[0-9.]+-sol$" },
+        { "alias": "terra", "name": "Terra", "id": "gpt-6.1-terra", "match": "^gpt-[0-9.]+-terra$" },
         { "alias": "luna", "name": "Luna", "id": "gpt-6-luna", "match": "^gpt-[0-9.]+-luna$" }
       ],
       "efforts": ["low", "medium", "high", "xhigh", "max", "ultra"],
