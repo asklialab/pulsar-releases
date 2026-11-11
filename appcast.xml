@@ -3,6 +3,25 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.42.2</title>
+            <pubDate>Wed, 11 Nov 2026 17:30:33 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>0.42.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mejoras
+
+- _Dictado_ · **Copiar** una respuesta de la ventana de la reunión la pega **con formato** en Mail, Notas o Pages (negritas, títulos y listas) y como texto limpio, sin asteriscos, en una terminal.
+
+---
+
+## Improvements
+
+- _Dictation_ · **Copying** an answer from the meeting window pastes it **with formatting** in Mail, Notes or Pages (bold, headings and lists) and as clean text, with no asterisks, in a terminal.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.42.2/Pulsar-0.42.2.dmg" length="217251926" type="application/octet-stream" sparkle:edSignature="2qzOtrRCYEP9HPPjoMBDVEFN+koQPJgcYP2PRFr8hDjd/G7jyBoA297kx+VJ/1swOZ9pgBkHq4KHT81nAGuTDw=="/>
+        </item>
+        <item>
             <title>0.42.1</title>
             <pubDate>Wed, 11 Nov 2026 17:08:41 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -101,31 +120,6 @@
 - _Agents_ · A `claude` or `codex` you start by hand in a **Pulsar terminal**, or in the shell left when an agent exits, now belongs to its pane: it can use `pulsar` and gets its guidance. It used to be treated as an outside app. zsh only.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.42.0/Pulsar-0.42.0.dmg" length="216385242" type="application/octet-stream" sparkle:edSignature="7wag8jPRv+yg7BuGznG4QfjDdBa3+5IalfTKxklg8PTCI/8Uu/hnH8Wp7S5ObjQdyB4qvZ9//005f5rjE766Bg=="/>
-        </item>
-        <item>
-            <title>0.41.1</title>
-            <pubDate>Mon, 09 Nov 2026 10:37:16 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>68</sparkle:version>
-            <sparkle:shortVersionString>0.41.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Arreglos
-
-- _Agentes_ · Tras **reiniciar Pulsar**, lo que un ayudante reportó mientras tanto ya despierta a su orquestador al momento, en vez de esperar a tu siguiente mensaje.
-- _Agentes_ · Con un agente en una carpeta con **enlace simbólico** (como `/tmp`), su consumo, su contexto y su último texto vuelven a aparecer.
-- _Agentes_ · Sin avisos falsos de **«sigue con procesos en segundo plano: nc»** al acabar un turno: la conexión de los hooks de Pulsar ya no cuenta como proceso del agente.
-- _Agentes_ · Una misma pregunta de un ayudante ya **no le llega dos veces** a su orquestador cuando este le escribe mientras espera.
-
----
-
-## Fixes
-
-- _Agents_ · After **restarting Pulsar**, what a helper reported in the meantime now wakes its orchestrator right away, instead of waiting for your next message.
-- _Agents_ · With an agent in a folder behind a **symbolic link** (like `/tmp`), its usage, context and last text show up again.
-- _Agents_ · No more false **“still has background processes: nc”** when a turn ends: the connection of Pulsar's hooks no longer counts as one of the agent's processes.
-- _Agents_ · The same question from a helper **no longer reaches its orchestrator twice** when the orchestrator writes to it while it waits.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.41.1/Pulsar-0.41.1.dmg" length="215942335" type="application/octet-stream" sparkle:edSignature="H5nMYEXTPNVrKh6PAjM92GlFE1dXb7ar6AtSKrwDR0spAE5Fa4xy0GRlkqIeLOFUuYwrZcSts9t8HFfbZ3gdAg=="/>
         </item>
     </channel>
 </rss>
