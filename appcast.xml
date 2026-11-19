@@ -3,6 +3,45 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.44.1</title>
+            <pubDate>Thu, 19 Nov 2026 01:04:41 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>75</sparkle:version>
+            <sparkle:shortVersionString>0.44.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mejoras
+
+- _Barra lateral_ · La fila **Límites** ya lee a **Claude** sin configurar nada: Pulsar se lo pregunta a la propia CLI de Claude y enseña la semana del plan, la del modelo con ventana propia, las cinco horas si el plan las tiene y el tipo de plan. La fila del pie muestra la ventana que menos margen deja.
+- _Agentes_ · Las preguntas de una tarea llegan a su orquestador con la **descripción de cada opción** y una sola línea por espera. El despertar del buzón ya no llama «mensaje de otro agente» a un aviso de Pulsar.
+
+## Arreglos
+
+- _Agentes_ · Un agente de Claude cuyo turno acaba por un **error del proveedor** ya no se queda «trabajando» durante horas: el panel termina con el error, suena y avisa a su orquestador.
+- _Agentes_ · Un mensaje a una tarea **hibernada tras su relevo** la despierta, en vez de quedarse en su buzón hasta caducar.
+- _Agentes_ · Tras reiniciar Pulsar, un orquestador no vuelve a recibir los reportes que ya había leído, y uno intermedio no se da por parado mientras su tarea sigue sin medir.
+- _Navegador_ · Para los agentes: `pulsar browser upload` funciona con campos de archivo **ocultos** (los que la página abre desde un botón propio).
+- _Rendimiento_ · `pulsar lock` ya no deja un informe de cierre a nombre de la CLI cuando la orden muere por una señal: lo dice y sale con `128 + señal`. `pulsar system status` muestra el **intercambio** y avisa si es alto.
+- _Barra lateral_ · El botón de **plegar la barra lateral** vuelve a responder al clic.
+
+---
+
+## Improvements
+
+- _Sidebar_ · The **Limits** row now reads **Claude** with nothing to set up: Pulsar asks Claude's own CLI and shows the plan's week, the week of the model with its own window, the five hours if the plan has them, and the plan type. The footer row shows the window with the least room left.
+- _Agents_ · A task's questions reach its orchestrator with **each option's description** and a single line per wait. The mailbox wake-up no longer calls a notice from Pulsar a “message from another agent”.
+
+## Fixes
+
+- _Agents_ · A Claude agent whose turn ends on a **provider error** no longer stays “working” for hours: the pane finishes with the error, plays its sound and tells its orchestrator.
+- _Agents_ · A message to a task **hibernated after its handoff** wakes it up, instead of sitting in its mailbox until it expires.
+- _Agents_ · After restarting Pulsar, an orchestrator no longer gets reports it had already read again, and an intermediate one isn't taken as stopped while its task is still unmeasured.
+- _Browser_ · For agents: `pulsar browser upload` works with **hidden** file inputs (the ones a page opens from its own button).
+- _Performance_ · `pulsar lock` no longer leaves a crash report under the CLI's name when the command dies from a signal: it says so and exits with `128 + signal`. `pulsar system status` shows **swap** and warns when it's high.
+- _Sidebar_ · The **collapse sidebar** button responds to clicks again.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.44.1/Pulsar-0.44.1.dmg" length="224947133" type="application/octet-stream" sparkle:edSignature="lAuTlERbASS4TWE2QLT117MwpCYeScWdfLw8pUg87P0NWsJm+SB3+4LhVZlS8YQ0WPoYvp+54t7jBuXW9+2PDg=="/>
+        </item>
+        <item>
             <title>0.44.0</title>
             <pubDate>Wed, 18 Nov 2026 17:35:13 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -113,25 +152,6 @@
 - _Agents_ · `pulsar agent clean` no longer closes panes it couldn't fully inspect or terminals that were just opened.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.43.0/Pulsar-0.43.0.dmg" length="221464875" type="application/octet-stream" sparkle:edSignature="oWqV8HhpwIE1J+u1qINLeXH33PoAghRmCQrSv2lAZ3EGFXlRgpsnDxphcdqT1BjwarP6fIbK/8axcAz6fAU5AQ=="/>
-        </item>
-        <item>
-            <title>0.42.3</title>
-            <pubDate>Thu, 12 Nov 2026 10:51:11 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>72</sparkle:version>
-            <sparkle:shortVersionString>0.42.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Arreglos
-
-- _Integraciones_ · Pulsar ya **no se cierra al lanzar un agente con título** desde otra app conectada (como ChatGPT o Claude).
-
----
-
-## Fixes
-
-- _Integrations_ · Pulsar **no longer quits when an agent is launched with a title** from another connected app (like ChatGPT or Claude).
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.42.3/Pulsar-0.42.3.dmg" length="217236774" type="application/octet-stream" sparkle:edSignature="gQBW9dg81w+lBFZwkC+LdO0UB7QfM9f0/iDj+JQA15ocU7cvB/f6VLrx9il/pg0hrnmEL/5gyMN3oycfL5wdAg=="/>
         </item>
     </channel>
 </rss>
