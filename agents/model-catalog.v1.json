@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-07",
+  "updated": "2026-11-19",
   "agents": {
     "claude": {
       "models": [
@@ -68,23 +68,33 @@
     },
     "gemini": {
       "models": [
-        { "alias": "pro", "name": "Pro" },
-        { "alias": "flash", "name": "Flash" },
-        { "alias": "flash-lite", "name": "Flash-Lite" }
+        { "alias": "pro", "name": "Argon", "id": "gemini-4-argon" },
+        { "alias": "neon", "name": "Neon", "id": "gemini-4-neon" },
+        { "alias": "hydrogen", "name": "Hydrogen", "id": "gemini-4-hydrogen" },
+        { "alias": "flash", "name": "Flash", "id": "gemini-3.8-flash" }
       ],
-      "efforts": [],
+      "efforts": ["low", "medium", "high"],
       "presets": {
         "balanced": {
-          "main": { "model": "pro" }, "design": { "model": "pro" }, "test": { "model": "pro" }, "work": { "model": "pro" },
-          "light": { "model": "flash" }
+          "main": { "model": "neon", "effort": "high" },
+          "design": { "model": "neon", "effort": "high" },
+          "test": { "model": "neon", "effort": "medium" },
+          "work": { "model": "neon", "effort": "medium" },
+          "light": { "model": "hydrogen" }
         },
         "maximum": {
-          "main": { "model": "pro" }, "design": { "model": "pro" }, "test": { "model": "pro" }, "work": { "model": "pro" },
-          "light": { "model": "pro" }
+          "main": { "model": "pro", "effort": "high" },
+          "design": { "model": "pro", "effort": "high" },
+          "test": { "model": "pro", "effort": "high" },
+          "work": { "model": "pro", "effort": "high" },
+          "light": { "model": "neon" }
         },
         "saving": {
-          "main": { "model": "flash" }, "design": { "model": "pro" }, "test": { "model": "flash" }, "work": { "model": "flash" },
-          "light": { "model": "flash-lite" }
+          "main": { "model": "hydrogen", "effort": "medium" },
+          "design": { "model": "neon", "effort": "high" },
+          "test": { "model": "hydrogen", "effort": "medium" },
+          "work": { "model": "hydrogen", "effort": "medium" },
+          "light": { "model": "flash" }
         }
       }
     },
