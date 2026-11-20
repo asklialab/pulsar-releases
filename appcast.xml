@@ -3,6 +3,49 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.46.0</title>
+            <pubDate>Fri, 20 Nov 2026 12:38:41 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>77</sparkle:version>
+            <sparkle:shortVersionString>0.46.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## A tener en cuenta
+
+- _Agentes_ · **Antigravity CLI sustituye a Gemini CLI.** Gemini CLI ya no se actualiza: en su sitio de la barra de lanzar está su sucesor, `agy`, con su logo, sus modelos y su estado exacto. Tus espacios guardados lo abren sin hacer nada. El modo «Preguntar» no está disponible con Antigravity, porque `agy` no lo ofrece.
+
+## Nuevo
+
+- _Navegador_ · **El iPhone ve el navegador de cada agente mucho mejor.** Pide capturas nítidas al acercar la imagen, puede ver la página entera de un navegador que abrió el agente y, cuando te pide elegir con `pulsar browser choose`, también ve las opciones que quedan fuera de la vista. Nunca ve un navegador tuyo.
+- _Agentes_ · `pulsar browser choose --note "etiqueta=nota"` añade una nota corta a cada opción; se ve bajo su nombre en la Mac y en el iPhone.
+- _Compartir en vivo_ · **«En tu teléfono».** Si el agente tiene abierto su servidor de desarrollo (localhost), el iPhone puede abrirlo con Face ID, solo para ti, como un compartido en vivo. Es la página de verdad: lo que envíes en sus formularios llega a ese servidor.
+
+## Mejoras
+
+- _Integraciones_ · **Codex usa Pulsar sin pedir permiso cada vez.** Cada panel de Codex lleva la herramienta `pulsar`, así que abrir el visor, usar el navegador o escribir a otro agente funciona aunque Codex esté en su sandbox. Pulsar comprueba en cada llamada que viene de ese panel.
+- _Seguridad_ · Cuando Pulsar lee git en una carpeta que eligió un agente (recibos de `agent report`, `pulsar lock`, envíos y reuniones), lo hace sin poder lanzar programas, escribir ni usar la red: la configuración de un repositorio ya no puede ejecutar nada fuera del sandbox del agente.
+- _Ajustes_ · **Ajustes › iPhone** explica qué ve el iPhone del navegador de un agente, y cada página entera o «En tu teléfono» que pide queda en el registro.
+
+---
+
+## Good to know
+
+- _Agents_ · **Antigravity CLI replaces Gemini CLI.** Gemini CLI is no longer updated: its successor, `agy`, takes its place in the launch bar, with its own logo, models and exact status. Your saved spaces open it with nothing to do. “Ask” mode isn't available with Antigravity, because `agy` doesn't offer it.
+
+## New
+
+- _Browser_ · **The iPhone sees each agent's browser much better.** It asks for sharp captures when you zoom in, can see the whole page of a browser the agent opened and, when it asks you to choose with `pulsar browser choose`, it also sees the options that are out of view. It never sees a browser of yours.
+- _Agents_ · `pulsar browser choose --note "label=note"` adds a short note to each option; it shows under its name on the Mac and on the iPhone.
+- _Share live_ · **“On your phone”.** If the agent has its development server open (localhost), the iPhone can open it with Face ID, just for you, as a live share. It's the real page: whatever you submit in its forms reaches that server.
+
+## Improvements
+
+- _Integrations_ · **Codex uses Pulsar without asking every time.** Each Codex pane carries the `pulsar` tool, so opening the viewer, using the browser or writing to another agent works even inside Codex's sandbox. Pulsar checks on every call that it comes from that pane.
+- _Security_ · When Pulsar reads git in a folder an agent chose (`agent report` receipts, `pulsar lock`, sends and meetings), it does so without being able to launch programs, write or use the network: a repository's settings can no longer run anything outside the agent's sandbox.
+- _Settings_ · **Settings › iPhone** explains what the iPhone sees of an agent's browser, and every whole page or “On your phone” it asks for is kept in the log.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.46.0/Pulsar-0.46.0.dmg" length="215255370" type="application/octet-stream" sparkle:edSignature="A8jqfImW4gZLM73ha61uLlLYCrlr1/o9TlOq2ibkPGh11ahwVYMNfjXLZUBIEl5qiI5f9TfNJnIBfxoyGTYkDQ=="/>
+        </item>
+        <item>
             <title>0.45.0</title>
             <pubDate>Thu, 19 Nov 2026 04:58:21 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -89,49 +132,6 @@
 - _Sidebar_ · The **collapse sidebar** button responds to clicks again.
 ]]></description>
             <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.44.1/Pulsar-0.44.1.dmg" length="224947133" type="application/octet-stream" sparkle:edSignature="lAuTlERbASS4TWE2QLT117MwpCYeScWdfLw8pUg87P0NWsJm+SB3+4LhVZlS8YQ0WPoYvp+54t7jBuXW9+2PDg=="/>
-        </item>
-        <item>
-            <title>0.44.0</title>
-            <pubDate>Wed, 18 Nov 2026 17:35:13 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>74</sparkle:version>
-            <sparkle:shortVersionString>0.44.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Lo más destacado
-
-- **Mira lo que cambió un agente.** **⌃⌘C** da la vuelta al panel de un agente y te enseña sus **cambios**: la lista de archivos y el diff de cada uno, en unificado o lado a lado. Elige entre lo que aún está **sin confirmar** y **todo lo de la rama** frente a su base. Pulsar solo mira: no hace commits ni toca el repositorio, y el agente sigue trabajando igual. Desde ahí puedes abrir el archivo en tu editor en esa línea o copiar su ruta. También está en el «⋯» del panel.
-
-## A tener en cuenta
-
-- _Paneles_ · «Cambios» lee con el Git de Xcode o de las Command Line Tools. Un repositorio con **filtros obligatorios** (por ejemplo, Git LFS con archivos modificados) no se puede comparar: Pulsar lo dice en vez de ejecutar esos programas.
-
-## Mejoras
-
-- _Seguridad_ · Mientras «Cambios» tapa una terminal, lo que escribas, pegues o sueltes **no llega al agente** a ciegas.
-
-## Arreglos
-
-- _Agentes_ · Los relevos ya no se quedan parados por «configuración cambiada» cuando Claude Code cambia de modelo o esfuerzo o actualiza un plugin por su cuenta.
-
----
-
-## Highlights
-
-- **See what an agent changed.** **⌃⌘C** flips an agent's pane to show its **changes**: the list of files and each one's diff, unified or side by side. Choose between what's still **uncommitted** and **everything on the branch** against its base. Pulsar only looks: it makes no commits and doesn't touch the repository, and the agent keeps working as usual. From there you can open the file in your editor at that line or copy its path. It's also in the pane's “⋯” menu.
-
-## Good to know
-
-- _Panes_ · “Changes” reads with the Git from Xcode or the Command Line Tools. A repository with **required filters** (for example, Git LFS with modified files) can't be compared: Pulsar says so instead of running those programs.
-
-## Improvements
-
-- _Security_ · While “Changes” covers a terminal, what you type, paste or drop **doesn't reach the agent** blindly.
-
-## Fixes
-
-- _Agents_ · Handoffs no longer stall on “configuration changed” when Claude Code switches model or effort, or updates a plugin on its own.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.44.0/Pulsar-0.44.0.dmg" length="224730808" type="application/octet-stream" sparkle:edSignature="7p6Ghp7i0mldVaJr8qBYNNU8lGReew5BHEIcsNNRr2ovtPGHpxmyi4Ktak2/WP/Eqh4Z/WiFDWnujdywhbLYBA=="/>
         </item>
     </channel>
 </rss>
