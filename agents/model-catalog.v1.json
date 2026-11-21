@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-19",
+  "updated": "2026-11-21",
   "agents": {
     "claude": {
       "models": [
@@ -68,12 +68,12 @@
     },
     "gemini": {
       "models": [
-        { "alias": "pro", "name": "Argon", "id": "gemini-4-argon" },
+        { "alias": "pro", "name": "Argon", "id": "gemini-4-argon", "efforts": ["low", "medium", "high"] },
         { "alias": "neon", "name": "Neon", "id": "gemini-4-neon" },
         { "alias": "hydrogen", "name": "Hydrogen", "id": "gemini-4-hydrogen" },
-        { "alias": "flash", "name": "Flash", "id": "gemini-3.8-flash" }
+        { "alias": "flash", "name": "Flash", "id": "gemini-3.8-flash", "efforts": ["low", "medium", "high"] }
       ],
-      "efforts": ["low", "medium", "high"],
+      "efforts": ["low", "medium", "high", "xhigh"],
       "presets": {
         "balanced": {
           "main": { "model": "neon", "effort": "high" },
