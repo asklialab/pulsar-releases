@@ -3,6 +3,44 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.48.1</title>
+            <pubDate>Wed, 25 Nov 2026 01:34:37 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>0.48.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Mejoras
+
+- _Agentes_ · Si el orquestador escribe a una tarea que tiene una pregunta abierta, se le recuerda que el mensaje no contesta el selector y cómo contestarlo.
+- _Visor_ · En los **PDF**, botones para ir a la página anterior y a la siguiente, con el número de página. El rótulo va en su propia fila y ya no tapa los márgenes.
+- _Visor_ · Con poco sitio en la barra del visor, el zoom y el escenario son lo último en irse a «⋯».
+
+## Arreglos
+
+- _Agentes_ · Las **preguntas de Codex** se contestan desde la barra de respuesta y el iPhone aunque la lista de opciones no quepa en el panel y haya que desplazarla, y también desde la segunda pregunta de un formulario. Si la opción elegida sale cortada, Pulsar te pide ampliar la terminal y la pregunta sigue pendiente.
+- _Agentes_ · Los mensajes entre agentes ya no se escriben dentro de la caja de texto de una pregunta de Codex.
+
+---
+
+## Improvements
+
+- _Agents_ · If the orchestrator writes to a task that has an open question, it’s reminded that the message doesn’t answer the picker and how to answer it.
+- _Viewer_ · In **PDFs**, buttons to go to the previous and next page, with the page number. The caption sits in its own row and no longer covers the margins.
+- _Viewer_ · When the viewer’s bar is short on space, zoom and stage are the last to move into “⋯”.
+
+## Fixes
+
+- _Agents_ · **Codex questions** can be answered from the answer bar and the iPhone even when the list of options doesn’t fit in the pane and has to scroll, and also from the second question of a form. If the chosen option is cut off, Pulsar asks you to widen the terminal and the question stays pending.
+- _Agents_ · Messages between agents are no longer typed into the text box of a Codex question.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.1/Pulsar-0.48.1.dmg" length="42946304" type="application/octet-stream" sparkle:edSignature="pOAbwdyU7dUFodKvBeU8wQRYvzXWGky54xt2oZTauZDaeUMpXiBRslzFToBkS4seF3NL8UGWRqrh39rgeRGqAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.1/Pulsar81-80.delta" sparkle:deltaFrom="80" length="3281458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Lv94JxK/wFlvtqgNLluGasyy/Us/Ghpz9wnf/0KOytiv/owFfnzoXPsU9pEJKefiRl8tNviw5Cg/dkoVQFyzCA=="/>
+                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.1/Pulsar81-79.delta" sparkle:deltaFrom="79" length="5930554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ot2iIs7a9rC2TXM+YoSSmzMPD59UQ4rg3BZVPzLV778N5ppoU/age7xAlB6pARKRRjvrFEzLDfWy0Qm7qVAMAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.48.0</title>
             <pubDate>Sun, 22 Nov 2026 17:23:57 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -88,50 +126,6 @@
             <sparkle:deltas>
                 <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.47.1/Pulsar79-78.delta" sparkle:deltaFrom="78" length="2919918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vkk4NvL/5GrJ2OhEziLWZDwS5F0QtsOW74RUo9k7Pz1OYfXuWdSvaXQGFYQP1o8S2wPAUnKestX90pT6rR1DBQ=="/>
                 <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.47.1/Pulsar79-77.delta" sparkle:deltaFrom="77" length="5586550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6/CIMkHT8UF/DHIQxQ4B2xvQz3RP6X6DTwWVQecgKCfUrWjWU5LbqOgRRcWstCBsAUrWPvecAXJxMMpohIT6Dw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.47.0</title>
-            <pubDate>Sat, 21 Nov 2026 06:01:18 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>78</sparkle:version>
-            <sparkle:shortVersionString>0.47.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Nuevo
-
-- _Agentes_ · **Antigravity CLI ya funciona como Claude y Codex.** Recibe la guía de Pulsar en todos sus paneles, le llegan los mensajes de otros agentes con `pulsar agent send` (también en reposo) y el texto que le escribes desde el iPhone. Como su sandbox no deja a la terminal hablar con Pulsar, usa la herramienta `pulsar` del panel (la misma que Codex), que respeta tus reglas de `agy`; en el primer turno puede no estar disponible todavía.
-- _Agentes_ · Las **preguntas de Antigravity** salen en la barra de respuesta y en el iPhone, con sus opciones exactas: hasta cuatro preguntas seguidas, selección múltiple y respuesta con tus palabras. Sus **diálogos de aprobación** de órdenes y archivos también se responden desde ahí; si no se ve entera la orden, desde el iPhone solo se puede rechazar.
-
-## Mejoras
-
-- _Barra lateral_ · La fila **Límites** enseña los de **Antigravity**: las ventanas de cinco horas y de siete días de Gemini y de los demás modelos, y el plan. Cada panel de Antigravity muestra también cuánto contexto lleva.
-- _Agentes_ · Los modos de trabajo admiten el esfuerzo **xhigh** en los modelos de Antigravity que lo tienen.
-
-## Arreglos
-
-- _Navegador_ · Una página que **se cerraba sola al cargar** ya no hace parpadear el navegador sin fin: tras dos recargas seguidas Pulsar para, avisa de que la página se cerró sola y te deja recargarla. Las ventanas emergentes (un inicio de sesión) que se ven en el visor ya no se quedan en blanco.
-
----
-
-## New
-
-- _Agents_ · **Antigravity CLI now works like Claude and Codex.** It gets Pulsar's guidance in every pane, receives messages from other agents with `pulsar agent send` (even when idle) and the text you type from the iPhone. Since its sandbox doesn't let the terminal talk to Pulsar, it uses the pane's `pulsar` tool (the same one Codex uses), which respects your `agy` rules; it may not be available yet on the first turn.
-- _Agents_ · **Antigravity's questions** show up in the answer bar and on the iPhone with their exact options: up to four questions in a row, multiple choice and answers in your own words. Its **approval dialogs** for commands and files can be answered from there too; if the whole command isn't visible, the iPhone can only decline.
-
-## Improvements
-
-- _Sidebar_ · The **Limits** row shows **Antigravity**'s: the five-hour and seven-day windows for Gemini and for other models, and the plan. Each Antigravity pane also shows how much context it has used.
-- _Agents_ · Work modes support **xhigh** effort on the Antigravity models that have it.
-
-## Fixes
-
-- _Browser_ · A page that **crashed while loading** no longer makes the browser flicker endlessly: after two reloads in a row Pulsar stops, says the page closed on its own and lets you reload it. Popups (a sign-in) shown in the viewer no longer stay blank.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.47.0/Pulsar-0.47.0.dmg" length="42154899" type="application/octet-stream" sparkle:edSignature="yv04MQHoKRtg+aSekmJvBFCvc+IhX0V1fDyNQKebPhXK3Fege9z2ceLGnSoRoUnD9K0xX+8ZQGEk7uwTsLkoCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.47.0/Pulsar78-77.delta" sparkle:deltaFrom="77" length="5664486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="96BqyD5MunHfMQr9UUhaAExEP5dhOqZzeJZX97xyi858RY5dedlGjfvXN/pC4Z8LcemCsbwNJlbhSeyY9GiNBQ=="/>
-                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.47.0/Pulsar78-76.delta" sparkle:deltaFrom="76" length="6799262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sPpmWXqUD3h6JgnnU44ACoj6R2damq26XxfXYdRQqV++SqC28d6BYySe5bD12elJstiac2U1ezoX1oahW3YcAw=="/>
             </sparkle:deltas>
         </item>
         <item>
