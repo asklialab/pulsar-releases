@@ -3,6 +3,40 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.48.2</title>
+            <pubDate>Wed, 25 Nov 2026 02:30:47 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>82</sparkle:version>
+            <sparkle:shortVersionString>0.48.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Mejoras
+
+- _Chat del equipo_ · El **chat** se lee mejor: los mensajes ya no llevan «✓ Enviado» cada uno. Bajo tu último mensaje, una línea dice si se está enviando, si se envió o si ya lo vieron; en un grupo, quién lo vio y quién aún no.
+- _Agentes_ · **Antigravity** usa la herramienta `pulsar` del panel desde el principio para abrir el navegador, el visor y lo demás de Pulsar.
+
+## Arreglos
+
+- _Dictado_ · **Ajustes › Pulsar Voice** ya no muestra el dictado apagado con «Operation not permitted» cuando Pulsar Voice está funcionando. Si macOS no deja registrarlo para abrirse al iniciar sesión, Pulsar lo abre igualmente y lo avisa.
+
+---
+
+## Improvements
+
+- _Team chat_ · The **chat** is easier to read: messages no longer carry “✓ Sent” on each one. Below your last message, one line says whether it’s sending, sent or seen; in a group, who has seen it and who hasn’t yet.
+- _Agents_ · **Antigravity** uses the pane’s `pulsar` tool from the start to open the browser, the viewer and the rest of Pulsar.
+
+## Fixes
+
+- _Dictation_ · **Settings › Pulsar Voice** no longer shows dictation as off with “Operation not permitted” while Pulsar Voice is working. If macOS won’t register it to open at login, Pulsar opens it anyway and tells you.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.2/Pulsar-0.48.2.dmg" length="43859839" type="application/octet-stream" sparkle:edSignature="L59Lhi39ycvDS+LeZH+67fWPzcZi8HR2iXSxK9E1m5TmQPpjlVHwJCxAnpITLCFIw/L2KUnmI7i7C6F5hOX2Dw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.2/Pulsar82-81.delta" sparkle:deltaFrom="81" length="4285346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c+IvOISLAXIhxqRvzObXKElN9aNzfRytkz3sw7ypc5onAU5BZ5TzAutMPvKZkeTF3PDq6F3NvbLP7ygAWxNnAg=="/>
+                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.2/Pulsar82-80.delta" sparkle:deltaFrom="80" length="4433334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pB+C1XBlZRn78oMLPshwTfvEM/0y2lRO4+CVCSvYwXX2zgtIq4xql3lUHI2JEJSV26b5G7kwx53hh54IN/GdCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.48.1</title>
             <pubDate>Wed, 25 Nov 2026 01:34:37 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -92,40 +126,6 @@
             <sparkle:deltas>
                 <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.0/Pulsar80-79.delta" sparkle:deltaFrom="79" length="5724226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vUrOPZnCPMmHCHfJFPMlZosBN3y50AWvw0+NvCMVae9aDA9lD0r9AHagQuY0vt49KbsjxQlenLNjB2mG+KOhCg=="/>
                 <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.0/Pulsar80-78.delta" sparkle:deltaFrom="78" length="5855106" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L9kZq/ONOyioUwh4ZyuJp6qNQHXrpw+5neYmw3t9FqtrZYH+ullYD8MAI71fP1147ofv/z8F46yMDGmCdKGDDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.47.1</title>
-            <pubDate>Sat, 21 Nov 2026 14:08:46 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>79</sparkle:version>
-            <sparkle:shortVersionString>0.47.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Mejoras
-
-- _Agentes_ · Si `pulsar agent answer` lleva algo de más o de menos, el error enseña la pregunta vigente con sus opciones y la orden que la contesta.
-
-## Arreglos
-
-- _Agentes_ · Las **preguntas de Codex** se responden a la primera desde `pulsar agent answer`, la barra de respuesta y el iPhone, aunque el panel sea estrecho o la pregunta lleve rutas, código o Markdown. Antes fallaban con «La pantalla cambió a mitad de la respuesta» y había que contestar en la terminal.
-- _Agentes_ · En un panel estrecho de Codex, Pulsar ya reconoce la caja de texto vacía: los mensajes entre agentes llegan sin quedarse esperando.
-
----
-
-## Improvements
-
-- _Agents_ · If `pulsar agent answer` has something missing or extra, the error shows the current question with its options and the command that answers it.
-
-## Fixes
-
-- _Agents_ · **Codex questions** are answered on the first try from `pulsar agent answer`, the answer bar and the iPhone, even in a narrow pane or when the question has paths, code or Markdown. They used to fail with “The screen changed halfway through the answer” and had to be answered in the terminal.
-- _Agents_ · In a narrow Codex pane, Pulsar now recognizes the empty text box: messages between agents get through without being held back.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.47.1/Pulsar-0.47.1.dmg" length="42090397" type="application/octet-stream" sparkle:edSignature="o3uisNU+IezzOOJPhW9zmG4zzMwhlfj13hby2PyBs/I7Y94W8M8dTBZ2BCW1+1c+14JQWcZIIu5bmxzBPR2BDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.47.1/Pulsar79-78.delta" sparkle:deltaFrom="78" length="2919918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vkk4NvL/5GrJ2OhEziLWZDwS5F0QtsOW74RUo9k7Pz1OYfXuWdSvaXQGFYQP1o8S2wPAUnKestX90pT6rR1DBQ=="/>
-                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.47.1/Pulsar79-77.delta" sparkle:deltaFrom="77" length="5586550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6/CIMkHT8UF/DHIQxQ4B2xvQz3RP6X6DTwWVQecgKCfUrWjWU5LbqOgRRcWstCBsAUrWPvecAXJxMMpohIT6Dw=="/>
             </sparkle:deltas>
         </item>
         <item>
