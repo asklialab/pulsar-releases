@@ -3,6 +3,32 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.48.4</title>
+            <pubDate>Thu, 26 Nov 2026 01:41:46 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>84</sparkle:version>
+            <sparkle:shortVersionString>0.48.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Arreglos
+
+- _Agentes_ · Las **aprobaciones de Codex** en paneles pequeños ya no se pueden aceptar a ciegas: si Pulsar no ve la orden entera (Codex la pliega o la lista no cabe), solo se aceptan en la Mac, y se pueden rechazar desde el iPhone aunque no se vea el «No». También se reconocen con la lista desplazada.
+- _Agentes_ · Pulsar ya reconoce el diálogo de **confianza de carpeta** de Codex 0.169: los mensajes entre agentes esperan en vez de escribirse encima, y se puede responder desde el iPhone cuando cabe entero en el panel.
+
+---
+
+## Fixes
+
+- _Agents_ · **Codex approvals** in small panes can no longer be accepted blind: if Pulsar can’t see the whole command (Codex folds it or the list doesn’t fit), they can only be accepted on the Mac, and you can still decline them from iPhone even when “No” isn’t visible. They’re also recognized when the list is scrolled.
+- _Agents_ · Pulsar now recognizes Codex 0.169’s **folder trust** dialog: messages between agents wait instead of being typed over it, and you can answer it from iPhone when it fits in the pane.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.4/Pulsar-0.48.4.dmg" length="44067595" type="application/octet-stream" sparkle:edSignature="pEYERvZn+V7OIXbK6+IbbcywICYW/hEJgErpF2KnbEp4Gzcxxlk4dKhhGWOEIW8mB7vxuTk6TeTEqCWR6H2hCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.4/Pulsar84-83.delta" sparkle:deltaFrom="83" length="4779230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jFDwHcvzfGiul2lk8TiCmTMZi4J8A5CsqQWf2UQr/VQwex91UZEfsHprNUqY1rMn70PyxAeHHC+dp+Zj6Kp7BQ=="/>
+                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.4/Pulsar84-82.delta" sparkle:deltaFrom="82" length="5937638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BdIAFVXGbGXfZqk23LIpS+TjcvITEwPkZKpkeHh/9p3ScmaasPaTpE/oiQCrk8Ijr1gtuoRx4PbTyVLwM+czBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.48.3</title>
             <pubDate>Wed, 25 Nov 2026 21:56:15 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -58,44 +84,6 @@
             <sparkle:deltas>
                 <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.2/Pulsar82-81.delta" sparkle:deltaFrom="81" length="4285346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c+IvOISLAXIhxqRvzObXKElN9aNzfRytkz3sw7ypc5onAU5BZ5TzAutMPvKZkeTF3PDq6F3NvbLP7ygAWxNnAg=="/>
                 <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.2/Pulsar82-80.delta" sparkle:deltaFrom="80" length="4433334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pB+C1XBlZRn78oMLPshwTfvEM/0y2lRO4+CVCSvYwXX2zgtIq4xql3lUHI2JEJSV26b5G7kwx53hh54IN/GdCg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.48.1</title>
-            <pubDate>Wed, 25 Nov 2026 01:34:37 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>81</sparkle:version>
-            <sparkle:shortVersionString>0.48.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Mejoras
-
-- _Agentes_ · Si el orquestador escribe a una tarea que tiene una pregunta abierta, se le recuerda que el mensaje no contesta el selector y cómo contestarlo.
-- _Visor_ · En los **PDF**, botones para ir a la página anterior y a la siguiente, con el número de página. El rótulo va en su propia fila y ya no tapa los márgenes.
-- _Visor_ · Con poco sitio en la barra del visor, el zoom y el escenario son lo último en irse a «⋯».
-
-## Arreglos
-
-- _Agentes_ · Las **preguntas de Codex** se contestan desde la barra de respuesta y el iPhone aunque la lista de opciones no quepa en el panel y haya que desplazarla, y también desde la segunda pregunta de un formulario. Si la opción elegida sale cortada, Pulsar te pide ampliar la terminal y la pregunta sigue pendiente.
-- _Agentes_ · Los mensajes entre agentes ya no se escriben dentro de la caja de texto de una pregunta de Codex.
-
----
-
-## Improvements
-
-- _Agents_ · If the orchestrator writes to a task that has an open question, it’s reminded that the message doesn’t answer the picker and how to answer it.
-- _Viewer_ · In **PDFs**, buttons to go to the previous and next page, with the page number. The caption sits in its own row and no longer covers the margins.
-- _Viewer_ · When the viewer’s bar is short on space, zoom and stage are the last to move into “⋯”.
-
-## Fixes
-
-- _Agents_ · **Codex questions** can be answered from the answer bar and the iPhone even when the list of options doesn’t fit in the pane and has to scroll, and also from the second question of a form. If the chosen option is cut off, Pulsar asks you to widen the terminal and the question stays pending.
-- _Agents_ · Messages between agents are no longer typed into the text box of a Codex question.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.1/Pulsar-0.48.1.dmg" length="42946304" type="application/octet-stream" sparkle:edSignature="pOAbwdyU7dUFodKvBeU8wQRYvzXWGky54xt2oZTauZDaeUMpXiBRslzFToBkS4seF3NL8UGWRqrh39rgeRGqAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.1/Pulsar81-80.delta" sparkle:deltaFrom="80" length="3281458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Lv94JxK/wFlvtqgNLluGasyy/Us/Ghpz9wnf/0KOytiv/owFfnzoXPsU9pEJKefiRl8tNviw5Cg/dkoVQFyzCA=="/>
-                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.1/Pulsar81-79.delta" sparkle:deltaFrom="79" length="5930554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ot2iIs7a9rC2TXM+YoSSmzMPD59UQ4rg3BZVPzLV778N5ppoU/age7xAlB6pARKRRjvrFEzLDfWy0Qm7qVAMAA=="/>
             </sparkle:deltas>
         </item>
         <item>
