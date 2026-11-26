@@ -3,6 +3,30 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.48.3</title>
+            <pubDate>Wed, 25 Nov 2026 21:56:15 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>83</sparkle:version>
+            <sparkle:shortVersionString>0.48.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Arreglos
+
+- _Agentes_ · Las preguntas de **Codex** ya se responden desde otro agente, la barra de respuesta o el iPhone aunque su panel sea pequeño y el selector no quepa. Antes la respuesta fallaba o la pregunta se cerraba sin contestar.
+
+---
+
+## Fixes
+
+- _Agents_ · **Codex** questions can now be answered from another agent, the answer bar or iPhone even when its pane is small and the selector doesn’t fit. Before, the answer failed or the question closed unanswered.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.3/Pulsar-0.48.3.dmg" length="43888094" type="application/octet-stream" sparkle:edSignature="dT9H0i1p3anmeXsSY7GvMuo9S6lqSTHL9p3CLj0K8B5OjLMECC80qb15bjUZH9KP+c5P+erA5eke8NvyjVdQAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.3/Pulsar83-82.delta" sparkle:deltaFrom="82" length="5639022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wylfy20OBhBhbKnlH3zcFTmXq76HtHUCrl0KDuRldW5Mv0nlFaPQ6TtVytS0tWDA0MEC7XchNAJvvyVoDPWzCQ=="/>
+                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.3/Pulsar83-81.delta" sparkle:deltaFrom="81" length="5854802" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eH03zE5bzfj/1jYbw5PD/pNnAJ8WzmfBPTkVQ/WeYtl1B5g78194uQVTy2bIjocDc9a05xx9RkN+sWWAd4yCBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.48.2</title>
             <pubDate>Wed, 25 Nov 2026 02:30:47 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -72,60 +96,6 @@
             <sparkle:deltas>
                 <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.1/Pulsar81-80.delta" sparkle:deltaFrom="80" length="3281458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Lv94JxK/wFlvtqgNLluGasyy/Us/Ghpz9wnf/0KOytiv/owFfnzoXPsU9pEJKefiRl8tNviw5Cg/dkoVQFyzCA=="/>
                 <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.1/Pulsar81-79.delta" sparkle:deltaFrom="79" length="5930554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ot2iIs7a9rC2TXM+YoSSmzMPD59UQ4rg3BZVPzLV778N5ppoU/age7xAlB6pARKRRjvrFEzLDfWy0Qm7qVAMAA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.48.0</title>
-            <pubDate>Sun, 22 Nov 2026 17:23:57 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>80</sparkle:version>
-            <sparkle:shortVersionString>0.48.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Nuevo
-
-- _Agentes_ · `pulsar metrics messages` muestra cómo se entregan los mensajes entre agentes: por qué vía, cuánto tardan y por qué no llegan. Pulsar guarda cada decisión del buzón para poder diagnosticar.
-
-## Mejoras
-
-- _Agentes_ · Cada mensaje dice quién lo envía y qué relación tiene con quien lo recibe: su orquestador, una de sus tareas, otro agente del espacio u otro espacio. Lo que pide el orquestador llega como encargo, y lo demás, como información. `--fyi` también vale entre agentes del mismo espacio.
-- _Agentes_ · Cuando una tarea pregunta algo, su orquestador recibe la pregunta con sus opciones, sin tener que ir a buscarla.
-- _Agentes_ · Menos ruido para los agentes: ya no se les despierta para decirles que no hace falta nada, las novedades no repiten líneas y las salidas llevan menos pistas.
-- _Agentes_ · En el **modo automático de Claude**, Pulsar le explica al clasificador que los mensajes entre tus agentes son parte de su trabajo. Si aun así bloquea un `send`, un `report` o un `answer`, el orquestador recibe un aviso.
-
-## Arreglos
-
-- _Agentes_ · Los **mensajes a Codex** llegan a la conversación que ves. Antes, un hilo interno de Codex podía quedarse con el mensaje y el agente no lo leía nunca.
-- _Agentes_ · Si un mensaje entre agentes no se puede entregar o caduca, quien lo envió recibe un aviso con el motivo, y si conviene volver a enviarlo.
-- _Agentes_ · Al detener a **Claude con Esc**, el panel deja de salir como «trabajando» a los pocos segundos. Los mensajes esperan un minuto o hasta lo siguiente que escribas, para no interrumpirte.
-- _Agentes_ · Los procesos que usa Pulsar para entregar mensajes ya no cuentan como procesos del agente: el relevo no se queda esperando por «nc» y desaparecen los avisos de «terminó sin reportar y sigue con procesos».
-- _Agentes_ · Un mensaje del orquestador despierta a un agente hibernado aunque tenga avisos pendientes. Antes se rechazaba con «inténtalo más tarde».
-
----
-
-## New
-
-- _Agents_ · `pulsar metrics messages` shows how messages between agents are delivered: which path they took, how long they took, and why they didn’t arrive. Pulsar keeps each mailbox decision so problems can be diagnosed.
-
-## Improvements
-
-- _Agents_ · Each message says who sent it and how they relate to the recipient: its orchestrator, one of its tasks, another agent in the workspace or another workspace. What the orchestrator asks arrives as an assignment, and the rest as information. `--fyi` also works between agents in the same workspace.
-- _Agents_ · When a task asks something, its orchestrator gets the question with its options, without having to go look for it.
-- _Agents_ · Less noise for agents: they’re no longer woken up just to be told nothing is needed, updates don’t repeat lines, and command output carries fewer hints.
-- _Agents_ · In **Claude’s auto mode**, Pulsar explains to the classifier that messages between your agents are part of their work. If it still blocks a `send`, `report` or `answer`, the orchestrator gets a notice.
-
-## Fixes
-
-- _Agents_ · **Messages to Codex** reach the conversation you see. Before, an internal Codex thread could take the message and the agent never read it.
-- _Agents_ · If a message between agents can’t be delivered or expires, the sender gets a notice with the reason and whether to send it again.
-- _Agents_ · When you stop **Claude with Esc**, the pane stops showing as “working” after a few seconds. Messages wait a minute or until you type something, so they don’t interrupt you.
-- _Agents_ · The processes Pulsar uses to deliver messages no longer count as the agent’s own: handoffs no longer wait on “nc”, and the “finished without reporting and still has processes” notices are gone.
-- _Agents_ · A message from the orchestrator wakes a hibernated agent even if it has pending notices. Before, it was rejected with “try again later”.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.0/Pulsar-0.48.0.dmg" length="43781559" type="application/octet-stream" sparkle:edSignature="lqbah81WU8oiuFN1Y9Qroz+SLzFOMsP1mB9rnFkQE4/T/cPIP61n9DRv4O1rnplqtjJvzrrlTpfGyAHLBGjUAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.0/Pulsar80-79.delta" sparkle:deltaFrom="79" length="5724226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vUrOPZnCPMmHCHfJFPMlZosBN3y50AWvw0+NvCMVae9aDA9lD0r9AHagQuY0vt49KbsjxQlenLNjB2mG+KOhCg=="/>
-                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.0/Pulsar80-78.delta" sparkle:deltaFrom="78" length="5855106" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L9kZq/ONOyioUwh4ZyuJp6qNQHXrpw+5neYmw3t9FqtrZYH+ullYD8MAI71fP1147ofv/z8F46yMDGmCdKGDDg=="/>
             </sparkle:deltas>
         </item>
         <item>
