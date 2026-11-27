@@ -3,6 +3,40 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.48.6</title>
+            <pubDate>Fri, 27 Nov 2026 10:45:02 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>86</sparkle:version>
+            <sparkle:shortVersionString>0.48.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Mejoras
+
+- _Agentes_ · El detalle del **modelo de un agente** cabe sin desplazar: dice si de verdad está usando el modelo configurado («en uso» o «responde con Sonnet»), el contexto y su consumo en dos cifras. El desglose de tokens y «Solo este agente» quedan plegados.
+- _Suscripción_ · **Límites** enseña una fila por suscripción con lo que queda y cuándo se reinicia exactamente. Al pulsarla ves todas sus ventanas, cuándo se acabaría a tu ritmo y los créditos.
+
+## Arreglos
+
+- _Suscripción_ · Los créditos de Codex en **Límites** salen con formato («62,500») en vez de una cifra con diez decimales.
+
+---
+
+## Improvements
+
+- _Agents_ · An **agent’s model** details now fit without scrolling: they show whether it’s really using the configured model (“in use” or “answers with Sonnet”), its context and its usage in two figures. The token breakdown and “This agent only” are folded away.
+- _Subscription_ · **Limits** shows one row per subscription with what’s left and exactly when it resets. Click it to see all its windows, when it would run out at your pace, and your credits.
+
+## Fixes
+
+- _Subscription_ · Codex credits in **Limits** are now formatted (“62,500”) instead of a number with ten decimals.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.6/Pulsar-0.48.6.dmg" length="44960896" type="application/octet-stream" sparkle:edSignature="/HN9u3GbBewIVKH+YVmRudQKXaeVush19xeqEZC+L/xNeqFBPiyDtegMsNYq1fN2YNKDZb52gaMhe0TvbVZwCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.6/Pulsar86-85.delta" sparkle:deltaFrom="85" length="5338066" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0/17FPRIuc9km/e9zICSRWMsef6ImQoA+uHApkRK4EfXsYrML5YnLxnlfwdJ2ns9mo4dRcsr/2sJCpZ9abyCBg=="/>
+                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.6/Pulsar86-84.delta" sparkle:deltaFrom="84" length="6758618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Bp05xRzeyQF7UNp4QI0pqg+cA876fBpIbemLTN/6VhH/dH5Ox8chEhiqX1jdeUppIq8cyMM30ILeNOn0zx1+DQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.48.5</title>
             <pubDate>Fri, 27 Nov 2026 03:25:58 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -62,30 +96,6 @@
             <sparkle:deltas>
                 <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.4/Pulsar84-83.delta" sparkle:deltaFrom="83" length="4779230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jFDwHcvzfGiul2lk8TiCmTMZi4J8A5CsqQWf2UQr/VQwex91UZEfsHprNUqY1rMn70PyxAeHHC+dp+Zj6Kp7BQ=="/>
                 <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.4/Pulsar84-82.delta" sparkle:deltaFrom="82" length="5937638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BdIAFVXGbGXfZqk23LIpS+TjcvITEwPkZKpkeHh/9p3ScmaasPaTpE/oiQCrk8Ijr1gtuoRx4PbTyVLwM+czBg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.48.3</title>
-            <pubDate>Wed, 25 Nov 2026 21:56:15 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>83</sparkle:version>
-            <sparkle:shortVersionString>0.48.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Arreglos
-
-- _Agentes_ · Las preguntas de **Codex** ya se responden desde otro agente, la barra de respuesta o el iPhone aunque su panel sea pequeño y el selector no quepa. Antes la respuesta fallaba o la pregunta se cerraba sin contestar.
-
----
-
-## Fixes
-
-- _Agents_ · **Codex** questions can now be answered from another agent, the answer bar or iPhone even when its pane is small and the selector doesn’t fit. Before, the answer failed or the question closed unanswered.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.3/Pulsar-0.48.3.dmg" length="43888094" type="application/octet-stream" sparkle:edSignature="dT9H0i1p3anmeXsSY7GvMuo9S6lqSTHL9p3CLj0K8B5OjLMECC80qb15bjUZH9KP+c5P+erA5eke8NvyjVdQAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.3/Pulsar83-82.delta" sparkle:deltaFrom="82" length="5639022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wylfy20OBhBhbKnlH3zcFTmXq76HtHUCrl0KDuRldW5Mv0nlFaPQ6TtVytS0tWDA0MEC7XchNAJvvyVoDPWzCQ=="/>
-                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.3/Pulsar83-81.delta" sparkle:deltaFrom="81" length="5854802" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eH03zE5bzfj/1jYbw5PD/pNnAJ8WzmfBPTkVQ/WeYtl1B5g78194uQVTy2bIjocDc9a05xx9RkN+sWWAd4yCBg=="/>
             </sparkle:deltas>
         </item>
         <item>
