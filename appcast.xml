@@ -3,6 +3,42 @@
     <channel>
         <title>Pulsar</title>
         <item>
+            <title>0.48.5</title>
+            <pubDate>Fri, 27 Nov 2026 03:25:58 -0600</pubDate>
+            <link>https://github.com/asklialab/pulsar-releases/releases</link>
+            <sparkle:version>85</sparkle:version>
+            <sparkle:shortVersionString>0.48.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Mejoras
+
+- _Rendimiento_ · La hoja **«Limpiar»** enseña las compilaciones al momento en vez de esperar a buscar en todos los worktrees, y la búsqueda es varias veces más rápida. Al borrar, lo elegido desaparece enseguida, Ajustes y el medidor dicen «Borrando…» y al acabar un aviso cuenta lo liberado y lo que se quedó en uso.
+- _Visor_ · Al **elegir entre vídeos**, el vídeo se queda casi todo el panel: la lista de opciones mide lo que ocupan sus filas, y «Comparar a la vez» reparte las celdas para que se vean lo más grandes posible.
+
+## Arreglos
+
+- _Rendimiento_ · La **limpieza de compilaciones** encuentra también los `.build` que deja el índice de Swift (SourceKit-LSP), que antes se quedaban para siempre; ya no ofrece carpetas que nunca se pueden borrar porque llevan un worktree dentro, y quita las carpetas vacías que quedaban en las cachés.
+- _Agentes_ · `pulsar lock` deja de esperar en cuanto se cierra la terminal que pidió el turno, y el nombre de otro panel ya no puede enviar códigos de control a tu terminal.
+
+---
+
+## Improvements
+
+- _Performance_ · The **Clean up** sheet shows builds right away instead of waiting to search every worktree, and the search is several times faster. When deleting, what you chose disappears at once, Settings and the meter say “Deleting…”, and a notice at the end tells you what was freed and what stayed in use.
+- _Viewer_ · When **choosing between videos**, the video gets most of the pane: the list of options takes only the room its rows need, and “Compare side by side” lays out the cells so they’re as large as possible.
+
+## Fixes
+
+- _Performance_ · **Build cleanup** now also finds the `.build` folders left by Swift’s index (SourceKit-LSP), which used to stay forever; it no longer offers folders that can never be deleted because they contain a worktree, and it removes the empty folders left behind in the caches.
+- _Agents_ · `pulsar lock` stops waiting as soon as the terminal that asked for a turn closes, and another pane’s name can no longer send control codes to your terminal.
+]]></description>
+            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.5/Pulsar-0.48.5.dmg" length="44308198" type="application/octet-stream" sparkle:edSignature="Bd1kq18MVOR36+/UVbT3uBsryoK/B0558C76sSZg9ytMiEgmeqyT5uZRhXZxv8rQacB3n4IWhN3y5Fk6AhRfAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.5/Pulsar85-84.delta" sparkle:deltaFrom="84" length="6249062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vrzMkeadLncOhCGs7Rm4ZVnU97V1c0vFHiJF0VlkU2B15sHIu/WSF48oVi/p9OjUrhNhm7hQ2BJXBCnziZsYDA=="/>
+                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.5/Pulsar85-83.delta" sparkle:deltaFrom="83" length="6406666" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xYOl3+7QXwobxjvZeU+s1LR/NHwk5w3KXLr7DFpLqTirwnhiirQepkth9/4QSucRt/H+ETEpqiuL4V3hYfN7DA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.48.4</title>
             <pubDate>Thu, 26 Nov 2026 01:41:46 -0600</pubDate>
             <link>https://github.com/asklialab/pulsar-releases/releases</link>
@@ -50,40 +86,6 @@
             <sparkle:deltas>
                 <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.3/Pulsar83-82.delta" sparkle:deltaFrom="82" length="5639022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wylfy20OBhBhbKnlH3zcFTmXq76HtHUCrl0KDuRldW5Mv0nlFaPQ6TtVytS0tWDA0MEC7XchNAJvvyVoDPWzCQ=="/>
                 <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.3/Pulsar83-81.delta" sparkle:deltaFrom="81" length="5854802" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eH03zE5bzfj/1jYbw5PD/pNnAJ8WzmfBPTkVQ/WeYtl1B5g78194uQVTy2bIjocDc9a05xx9RkN+sWWAd4yCBg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.48.2</title>
-            <pubDate>Wed, 25 Nov 2026 02:30:47 -0600</pubDate>
-            <link>https://github.com/asklialab/pulsar-releases/releases</link>
-            <sparkle:version>82</sparkle:version>
-            <sparkle:shortVersionString>0.48.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Mejoras
-
-- _Chat del equipo_ · El **chat** se lee mejor: los mensajes ya no llevan «✓ Enviado» cada uno. Bajo tu último mensaje, una línea dice si se está enviando, si se envió o si ya lo vieron; en un grupo, quién lo vio y quién aún no.
-- _Agentes_ · **Antigravity** usa la herramienta `pulsar` del panel desde el principio para abrir el navegador, el visor y lo demás de Pulsar.
-
-## Arreglos
-
-- _Dictado_ · **Ajustes › Pulsar Voice** ya no muestra el dictado apagado con «Operation not permitted» cuando Pulsar Voice está funcionando. Si macOS no deja registrarlo para abrirse al iniciar sesión, Pulsar lo abre igualmente y lo avisa.
-
----
-
-## Improvements
-
-- _Team chat_ · The **chat** is easier to read: messages no longer carry “✓ Sent” on each one. Below your last message, one line says whether it’s sending, sent or seen; in a group, who has seen it and who hasn’t yet.
-- _Agents_ · **Antigravity** uses the pane’s `pulsar` tool from the start to open the browser, the viewer and the rest of Pulsar.
-
-## Fixes
-
-- _Dictation_ · **Settings › Pulsar Voice** no longer shows dictation as off with “Operation not permitted” while Pulsar Voice is working. If macOS won’t register it to open at login, Pulsar opens it anyway and tells you.
-]]></description>
-            <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.2/Pulsar-0.48.2.dmg" length="43859839" type="application/octet-stream" sparkle:edSignature="L59Lhi39ycvDS+LeZH+67fWPzcZi8HR2iXSxK9E1m5TmQPpjlVHwJCxAnpITLCFIw/L2KUnmI7i7C6F5hOX2Dw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.2/Pulsar82-81.delta" sparkle:deltaFrom="81" length="4285346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c+IvOISLAXIhxqRvzObXKElN9aNzfRytkz3sw7ypc5onAU5BZ5TzAutMPvKZkeTF3PDq6F3NvbLP7ygAWxNnAg=="/>
-                <enclosure url="https://github.com/asklialab/pulsar-releases/releases/download/v0.48.2/Pulsar82-80.delta" sparkle:deltaFrom="80" length="4433334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pB+C1XBlZRn78oMLPshwTfvEM/0y2lRO4+CVCSvYwXX2zgtIq4xql3lUHI2JEJSV26b5G7kwx53hh54IN/GdCg=="/>
             </sparkle:deltas>
         </item>
         <item>
